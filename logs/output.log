@@ -1,0 +1,10 @@
+Extracted 87 filtered chunks.
+Combination: bm25 | min-max -> Average Score: 0.8444
+Combination: bm25 | soft -> Average Score: 0.8444
+Combination: bm25 | log -> Average Score: 0.9197
+Combination: tfidf | min-max -> Average Score: 0.8499
+Combination: tfidf | soft -> Average Score: 0.8499
+Combination: tfidf | log -> Average Score: 0.8575
+Combination: word | min-max -> Average Score: 0.9853
+Combination: word | soft -> Average Score: 0.9853
+Combination: word | log -> Average Score: 0.9865
