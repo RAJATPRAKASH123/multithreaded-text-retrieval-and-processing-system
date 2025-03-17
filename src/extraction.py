@@ -59,21 +59,81 @@ class DataExtractor:
         text = re.sub(r"\s+", " ", text).strip()  # Remove extra spaces
         return text
 
-    def create_chunks(self, extracted_text):
-        """Splits text into chunks for retrieval."""
-        chunks, current_chunk = [], []
-        word_count = 0
-
-        for text in extracted_text:
-            words = text.split()
-            if word_count + len(words) > self.max_words:
+    def create_chunks(self, extracted_text, strategy="context", overlap=50):
+        """Splits text into chunks based on the selected strategy.
+        
+        Parameters:
+            extracted_text (list): List of cleaned text segments.
+            strategy (str): 'fixed', 'sliding', 'context', 'sentence'
+            overlap (int): Number of words to overlap for sliding window strategy.
+            
+        Returns:
+            List of text chunks.
+        """
+        if strategy == "fixed":
+            # Fixed-size chunking (current implementation)
+            chunks, current_chunk = [], []
+            word_count = 0
+            for text in extracted_text:
+                words = text.split()
+                if word_count + len(words) > self.max_words:
+                    chunks.append(" ".join(current_chunk))
+                    current_chunk = []
+                    word_count = 0
+                current_chunk.append(text)
+                word_count += len(words)
+            if current_chunk:
                 chunks.append(" ".join(current_chunk))
-                current_chunk = []
-                word_count = 0
-            current_chunk.append(text)
-            word_count += len(words)
+            return chunks
 
-        if current_chunk:
-            chunks.append(" ".join(current_chunk))
+        elif strategy == "sliding":
+            # Overlapping sliding window chunking
+            words = " ".join(extracted_text).split()
+            chunks = []
+            step = self.max_words - overlap
+            for i in range(0, len(words), step):
+                chunk = " ".join(words[i:i+self.max_words])
+                chunks.append(chunk)
+            return chunks
 
-        return chunks
+        elif strategy == "context":
+            # Context-aware: group paragraphs together based on natural boundaries
+            chunks, current_chunk = [], []
+            word_count = 0
+            for text in extracted_text:
+                words = text.split()
+                if word_count + len(words) > self.max_words and current_chunk:
+                    chunks.append(" ".join(current_chunk))
+                    current_chunk = [text]  # start with current paragraph in new chunk
+                    word_count = len(words)
+                else:
+                    current_chunk.append(text)
+                    word_count += len(words)
+            if current_chunk:
+                chunks.append(" ".join(current_chunk))
+            return chunks
+
+        elif strategy == "sentence":
+            # Sentence-based: first split into sentences, then group them
+            from nltk.tokenize import sent_tokenize
+            sentences = []
+            for text in extracted_text:
+                sentences.extend(sent_tokenize(text))
+            chunks, current_chunk = [], []
+            word_count = 0
+            for sentence in sentences:
+                words = sentence.split()
+                if word_count + len(words) > self.max_words and current_chunk:
+                    chunks.append(" ".join(current_chunk))
+                    current_chunk = [sentence]
+                    word_count = len(words)
+                else:
+                    current_chunk.append(sentence)
+                    word_count += len(words)
+            if current_chunk:
+                chunks.append(" ".join(current_chunk))
+            return chunks
+
+        else:
+            raise ValueError("Invalid chunking strategy. Choose 'fixed', 'sliding', 'context', or 'sentence'.")
+
