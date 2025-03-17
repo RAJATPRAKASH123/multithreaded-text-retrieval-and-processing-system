@@ -7,7 +7,7 @@ from src.extraction import DataExtractor
 from src.retrieval import TextRetriever
 
 class RetrievalPipeline:
-    def __init__(self, wiki_url, query, max_words=300, chunk_strategy="context_aware",
+    def __init__(self, wiki_url, query, max_words=300, chunk_strategy="context",
                  similarity_methods=None, normalization_methods=None):
         """
         Parameters:
@@ -107,5 +107,5 @@ class RetrievalPipeline:
 if __name__ == "__main__":
     wiki_url = "https://en.wikipedia.org/wiki/Artificial_intelligence"
     query = "What is the impact of AI on society?"
-    pipeline = RetrievalPipeline(wiki_url, query, max_words=300, chunk_strategy="context_aware")
+    pipeline = RetrievalPipeline(wiki_url, query, max_words=300, chunk_strategy="context")
     pipeline.run_pipeline()

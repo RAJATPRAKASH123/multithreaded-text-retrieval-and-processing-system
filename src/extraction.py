@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 class DataExtractor:
     """Extracts and processes text from Wikipedia HTML."""
 
-    def __init__(self, max_words=300, chunk_strategy="context_aware"):
+    def __init__(self, max_words=300, chunk_strategy="context"):
         self.max_words = max_words
         self.chunk_strategy = chunk_strategy
 
