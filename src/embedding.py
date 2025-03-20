@@ -1,72 +1,105 @@
+import os
 import numpy as np
+import logging
 from multiprocessing import Pool, cpu_count
-import gensim.downloader as api
+from rank_bm25 import BM25Okapi
+from sklearn.feature_extraction.text import TfidfVectorizer
+from gensim.models import KeyedVectors
+from src.logger import Logger  # Custom Logger Class
+from src.exceptions import EmbeddingException  # Custom Exception Class
 
 class EmbeddingCreator:
-    """
-    A generic class to compute embeddings for text chunks using different methods.
+    """Creates embeddings for text chunks using BM25, TF-IDF, or GloVe similarity with multiprocessing."""
     
-    Supported methods:
-      - "glove": Uses pre-trained GloVe embeddings (via gensim) with multiprocessing.
-      - "tfidf": Uses TfidfVectorizer from scikit-learn.
-      - "bm25": Returns tokenized version of each chunk (for BM25 ranking).
-    """
-    
-    def __init__(self, method="glove", model_name="glove-wiki-gigaword-50"):
+    def __init__(self, method="bm25", model_name=None):
+        """
+        Parameters:
+            method (str): The embedding method ('bm25', 'tfidf', or 'glove').
+            model_name (str, optional): Path to the GloVe model file if using GloVe.
+        """
         self.method = method.lower()
         self.model_name = model_name
-        if self.method == "tfidf":
-            from sklearn.feature_extraction.text import TfidfVectorizer
-            self.vectorizer = TfidfVectorizer()
-            self.fitted = False
-        elif self.method == "glove":
-            # The model will be loaded in each worker via the initializer.
-            pass
-        elif self.method == "bm25":
-            # BM25 will simply use tokenized text.
-            pass
-        else:
-            raise ValueError("Unsupported method. Choose 'glove', 'tfidf', or 'bm25'.")
+        self.vectorizer = None
+        self.logger = Logger("embedding.log")  # Logger instance
 
-    def _init_worker(self):
-        """Worker initializer: load the pre-trained GloVe model."""
-        global _worker_model
-        _worker_model = api.load(self.model_name)
-    
+
+    def _init_worker(self, chunks):
+        """Worker initialization: initializes BM25 or TF-IDF model for multiprocessing."""
+        global vectorizer
+        try:
+            if self.method == "bm25":
+                tokenized_chunks = [chunk.split() for chunk in chunks]
+                vectorizer = BM25Okapi(tokenized_chunks)
+                self.logger.log("BM25 model initialized successfully.", level="INFO")
+            elif self.method == "tfidf":
+                vectorizer = TfidfVectorizer()
+                vectorizer.fit(chunks)
+                self.logger.log("TF-IDF model initialized successfully.", level="INFO")
+        except Exception as e:
+            raise EmbeddingException(f"Failed to initialize {self.method.upper()} model: {e}")
+
+    @staticmethod
+    def _compute_bm25_embedding(chunk):
+        """Computes BM25 scores for the given chunk."""
+        global vectorizer
+        try:
+            return np.array(vectorizer.get_scores(chunk.split()))
+        except Exception as e:
+            Logger("embedding.log").error(f"BM25 embedding failed: {e}")
+            raise EmbeddingException(f"BM25 embedding failed: {e}")
+
+    @staticmethod
+    def _compute_tfidf_embedding(chunk):
+        """Computes TF-IDF vector for the given chunk."""
+        global vectorizer
+        try:
+            return np.array(vectorizer.transform([chunk]).toarray().flatten())
+        except Exception as e:
+            Logger("embedding.log").error(f"tfidf embedding failed: {e}")
+            raise EmbeddingException(f"TF-IDF embedding failed: {e}")
+
     @staticmethod
     def _compute_glove_embedding(chunk):
-        """Computes the embedding for a single chunk using the GloVe model."""
-        global _worker_model
-        words = chunk.split()
-        vectors = [_worker_model[word] for word in words if word in _worker_model]
-        if vectors:
-            return np.mean(vectors, axis=0)
-        else:
-            return np.zeros(_worker_model.vector_size)
-    
+        """Computes GloVe embeddings (averaging word vectors)."""
+        global glove_model
+        try:
+            words = chunk.split()
+            word_vectors = [glove_model[word] for word in words if word in glove_model]
+            if not word_vectors:
+                return np.zeros(300)
+            return np.mean(word_vectors, axis=0)
+        except Exception as e:
+            Logger("embedding.log").error(f"GloVe embedding failed: {e}")
+            raise EmbeddingException(f"GloVe embedding failed: {e}")
+
     def create_embeddings(self, chunks):
-        """
-        Computes embeddings for each chunk based on the selected method.
-        
-        Parameters:
-            chunks (list of str): The text chunks.
-        
-        Returns:
-            For "glove": a numpy array of embeddings.
-            For "tfidf": a numpy array of TF-IDF vectors.
-            For "bm25": a list of tokenized chunks.
-        """
-        if self.method == "glove":
-            with Pool(processes=cpu_count(), initializer=self._init_worker) as pool:
-                embeddings = pool.map(EmbeddingCreator._compute_glove_embedding, chunks)
+        """Computes embeddings in parallel for BM25, TF-IDF, or GloVe."""
+        if not chunks:
+            self.logger.log("No chunks provided for embedding.", level="WARNING")
+            return np.array([])
+
+        try:
+            with Pool(processes=cpu_count(), initializer=self._init_worker, initargs=(chunks,)) as pool:
+                if self.method == "bm25":
+                    embeddings = pool.map(self._compute_bm25_embedding, chunks)
+                elif self.method == "tfidf":
+                    embeddings = pool.map(self._compute_tfidf_embedding, chunks)
+                elif self.method == "glove":
+                    global glove_model
+                    self.logger.log(f"Loading GloVe model from {self.model_name}...", "INFO")
+                    glove_model = KeyedVectors.load_word2vec_format(self.model_name, binary=False)
+                    embeddings = pool.map(self._compute_glove_embedding, chunks)
+                else:
+                    raise EmbeddingException(f"Invalid embedding method: {self.method}")
+
+            self.logger.log(f"{self.method.upper()} embeddings created successfully.", level="INFO")
             return np.array(embeddings)
-        elif self.method == "tfidf":
-            self.fitted = True
-            tfidf_matrix = self.vectorizer.fit_transform(chunks)
-            return tfidf_matrix.toarray()
-        elif self.method == "bm25":
-            # For BM25, tokenize each chunk (optionally create bigrams)
-            tokenized = [chunk.split() for chunk in chunks]
-            return tokenized
-        else:
-            raise ValueError("Unsupported method. Choose 'glove', 'tfidf', or 'bm25'.")
+
+        except EmbeddingException as e:
+            self.logger.error(f"Embedding creation failed: {e}")
+            raise e  # Raising the exception after logging
+
+        except Exception as e:
+            self.logger.error(f"Unexpected error during embedding: {e}")
+            raise EmbeddingException(f"Unexpected embedding error: {e}")
+

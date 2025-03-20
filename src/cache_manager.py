@@ -1,37 +1,40 @@
-import os
 import json
+import asyncio
+from src.logger import Logger
 
 class CacheManager:
-    """
-    Manages caching of processed URL results to avoid redundant processing.
-    Cache is stored in a JSON file.
-    """
+    """Handles caching of processed URLs to avoid redundant computation."""
+    
     def __init__(self, cache_file="cache.json"):
         self.cache_file = cache_file
-        self.cache = self.load_cache()
+        self.logger = Logger("cache.log")
+        self.lock = asyncio.Lock()  # 🔹 Ensures thread-safe writes
 
-    def load_cache(self):
-        if os.path.exists(self.cache_file):
+    async def get(self, url):
+        """Fetch cached data asynchronously."""
+        async with self.lock:
             try:
-                with open(self.cache_file, "r", encoding="utf-8") as f:
-                    return json.load(f)
+                with open(self.cache_file, "r") as f:
+                    cache_data = json.load(f)
+                return cache_data.get(url, None)
+            except (FileNotFoundError, json.JSONDecodeError):
+                return None
+
+    async def set(self, url, data):
+        """Save results to cache asynchronously."""
+        async with self.lock:
+            try:
+                cache_data = {}
+                try:
+                    with open(self.cache_file, "r") as f:
+                        cache_data = json.load(f)
+                except (FileNotFoundError, json.JSONDecodeError):
+                    pass
+
+                cache_data[url] = data
+                with open(self.cache_file, "w") as f:
+                    json.dump(cache_data, f, indent=4)
+                
+                self.logger.log(f"Cached results for {url}.")
             except Exception as e:
-                print(f"Error loading cache: {e}")
-                return {}
-        return {}
-
-    def save_cache(self):
-        try:
-            with open(self.cache_file, "w", encoding="utf-8") as f:
-                json.dump(self.cache, f, indent=2)
-        except Exception as e:
-            print(f"Error saving cache: {e}")
-
-    def get(self, key):
-        """Returns the cached value for the given key, or None if not present."""
-        return self.cache.get(key, None)
-
-    def set(self, key, value):
-        """Sets the cache value for the given key and saves the cache."""
-        self.cache[key] = value
-        self.save_cache()
+                self.logger.error(f"Error writing cache: {e}")

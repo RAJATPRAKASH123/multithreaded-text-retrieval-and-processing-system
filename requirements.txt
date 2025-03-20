@@ -9,3 +9,5 @@ pandas
 seaborn
 matplotlib
 aiohttp
+pytest
+pytest-cov

@@ -12,12 +12,13 @@ from src.extraction import DataExtractor
 from src.retrieval import TextRetriever
 from src.logger import Logger
 from src.cache_manager import CacheManager
+from src.text_processing import TextProcessor  # Import Async Text Processor
 
 class CustomException(Exception):
     """Custom exception for pipeline errors."""
     def __init__(self, message):
         super().__init__(message)
-        Logger(verbose=True).error(f"EXCEPTION: {message}")
+        Logger("exceptions.log", verbose=True).error(f"EXCEPTION: {message}")
 
 class PipelineManager:
     def __init__(self, urls, query, max_words=300, chunk_strategy="context",
@@ -43,8 +44,9 @@ class PipelineManager:
         self.all_results_summary = []   # For combined plotting across URLs
         self.all_detailed_results = []  # Detailed output (per-URL) with chunk scores
         
-        self.logger = Logger(verbose=False)
+        self.logger = Logger("pipeline.log", verbose=False)
         self.cache_manager = CacheManager(cache_file=cache_file)
+        self.text_processor = TextProcessor()  # Initialize Text Processor
 
         # Ensure directories exist
         os.makedirs("plots", exist_ok=True)
@@ -59,7 +61,7 @@ class PipelineManager:
                 if response.status == 200:
                     return await response.text()
                 else:
-                    self.logger.log(f"HTTP error: {url} -> Status {response.status}")
+                    Logger("network.log").log(f"HTTP error: {url} -> Status {response.status}")
                     return None
         except aiohttp.ClientError as e:
             self.logger.error(f"Request error for {url}: {e}")
@@ -83,7 +85,7 @@ class PipelineManager:
         Uses caching to avoid duplicate processing.
         """
         # Check cache first.
-        cached_result = self.cache_manager.get(url)
+        cached_result = await self.cache_manager.get(url)
         if cached_result:
             self.logger.log(f"Cache hit for {url}. Using cached results.")
             return cached_result
@@ -123,7 +125,8 @@ class PipelineManager:
             self.logger.log(f"[{url}] No relevant chunks found.")
             return None
         
-        Logger(log_file="logs/output.log").log(f"[{url}] Extracted {len(filtered_chunks)} filtered chunks.")
+        self.logger.log(f"[{url}] Extracted {len(filtered_chunks)} filtered chunks.")
+
 
         # 3) For each combination of (similarity_method, normalization_method), retrieve top chunks
         url_results_summary = []
@@ -144,13 +147,16 @@ class PipelineManager:
                     avg_score = 0                
                 
                 label = f"{sim_method} | {norm_method}"
+                
+                processed_chunks = await self.text_processor.process_chunks([chunk for chunk, _ in top_chunks])
+
                 # Store detailed results
                 url_detailed_results.append({
                     "URL": url,
                     "Similarity Method": sim_method,
                     "Normalization Method": norm_method,
                     "Average Score": avg_score,
-                    "Top Chunks": top_chunks
+                    "Top Chunks": list(zip(processed_chunks, [score for _, score in top_chunks]))
                 })
                 # Store summary results
                 url_results_summary.append({
@@ -166,7 +172,7 @@ class PipelineManager:
             "url_results_summary": url_results_summary,
             "url_detailed_results": url_detailed_results
         }
-        self.cache_manager.set(url, result)
+        await self.cache_manager.set(url, result)  # Await it
         return result
 
     async def run_all_urls(self):

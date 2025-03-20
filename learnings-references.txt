@@ -8,8 +8,8 @@ multithreading vs multiprocessing :
 - https://youtu.be/AZnGRKFUU0c?feature=shared
 
 #################################################################
+RAG 
 
-RAG :
 - https://www.youtube.com/watch?v=sVcwVQRHIc8&t=1700s
 - https://huggingface.co/papers/2410.12837
 transfer learning 
@@ -34,6 +34,33 @@ Understanding TF-IDF
 
 Glove & Embeddings
 - https://jonathan-hui.medium.com/nlp-word-embedding-glove-5e7f523999f6
+
+
+RAG :
+- research paper - https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html
+    what I read - 
+1. [RAG beats seq2seq] language generation tasks, we find that RAG models generate more specific, 
+    diverse and factual language than a state-of-the-art parametric-only seq2seq baseline
+2. [hallucinations] Pretrained Neural language models are good : 
+    but, They cannot easily expand or revise their memory, can’t straightforwardly 
+    provide insight into their predictions, and may produce “hallucinations”.
+3. [Hybrid models] that combine parametric memory with non-parametric (i.e., retrieval-based)
+ memories [20, 26, 48] can address some of these issues because knowledge can be directly revised
+  and expanded, and accessed knowledge can be inspected and interpreted. REALM [20] and ORQA [31],
+   two recently introduced models that combine masked language models [8] with a differentiable
+    retriever, have shown promising results,
+
+
+Encapsula/on
+• An encapsulated object can be thought of as
+a black box -- its inner workings are hidden from the client
+• The client invokes the interface methods of
+the object, which manages the instance data
+
+• Composition -- A “contains” B
+• Association -- A “knows-about” B
+• Dependency --- A “depends on” B    i.e. doesn't know, doesn't contain
+• Inheritance -- HarleyDavidson “is-a” Bike
 
 
 2xx: Success
