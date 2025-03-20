@@ -1,78 +1,125 @@
 classDiagram
-    %% DataExtractor Class
-    class DataExtractor {
-      - int max_words
-      - string chunk_strategy
-      + fetch_content(url: string, retries: int, delay: int, timeout: int) : string
-      + extract_text(html: string) : list~string~
-      + clean_text(text: string) : string
-      + create_chunks(extracted_text: list~string~, strategy: string, overlap: int) : list~string~
-    }
 
-    %% EmbeddingCreator Class
-    class EmbeddingCreator {
-      - string method
-      - string model_name
-      - object vectorizer
-      + __init__(method: string, model_name: string)
-      + create_embeddings(chunks: list~string~) : array or list
-      - _init_worker() : void
-      - _compute_glove_embedding(chunk: string) : np.array
-    }
+%% Logger Class
+class Logger {
+  - log_file: string
+  - verbose: bool
+  + __init__(log_file: string, verbose: bool)
+  + log(message: string, level: string)
+  + error(message: string)
+}
 
-    %% TextSimilarity Class
-    class TextSimilarity {
-      - string method
-      - object bm25
-      + fit_bm25(chunks: list~string~) : void
-      + fit_tfidf(chunks: list~string~) : void
-      + tokenize_with_bigrams(text: string) : list~string~
-      + compute_similarity(query: string, chunk: string) : float
-    }
+%% CustomException Class
+class CustomException {
+  + __init__(message: string)
+}
 
-    %% MultiThreadedRetriever Class
-    class MultiThreadedRetriever {
-      - np.array query_embedding
-      - list<np.array> chunk_embeddings
-      - list similarity_scores
-      + compute_similarity_for_chunk(idx: int) : void
-      + run() : list~float~
-    }
+%% CacheManager Class
+class CacheManager {
+  - cache_file: string
+  - cache: dict
+  + __init__(cache_file: string)
+  + load_cache(): dict
+  + save_cache(): void
+  + get(key: string): any
+  + set(key: string, value: any): void
+}
 
-    %% TextRetriever Class
-    class TextRetriever {
-      - string db_path
-      - list chunks
-      + __init__(method: string, db_path: string)
-      + setup_database() : void
-      + normalize_scores(scores: list~float~, method: string) : list~float~
-      + store_results(query: string, results: list~(string,float)~) : void
-      + retrieve_top_chunks(query: string, chunks: list~string~, query_embedding: np.array, chunk_embeddings: np.array, top_k: int, normalization_method: string) : list~(string,float)~
-    }
+%% DataExtractor Class (fetch_content removed)
+class DataExtractor {
+  - max_words: int
+  - chunk_strategy: string
+  + extract_text(html: string): list~string~
+  + clean_text(text: string): string
+  + create_chunks(extracted_text: list~string~, strategy: string, overlap: int): list~string~
+}
 
-    %% PipelineManager Class
-    class PipelineManager {
-      - list urls
-      - string query
-      - int max_words
-      - string chunk_strategy
-      - string embedding_method
-      - string retrieval_method
-      - list all_results_summary
-      - list all_detailed_results
-      + fetch_content_async(session: object, url: string) : string
-      + process_url(url: string) : dict
-      + run_all_urls() : list
-      + plot_results() : void
-      + save_results() : void
-      + run_pipeline() : void
-    }
+%% EmbeddingCreator Class
+class EmbeddingCreator {
+  - method: string
+  - model_name: string
+  - vectorizer
+  + __init__(method: string, model_name: string)
+  + create_embeddings(chunks: list~string~): array or list
+  - _init_worker(): void
+  - _compute_glove_embedding(chunk: string): np.array
+}
 
-    %% Relationships
-    DataExtractor "1" --> "*" EmbeddingCreator : "provides chunks for embedding"
-    EmbeddingCreator "1" --> "1" TextSimilarity : "utilizes similarity functions"
-    TextRetriever "1" --> "1" TextSimilarity : "delegates similarity calculations"
-    TextRetriever "1" --> "1" MultiThreadedRetriever : "creates for threaded similarity"
-    PipelineManager "1" --> "*" DataExtractor : "orchestrates extraction using"
-    PipelineManager "1" --> "*" EmbeddingCreator : "orchestrates embedding creation using"
-    PipelineManager "1" --> "*" TextRetriever : "orchestrates retrieval using"
+%% TextSimilarity Class
+class TextSimilarity {
+  - method: string
+  - bm25
+  + fit_bm25(chunks: list~string~): void
+  + fit_tfidf(chunks: list~string~): void
+  + tokenize_with_bigrams(text: string): list~string~
+  + compute_similarity(query: string, chunk: string): float
+}
+
+%% MultiThreadedRetriever Class
+class MultiThreadedRetriever {
+  - query_embedding: np.array
+  - chunk_embeddings: list~np.array~
+  - similarity_scores: list~float~
+  + __init__(query_embedding: np.array, chunk_embeddings: list~np.array~)
+  + compute_similarity_for_chunk(idx: int): void
+  + run(): list~float~
+}
+
+%% TextRetriever Class
+class TextRetriever {
+  - db_path: string
+  - chunks: list~string~
+  + __init__(method: string, db_path: string)
+  + setup_database(): void
+  + normalize_scores(scores: list~float~, method: string): list~float~
+  + store_results(query: string, results: list~(string,float)~): void
+  + retrieve_top_chunks(query: string, chunks: list~string~, top_k: int, normalization_method: string): list~(string,float)~
+}
+
+%% PipelineManager Class
+class PipelineManager {
+  - urls: list~string~
+  - query: string
+  - max_words: int
+  - chunk_strategy: string
+  - similarity_methods: list~string~
+  - normalization_methods: list~string~
+  - all_results_summary: list
+  - all_detailed_results: list
+  - logger: Logger
+  - cache_manager: CacheManager
+  + __init__(urls: list~string~, query: string, max_words: int, chunk_strategy: string, similarity_methods: list, normalization_methods: list, cache_file: string)
+  + fetch_content_async(session: object, url: string): string
+  + process_url(url: string): dict
+  + run_all_urls(): list
+  + plot_results(): void
+  + save_results(): void
+  + run_pipeline(): void
+}
+
+%% Relationships
+Logger --> CustomException : "used by"
+PipelineManager --> Logger : "uses"
+PipelineManager --> CacheManager : "manages caching"
+PipelineManager --> DataExtractor : "orchestrates extraction"
+PipelineManager --> TextRetriever : "orchestrates retrieval"
+TextRetriever --> TextSimilarity : "delegates similarity"
+TextRetriever --> MultiThreadedRetriever : "uses for multi-threaded similarity"
+EmbeddingCreator ..> TextSimilarity : "optionally collaborates"
+
+
+%% A solid arrow ("-->") usually denotes an association 
+%% (or aggregation/composition, depending on context), 
+%% meaning one class has a direct relationship with another 
+%% (often as an attribute).
+
+%% A dotted arrow ("..>") denotes a dependency relationship. 
+%% This means one class uses or depends on another 
+%% (for example, by calling its methods) but does not 
+%% have a long-term ownership or attribute reference.
+
+%% For example, if Class A uses a utility function from
+%%  Class B temporarily, you might show that as a dependency 
+%%  with a dotted arrow ("A ..> B"). Conversely, if Class A 
+%%  has an instance of Class B as a member variable, you’d 
+%%  show that as an association with a solid arrow ("A --> B").

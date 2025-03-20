@@ -2,23 +2,28 @@ import os
 from datetime import datetime
 
 class Logger:
-    """Handles logging for errors and events."""
-    def __init__(self, log_file="logs/pipeline.log", verbose=True):
-        self.log_file = log_file
+    """Handles logging for errors and events using RotatingFileHandler."""
+    def __init__(self, log_file="logs/pipeline.log", verbose=False, maxBytes=5*1024*1024, backupCount=5):
         self.verbose = verbose
         os.makedirs(os.path.dirname(log_file), exist_ok=True)
+        import logging
+        from logging.handlers import RotatingFileHandler
+        self.logger = logging.getLogger("PipelineLogger")
+        self.logger.setLevel(logging.INFO)
+        handler = RotatingFileHandler(log_file, maxBytes=maxBytes, backupCount=backupCount)
+        formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+        handler.setFormatter(formatter)
+        # To prevent duplicate handlers, remove any existing ones.
+        if not self.logger.handlers:
+            self.logger.addHandler(handler)
     
     def log(self, message, level="INFO"):
-        """Logs messages with timestamps and levels (INFO, ERROR)."""
-        from datetime import datetime
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        log_message = f"{timestamp} - {level} - {message}"
-        
+        if level.upper() == "INFO":
+            self.logger.info(message)
+        elif level.upper() == "ERROR":
+            self.logger.error(message)
         if self.verbose:
-            print(log_message)
-        with open(self.log_file, "a", encoding="utf-8") as f:
-            f.write(log_message + "\n")
+            print(message)
     
     def error(self, message):
-        """Logs error messages."""
         self.log(message, level="ERROR")

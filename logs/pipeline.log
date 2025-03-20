@@ -130,3 +130,104 @@ Pipeline completed successfully.
 2025-03-20 16:54:55 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | soft -> Avg Score: 0.9893
 2025-03-20 16:55:06 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | log -> Avg Score: 0.9900
 2025-03-20 16:55:13 - INFO - Pipeline completed successfully.
+2025-03-20 17:24:40,788 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] Extracted 41 filtered chunks.
+2025-03-20 17:24:40,832 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | min-max -> Avg Score: 0.9883
+2025-03-20 17:24:40,851 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | soft -> Avg Score: 0.9883
+2025-03-20 17:24:40,870 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | log -> Avg Score: 0.9941
+2025-03-20 17:24:40,933 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | min-max -> Avg Score: 0.8990
+2025-03-20 17:24:40,986 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | soft -> Avg Score: 0.8990
+2025-03-20 17:24:41,040 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | log -> Avg Score: 0.9054
+2025-03-20 17:24:54,772 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | min-max -> Avg Score: 0.9914
+2025-03-20 17:25:12,526 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | soft -> Avg Score: 0.9914
+2025-03-20 17:25:33,331 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | log -> Avg Score: 0.9919
+2025-03-20 17:25:34,287 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] Extracted 37 filtered chunks.
+2025-03-20 17:25:34,317 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | min-max -> Avg Score: 0.9199
+2025-03-20 17:25:34,342 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | soft -> Avg Score: 0.9199
+2025-03-20 17:25:34,368 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | log -> Avg Score: 0.9592
+2025-03-20 17:25:34,460 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | min-max -> Avg Score: 0.8621
+2025-03-20 17:25:34,531 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | soft -> Avg Score: 0.8621
+2025-03-20 17:25:34,603 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | log -> Avg Score: 0.8675
+2025-03-20 17:25:57,888 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | min-max -> Avg Score: 0.9958
+2025-03-20 17:26:18,241 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | soft -> Avg Score: 0.9958
+2025-03-20 17:26:41,658 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | log -> Avg Score: 0.9961
+2025-03-20 17:26:43,542 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] Extracted 87 filtered chunks.
+2025-03-20 17:26:43,628 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | min-max -> Avg Score: 0.6940
+2025-03-20 17:26:43,699 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | soft -> Avg Score: 0.6940
+2025-03-20 17:26:43,777 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | log -> Avg Score: 0.8757
+2025-03-20 17:26:43,992 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | min-max -> Avg Score: 0.9783
+2025-03-20 17:26:44,187 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | soft -> Avg Score: 0.9783
+2025-03-20 17:26:44,380 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | log -> Avg Score: 0.9799
+2025-03-20 17:27:06,844 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | min-max -> Avg Score: 0.9893
+2025-03-20 17:27:27,155 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | soft -> Avg Score: 0.9893
+2025-03-20 17:27:48,597 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | log -> Avg Score: 0.9900
+2025-03-20 17:27:56,973 - INFO - Pipeline completed successfully.
+2025-03-20 17:35:23,328 - INFO - Cache hit for https://en.wikipedia.org/wiki/Artificial_intelligence. Using cached results.
+2025-03-20 17:35:23,329 - INFO - Cache hit for https://en.wikipedia.org/wiki/Machine_learning. Using cached results.
+2025-03-20 17:35:23,329 - INFO - Cache hit for https://en.wikipedia.org/wiki/Deep_learning. Using cached results.
+2025-03-20 17:35:30,586 - INFO - Pipeline completed successfully.
+2025-03-20 17:35:59,497 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] Extracted 41 filtered chunks.
+2025-03-20 17:35:59,557 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | min-max -> Avg Score: 0.9883
+2025-03-20 17:35:59,591 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | soft -> Avg Score: 0.9883
+2025-03-20 17:35:59,620 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | log -> Avg Score: 0.9941
+2025-03-20 17:35:59,713 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | min-max -> Avg Score: 0.8990
+2025-03-20 17:35:59,796 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | soft -> Avg Score: 0.8990
+2025-03-20 17:35:59,877 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | log -> Avg Score: 0.9054
+2025-03-20 17:36:20,392 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | min-max -> Avg Score: 0.9914
+2025-03-20 17:36:39,937 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | soft -> Avg Score: 0.9914
+2025-03-20 17:37:00,018 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | log -> Avg Score: 0.9919
+2025-03-20 17:37:01,513 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] Extracted 87 filtered chunks.
+2025-03-20 17:37:01,582 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | min-max -> Avg Score: 0.6940
+2025-03-20 17:37:01,642 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | soft -> Avg Score: 0.6940
+2025-03-20 17:37:01,702 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | log -> Avg Score: 0.8757
+2025-03-20 17:37:01,887 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | min-max -> Avg Score: 0.9783
+2025-03-20 17:37:02,139 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | soft -> Avg Score: 0.9783
+2025-03-20 17:37:02,311 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | log -> Avg Score: 0.9799
+2025-03-20 17:37:22,654 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | min-max -> Avg Score: 0.9893
+2025-03-20 17:37:44,242 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | soft -> Avg Score: 0.9893
+2025-03-20 17:38:04,720 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | log -> Avg Score: 0.9900
+2025-03-20 17:38:05,390 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] Extracted 37 filtered chunks.
+2025-03-20 17:38:05,419 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | min-max -> Avg Score: 0.9199
+2025-03-20 17:38:05,445 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | soft -> Avg Score: 0.9199
+2025-03-20 17:38:05,470 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | log -> Avg Score: 0.9592
+2025-03-20 17:38:05,550 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | min-max -> Avg Score: 0.8621
+2025-03-20 17:38:05,623 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | soft -> Avg Score: 0.8621
+2025-03-20 17:38:05,697 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | log -> Avg Score: 0.8675
+2025-03-20 17:38:25,391 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | min-max -> Avg Score: 0.9958
+2025-03-20 17:38:44,900 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | soft -> Avg Score: 0.9958
+2025-03-20 17:39:05,900 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | log -> Avg Score: 0.9961
+2025-03-20 17:39:12,485 - INFO - Pipeline completed successfully.
+2025-03-20 17:43:04,126 - INFO - Cache hit for https://en.wikipedia.org/wiki/Artificial_intelligence. Using cached results.
+2025-03-20 17:43:04,126 - INFO - Cache hit for https://en.wikipedia.org/wiki/Machine_learning. Using cached results.
+2025-03-20 17:43:04,127 - INFO - Cache hit for https://en.wikipedia.org/wiki/Deep_learning. Using cached results.
+2025-03-20 17:43:09,144 - INFO - Pipeline completed successfully.
+2025-03-20 17:44:23,089 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] Extracted 41 filtered chunks.
+2025-03-20 17:44:23,150 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | min-max -> Avg Score: 0.9883
+2025-03-20 17:44:23,180 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | soft -> Avg Score: 0.9883
+2025-03-20 17:44:23,209 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | log -> Avg Score: 0.9941
+2025-03-20 17:44:23,305 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | min-max -> Avg Score: 0.8990
+2025-03-20 17:44:23,387 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | soft -> Avg Score: 0.8990
+2025-03-20 17:44:23,480 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | log -> Avg Score: 0.9054
+2025-03-20 17:44:44,566 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | min-max -> Avg Score: 0.9914
+2025-03-20 17:45:04,642 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | soft -> Avg Score: 0.9914
+2025-03-20 17:45:24,999 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | log -> Avg Score: 0.9919
+2025-03-20 17:45:26,442 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] Extracted 87 filtered chunks.
+2025-03-20 17:45:26,507 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | min-max -> Avg Score: 0.6940
+2025-03-20 17:45:26,571 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | soft -> Avg Score: 0.6940
+2025-03-20 17:45:26,633 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | log -> Avg Score: 0.8757
+2025-03-20 17:45:26,812 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | min-max -> Avg Score: 0.9783
+2025-03-20 17:45:27,055 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | soft -> Avg Score: 0.9783
+2025-03-20 17:45:27,246 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | log -> Avg Score: 0.9799
+2025-03-20 17:45:47,230 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | min-max -> Avg Score: 0.9893
+2025-03-20 17:46:07,976 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | soft -> Avg Score: 0.9893
+2025-03-20 17:46:27,722 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | log -> Avg Score: 0.9900
+2025-03-20 17:46:28,407 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] Extracted 37 filtered chunks.
+2025-03-20 17:46:28,436 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | min-max -> Avg Score: 0.9199
+2025-03-20 17:46:28,462 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | soft -> Avg Score: 0.9199
+2025-03-20 17:46:28,489 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | log -> Avg Score: 0.9592
+2025-03-20 17:46:28,566 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | min-max -> Avg Score: 0.8621
+2025-03-20 17:46:28,671 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | soft -> Avg Score: 0.8621
+2025-03-20 17:46:28,766 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | log -> Avg Score: 0.8675
+2025-03-20 17:46:48,766 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | min-max -> Avg Score: 0.9958
+2025-03-20 17:47:08,783 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | soft -> Avg Score: 0.9958
+2025-03-20 17:47:28,745 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | log -> Avg Score: 0.9961
+2025-03-20 17:47:35,359 - INFO - Pipeline completed successfully.

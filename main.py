@@ -11,17 +11,17 @@ import matplotlib.pyplot as plt
 from src.extraction import DataExtractor
 from src.retrieval import TextRetriever
 from src.logger import Logger
-
+from src.cache_manager import CacheManager
 
 class CustomException(Exception):
     """Custom exception for pipeline errors."""
     def __init__(self, message):
         super().__init__(message)
-        Logger().log(f"EXCEPTION: {message}")
+        Logger(verbose=True).error(f"EXCEPTION: {message}")
 
 class PipelineManager:
     def __init__(self, urls, query, max_words=300, chunk_strategy="context",
-                 similarity_methods=None, normalization_methods=None):
+                 similarity_methods=None, normalization_methods=None, cache_file="cache.json"):
         """
         Parameters:
             urls (list of str): List of Wikipedia URLs to process.
@@ -30,6 +30,8 @@ class PipelineManager:
             chunk_strategy (str): Chunking strategy to use (e.g., 'fixed', 'sliding', 'context', 'sentence').
             similarity_methods (list): Similarity methods to test (e.g., ["bm25", "tfidf", "word"]).
             normalization_methods (list): Normalization methods (e.g., ["min-max", "soft", "log"]).
+            cache_file (str): Path to JSON file for caching processed URL results.
+
         """
         self.urls = urls
         self.query = query
@@ -42,6 +44,7 @@ class PipelineManager:
         self.all_detailed_results = []  # Detailed output (per-URL) with chunk scores
         
         self.logger = Logger(verbose=False)
+        self.cache_manager = CacheManager(cache_file=cache_file)
 
         # Ensure directories exist
         os.makedirs("plots", exist_ok=True)
@@ -58,8 +61,14 @@ class PipelineManager:
                 else:
                     self.logger.log(f"HTTP error: {url} -> Status {response.status}")
                     return None
+        except aiohttp.ClientError as e:
+            self.logger.error(f"Request error for {url}: {e}")
+            return None
+        except asyncio.TimeoutError:
+            self.logger.error(f"Timeout fetching {url}")
+            return None
         except Exception as e:
-            self.logger.log(f"Request error: {url} -> {e}")
+            self.logger.error(f"Unexpected error fetching {url}: {e}")
             return None
 
 
@@ -70,7 +79,16 @@ class PipelineManager:
           2) Filter chunks 
           3) Run retrieval experiments for each (similarity_method, normalization_method)
         Returns a dictionary with results summary & detailed info for this URL.
+
+        Uses caching to avoid duplicate processing.
         """
+        # Check cache first.
+        cached_result = self.cache_manager.get(url)
+        if cached_result:
+            self.logger.log(f"Cache hit for {url}. Using cached results.")
+            return cached_result
+
+
         # 1) Fetch HTML content (synchronously if you prefer, or re-use existing code)
         #    We'll do a single fetch here using requests for simplicity 
         #    (or you can keep the async approach from fetch_content_async).
@@ -80,7 +98,7 @@ class PipelineManager:
             html_content = await self.fetch_content_async(session, url)
         if not html_content:
             raise CustomException(f"Failed to fetch content for URL: {url}")
-            return None
+            
         
         # response = requests.get(url)
         # if response.status_code != 200:
@@ -105,7 +123,7 @@ class PipelineManager:
             self.logger.log(f"[{url}] No relevant chunks found.")
             return None
         
-        print(f"[{url}] Extracted {len(filtered_chunks)} filtered chunks.")
+        Logger(log_file="logs/output.log").log(f"[{url}] Extracted {len(filtered_chunks)} filtered chunks.")
 
         # 3) For each combination of (similarity_method, normalization_method), retrieve top chunks
         url_results_summary = []
@@ -144,10 +162,12 @@ class PipelineManager:
                 self.logger.log(f"[{url}] {label} -> Avg Score: {avg_score:.4f}")
                 # print(f"[{url}] Combination: {label} -> Average Score: {avg_score:.4f}")
 
-        return {
+        result = {
             "url_results_summary": url_results_summary,
             "url_detailed_results": url_detailed_results
         }
+        self.cache_manager.set(url, result)
+        return result
 
     async def run_all_urls(self):
         """Runs the pipeline for all URLs concurrently."""

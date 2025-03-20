@@ -31,31 +31,35 @@ This project implements a **class-based, multi-threaded** system that simulates 
 ## Folder Structure
 
 ```
-MULTITHREADED-TEXT-RETRIEVAL-AND-PROCESSING-SYSTEM/
-├── README.md                # This file
-├── requirements.txt         # Python dependencies
-├── setup.sh                 # Installs dependencies, runs the pipeline
-├── main.py                  # Example entry point or pipeline runner
-├── data/                    # (Optional) Raw data files or samples
+MultiThreadedTextRetrievalSystem/
+├── cache.json                # Cache file for storing processed URL results
+├── data/                     # (Optional) Raw data files, sample HTML pages, etc.
 ├── db/
-│   └── retrieval_results.db # SQLite database storing retrieval scores
+│   └── retrieval_results.db  # SQLite database storing retrieval scores
 ├── logs/
-│   ├── output.log           # Log of program output
-│   ├── heatmap_scores.png   # (Optional) If you save plots here
-│   └── grouped_bar_scores.png
+│   ├── error_log.txt         # Error logs (from extraction, etc.)
+│   ├── output.log            # (Optional) Additional output logs
+│   └── pipeline.log          # Main pipeline log (RotatingFileHandler)
 ├── plots/
-│   ├── heatmap_scores.png   # Heatmap of average normalized scores
-│   └── grouped_bar_scores.png
+│   ├── heatmap_scores.png    # Heatmap of average normalized scores
+│   └── grouped_bar_scores.png# Grouped bar chart for comparisons
 ├── results/
-│   └── results.txt          # Detailed chunk retrieval results
-└── src/
-    ├── __init__.py          # Marks src as a Python package
-    ├── extraction.py        # DataExtractor for scraping & cleaning
-    ├── embedding.py         # (Optional) For specialized embedding logic
-    ├── processing.py        # (Optional) For async text processing
-    ├── retrieval.py         # TextRetriever for multi-threaded retrieval & DB storage
-    ├── similarity.py        # (Optional) If you keep a separate similarity module
-    └── text_similarity.py   # TextSimilarity class (BM25, TF-IDF, word embeddings)
+│   └── results.txt           # Detailed retrieval results
+├── src/
+│   ├── __init__.py           # Marks src as a Python package
+│   ├── cache_manager.py      # Manages caching logic (cache.json file handling)
+│   ├── embedding.py          # EmbeddingCreator class (GloVe/TF-IDF/BM25 logic)
+│   ├── extraction.py         # DataExtractor class for HTML parsing & chunking
+│   ├── logger.py             # Logger class (with RotatingFileHandler)
+│   ├── processing.py         # (Optional) Async text processing functions
+│   ├── retrieval.py          # TextRetriever & MultiThreadedRetriever classes
+│   ├── similarity.py         # Lower-level similarity utilities (e.g., cosine similarity)
+│   └── text_similarity.py    # TextSimilarity class (BM25, TF-IDF, word-based similarity)
+├── main.py                   # Entry point (PipelineManager)
+├── requirements.txt          # Python dependencies
+├── setup.sh                  # Script to install dependencies and run the system
+└── README.md                 # Project overview, setup instructions, etc.
+
 ```
 
 ---
