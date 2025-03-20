@@ -1,0 +1,61 @@
+References/ Resources / Learnings :
+-----------------------------
+
+#################################################################
+asyncio :
+- https://medium.com/@moraneus/mastering-pythons-asyncio-a-practical-guide-0a673265cf04
+multithreading vs multiprocessing :
+- https://youtu.be/AZnGRKFUU0c?feature=shared
+
+#################################################################
+
+RAG :
+- https://www.youtube.com/watch?v=sVcwVQRHIc8&t=1700s
+- https://huggingface.co/papers/2410.12837
+transfer learning 
+- https://www.youtube.com/watch?v=WWcgHjuKVqA
+
+
+#################################################################
+
+What are stop-words
+- https://kavita-ganesan.com/what-are-stop-words/
+
+An Intro to Word Embeddings 
+- https://sainivedh.medium.com/an-intro-to-word-embeddings-e0a7a46942a8
+
+
+Tokenization, Stemming and Lemmatization 
+- https://youtu.be/JpxCt3kvbLk?feature=shared
+Bag of words
+- https://youtu.be/IKgBLTeQQL8?feature=shared
+Understanding TF-IDF
+- https://www.youtube.com/watch?v=D2V1okCEsiE
+
+Glove & Embeddings
+- https://jonathan-hui.medium.com/nlp-word-embedding-glove-5e7f523999f6
+
+
+2xx: Success
+200 OK:
+The request was successful, and the server has returned the requested data. 
+201 Created:
+The request has been fulfilled, and a new resource has been created. 
+202 Accepted:
+The server has accepted the request for processing, but the processing hasn't been completed yet. 
+204 No Content:
+The server has successfully processed the request, but there's no content to return. 
+206 Partial Content
+The server has successfully processed a request for a portion of a resource 
+3xx: Redirection
+301 Moved Permanently: The requested resource has been permanently moved to a new location.
+302 Found: The requested resource is temporarily located at a different URI.
+304 Not Modified: The client's cached version of the resource is still valid, so the server doesn't need to send the resource again. 
+4xx: Client Errors
+400 Bad Request: The server cannot process the request due to a client error.
+401 Unauthorized: The client needs to authenticate to access the resource.
+403 Forbidden: The client is not authorized to access the resource.
+404 Not Found: The server cannot find the requested resource. 
+5xx: Server Errors
+500 Internal Server Error: The server encountered an unexpected condition that prevented it from fulfilling the request.
+503 Service Unavailable: The server is currently unavailable

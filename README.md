@@ -127,8 +127,7 @@ if __name__ == "__main__":
 ---
 
 ## Troubleshooting
-
-- **Hugging Face Dependencies**: If you see references to huggingface-hub, it may be due to `sentence-transformers`. Remove it from `requirements.txt` if not used.  
+ 
 - **NLTK Runtime Warnings**: Common if `nltk.downloader` is imported in an unexpected order. Usually harmless.  
 - **Plots Not Showing**: Make sure `matplotlib` and `seaborn` are installed and the script is running in an environment that supports GUI or inline plotting.  
 - **Slow Performance**: Increase thread pool size, or reduce chunk size if you have a very large text.

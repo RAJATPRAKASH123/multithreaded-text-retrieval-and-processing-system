@@ -1,2 +1,0 @@
-About the webpage - 
-Right now using <p> paragraphs to retrieve text

@@ -1,10 +1,3 @@
-Extracted 87 filtered chunks.
-Combination: bm25 | min-max -> Average Score: 0.6940
-Combination: bm25 | soft -> Average Score: 0.6940
-Combination: bm25 | log -> Average Score: 0.8758
-Combination: tfidf | min-max -> Average Score: 0.9788
-Combination: tfidf | soft -> Average Score: 0.9788
-Combination: tfidf | log -> Average Score: 0.9804
-Combination: word | min-max -> Average Score: 0.9895
-Combination: word | soft -> Average Score: 0.9895
-Combination: word | log -> Average Score: 0.9902
+[https://en.wikipedia.org/wiki/Machine_learning] Extracted 41 filtered chunks.
+[https://en.wikipedia.org/wiki/Deep_learning] Extracted 37 filtered chunks.
+[https://en.wikipedia.org/wiki/Artificial_intelligence] Extracted 87 filtered chunks.

@@ -1,126 +1,405 @@
+URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: bm25, Normalization Method: min-max
 Average Score: 0.6940
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine ethics; while almost all artificial intelligence researchers are familiar with Asimov's laws through popular culture, they generally consider the laws useless for many reasons, one of which is their ambiguity. Several works use AI to force us to confront the fundamental question of what makes us human, showing us artificial beings that have the ability to feel, and thus to suffer. This appears in Karel Čapek's R.U.R., the films A.I. Artificial Intelligence and Ex Machina, as well as the novel Do Androids Dream of Electric Sheep?, by Philip K. Dick. Dick considers the idea that our understanding of human subjectivity is altered by technology created with artificial intelligence. The two most widely used textbooks in 2023 (see the Open Syllabus): The four most widely used AI textbooks in 2008: Other textbooks: Artificial general intelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge reasoning Natural language processing Robotics AI safety Machine learning Symbolic Deep learning Bayesian networks Evolutionary algorithms Hybrid intelligent systems Systems integration Bioinformatics Deepfake Earth sciences Finance Generative AI Art Audio Music Art Audio Music Government Healthcare Mental health Mental health Industry Translation Military Physics Projects Art Audio Music Mental health Artificial consciousness Chinese room Friendly AI Control problem/Takeover Ethics Existential risk Turing test Uncanny valley Timeline Progress AI winter AI boom Glossary v t e Respect the dignity of individual people Connect with other people sincerely, openly, and inclusively Care for the wellbeing of everyone Protect social values, justice, and the public interest Artificial intelligence and elections – Use and impact of AI on political elections Artificial intelligence content detection – Software to detect AI-generated content
+  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine et...
 
-  Rank 2: Score: 0.5626
-  Chunk: A Markov decision process has a transition model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of each state and the cost of each action. A policy associates a decision with each possible state. The policy could be calculated (e.g., by iteration), be heuristic, or it can be learned. Game theory describes the rational behavior of multiple interacting agents and is used in AI programs that make decisions that involve other agents. Machine learning is the study of programs that can improve their performance on a given task automatically. It has been a part of AI from the beginning. There are several kinds of machine learning. Unsupervised learning analyzes a stream of data and finds patterns and makes predictions without any other guidance. Supervised learning requires labeling the training data with the expected answers, and comes in two main varieties: classification (where the program must learn to predict what category the input belongs in) and regression (where the program must deduce a numeric function based on numeric input). In reinforcement learning, the agent is rewarded for good responses and punished for bad ones. The agent learns to choose responses that are classified as "good". Transfer learning is when the knowledge gained from one problem is applied to a new problem. Deep learning is a type of machine learning that runs inputs through biologically inspired artificial neural networks for all of these types of learning. Computational learning theory can assess learners by computational complexity, by sample complexity (how much data is required), or by other notions of optimization.
+  Rank 2: Score: 0.5625
+  Chunk: A Markov decision process has a transition model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of ea...
 
-  Rank 3: Score: 0.5194
-  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The regulatory and policy landscape for AI is an emerging issue in jurisdictions globally. According to AI Index at Stanford, the annual number of AI-related laws passed in the 127 survey countries jumped from one passed in 2016 to 37 passed in 2022 alone. Between 2016 and 2020, more than 30 countries adopted dedicated strategies for AI. Most EU member states had released national AI strategies, as had Canada, China, India, Japan, Mauritius, the Russian Federation, Saudi Arabia, United Arab Emirates, U.S., and Vietnam. Others were in the process of elaborating their own AI strategy, including Bangladesh, Malaysia and Tunisia. The Global Partnership on Artificial Intelligence was launched in June 2020, stating a need for AI to be developed in accordance with human rights and democratic values, to ensure public confidence and trust in the technology. Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher published a joint statement in November 2021 calling for a government commission to regulate AI. In 2023, OpenAI leaders published recommendations for the governance of superintelligence, which they believe may happen in less than 10 years. In 2023, the United Nations also launched an advisory body to provide recommendations on AI governance; the body comprises technology company executives, governments officials and academics. In 2024, the Council of Europe created the first international legally binding treaty on AI, called the "Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law". It was adopted by the European Union, the United States, the United Kingdom, and other signatories.
+  Rank 3: Score: 0.5193
+  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The re...
 
 ==================================================
 
+URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: bm25, Normalization Method: soft
 Average Score: 0.6940
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine ethics; while almost all artificial intelligence researchers are familiar with Asimov's laws through popular culture, they generally consider the laws useless for many reasons, one of which is their ambiguity. Several works use AI to force us to confront the fundamental question of what makes us human, showing us artificial beings that have the ability to feel, and thus to suffer. This appears in Karel Čapek's R.U.R., the films A.I. Artificial Intelligence and Ex Machina, as well as the novel Do Androids Dream of Electric Sheep?, by Philip K. Dick. Dick considers the idea that our understanding of human subjectivity is altered by technology created with artificial intelligence. The two most widely used textbooks in 2023 (see the Open Syllabus): The four most widely used AI textbooks in 2008: Other textbooks: Artificial general intelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge reasoning Natural language processing Robotics AI safety Machine learning Symbolic Deep learning Bayesian networks Evolutionary algorithms Hybrid intelligent systems Systems integration Bioinformatics Deepfake Earth sciences Finance Generative AI Art Audio Music Art Audio Music Government Healthcare Mental health Mental health Industry Translation Military Physics Projects Art Audio Music Mental health Artificial consciousness Chinese room Friendly AI Control problem/Takeover Ethics Existential risk Turing test Uncanny valley Timeline Progress AI winter AI boom Glossary v t e Respect the dignity of individual people Connect with other people sincerely, openly, and inclusively Care for the wellbeing of everyone Protect social values, justice, and the public interest Artificial intelligence and elections – Use and impact of AI on political elections Artificial intelligence content detection – Software to detect AI-generated content
+  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine et...
 
-  Rank 2: Score: 0.5626
-  Chunk: A Markov decision process has a transition model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of each state and the cost of each action. A policy associates a decision with each possible state. The policy could be calculated (e.g., by iteration), be heuristic, or it can be learned. Game theory describes the rational behavior of multiple interacting agents and is used in AI programs that make decisions that involve other agents. Machine learning is the study of programs that can improve their performance on a given task automatically. It has been a part of AI from the beginning. There are several kinds of machine learning. Unsupervised learning analyzes a stream of data and finds patterns and makes predictions without any other guidance. Supervised learning requires labeling the training data with the expected answers, and comes in two main varieties: classification (where the program must learn to predict what category the input belongs in) and regression (where the program must deduce a numeric function based on numeric input). In reinforcement learning, the agent is rewarded for good responses and punished for bad ones. The agent learns to choose responses that are classified as "good". Transfer learning is when the knowledge gained from one problem is applied to a new problem. Deep learning is a type of machine learning that runs inputs through biologically inspired artificial neural networks for all of these types of learning. Computational learning theory can assess learners by computational complexity, by sample complexity (how much data is required), or by other notions of optimization.
+  Rank 2: Score: 0.5625
+  Chunk: A Markov decision process has a transition model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of ea...
 
-  Rank 3: Score: 0.5194
-  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The regulatory and policy landscape for AI is an emerging issue in jurisdictions globally. According to AI Index at Stanford, the annual number of AI-related laws passed in the 127 survey countries jumped from one passed in 2016 to 37 passed in 2022 alone. Between 2016 and 2020, more than 30 countries adopted dedicated strategies for AI. Most EU member states had released national AI strategies, as had Canada, China, India, Japan, Mauritius, the Russian Federation, Saudi Arabia, United Arab Emirates, U.S., and Vietnam. Others were in the process of elaborating their own AI strategy, including Bangladesh, Malaysia and Tunisia. The Global Partnership on Artificial Intelligence was launched in June 2020, stating a need for AI to be developed in accordance with human rights and democratic values, to ensure public confidence and trust in the technology. Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher published a joint statement in November 2021 calling for a government commission to regulate AI. In 2023, OpenAI leaders published recommendations for the governance of superintelligence, which they believe may happen in less than 10 years. In 2023, the United Nations also launched an advisory body to provide recommendations on AI governance; the body comprises technology company executives, governments officials and academics. In 2024, the Council of Europe created the first international legally binding treaty on AI, called the "Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law". It was adopted by the European Union, the United States, the United Kingdom, and other signatories.
+  Rank 3: Score: 0.5193
+  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The re...
 
 ==================================================
 
+URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: bm25, Normalization Method: log
-Average Score: 0.8758
+Average Score: 0.8757
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine ethics; while almost all artificial intelligence researchers are familiar with Asimov's laws through popular culture, they generally consider the laws useless for many reasons, one of which is their ambiguity. Several works use AI to force us to confront the fundamental question of what makes us human, showing us artificial beings that have the ability to feel, and thus to suffer. This appears in Karel Čapek's R.U.R., the films A.I. Artificial Intelligence and Ex Machina, as well as the novel Do Androids Dream of Electric Sheep?, by Philip K. Dick. Dick considers the idea that our understanding of human subjectivity is altered by technology created with artificial intelligence. The two most widely used textbooks in 2023 (see the Open Syllabus): The four most widely used AI textbooks in 2008: Other textbooks: Artificial general intelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge reasoning Natural language processing Robotics AI safety Machine learning Symbolic Deep learning Bayesian networks Evolutionary algorithms Hybrid intelligent systems Systems integration Bioinformatics Deepfake Earth sciences Finance Generative AI Art Audio Music Art Audio Music Government Healthcare Mental health Mental health Industry Translation Military Physics Projects Art Audio Music Mental health Artificial consciousness Chinese room Friendly AI Control problem/Takeover Ethics Existential risk Turing test Uncanny valley Timeline Progress AI winter AI boom Glossary v t e Respect the dignity of individual people Connect with other people sincerely, openly, and inclusively Care for the wellbeing of everyone Protect social values, justice, and the public interest Artificial intelligence and elections – Use and impact of AI on political elections Artificial intelligence content detection – Software to detect AI-generated content
+  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine et...
 
   Rank 2: Score: 0.8255
-  Chunk: A Markov decision process has a transition model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of each state and the cost of each action. A policy associates a decision with each possible state. The policy could be calculated (e.g., by iteration), be heuristic, or it can be learned. Game theory describes the rational behavior of multiple interacting agents and is used in AI programs that make decisions that involve other agents. Machine learning is the study of programs that can improve their performance on a given task automatically. It has been a part of AI from the beginning. There are several kinds of machine learning. Unsupervised learning analyzes a stream of data and finds patterns and makes predictions without any other guidance. Supervised learning requires labeling the training data with the expected answers, and comes in two main varieties: classification (where the program must learn to predict what category the input belongs in) and regression (where the program must deduce a numeric function based on numeric input). In reinforcement learning, the agent is rewarded for good responses and punished for bad ones. The agent learns to choose responses that are classified as "good". Transfer learning is when the knowledge gained from one problem is applied to a new problem. Deep learning is a type of machine learning that runs inputs through biologically inspired artificial neural networks for all of these types of learning. Computational learning theory can assess learners by computational complexity, by sample complexity (how much data is required), or by other notions of optimization.
+  Chunk: A Markov decision process has a transition model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of ea...
 
   Rank 3: Score: 0.8018
-  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The regulatory and policy landscape for AI is an emerging issue in jurisdictions globally. According to AI Index at Stanford, the annual number of AI-related laws passed in the 127 survey countries jumped from one passed in 2016 to 37 passed in 2022 alone. Between 2016 and 2020, more than 30 countries adopted dedicated strategies for AI. Most EU member states had released national AI strategies, as had Canada, China, India, Japan, Mauritius, the Russian Federation, Saudi Arabia, United Arab Emirates, U.S., and Vietnam. Others were in the process of elaborating their own AI strategy, including Bangladesh, Malaysia and Tunisia. The Global Partnership on Artificial Intelligence was launched in June 2020, stating a need for AI to be developed in accordance with human rights and democratic values, to ensure public confidence and trust in the technology. Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher published a joint statement in November 2021 calling for a government commission to regulate AI. In 2023, OpenAI leaders published recommendations for the governance of superintelligence, which they believe may happen in less than 10 years. In 2023, the United Nations also launched an advisory body to provide recommendations on AI governance; the body comprises technology company executives, governments officials and academics. In 2024, the Council of Europe created the first international legally binding treaty on AI, called the "Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law". It was adopted by the European Union, the United States, the United Kingdom, and other signatories.
+  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The re...
 
 ==================================================
 
+URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: tfidf, Normalization Method: min-max
-Average Score: 0.9788
+Average Score: 0.9783
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: It is difficult or impossible to reliably evaluate whether an advanced AI is sentient (has the ability to feel), and if so, to what degree. But if there is a significant chance that a given machine can feel and suffer, then it may be entitled to certain rights or welfare protection measures, similarly to animals. Sapience (a set of capacities related to high intelligence, such as discernment or self-awareness) may provide another moral basis for AI rights. Robot rights are also sometimes proposed as a practical way to integrate autonomous agents into society. In 2017, the European Union considered granting "electronic personhood" to some of the most capable AI systems. Similarly to the legal status of companies, it would have conferred rights but also responsibilities. Critics argued in 2018 that granting rights to AI systems would downplay the importance of human rights, and that legislation should focus on user needs rather than speculative futuristic scenarios. They also noted that robots lacked the autonomy to take part to society on their own. Progress in AI increased interest in the topic. Proponents of AI welfare and rights often argue that AI sentience, if it emerges, would be particularly easy to deny. They warn that this may be a moral blind spot analogous to slavery or factory farming, which could lead to large-scale suffering if sentient AI is created and carelessly exploited. A superintelligence is a hypothetical agent that would possess intelligence far surpassing that of the brightest and most gifted human mind. If research into artificial general intelligence produced sufficiently intelligent software, it might be able to reprogram and improve itself. The improved software would be even better at improving itself, leading to what I. J. Good called an "intelligence explosion" and Vernor Vinge called a "singularity".
+  Chunk: It is difficult or impossible to reliably evaluate whether an advanced AI is sentient (has the ability to feel), and if so, to what degree. But if there is a significant chance that a given machine ca...
 
-  Rank 2: Score: 0.9705
-  Chunk: AI developers argue that this is the only way to deliver valuable applications and have developed several techniques that attempt to preserve privacy while still obtaining the data, such as data aggregation, de-identification and differential privacy. Since 2016, some privacy experts, such as Cynthia Dwork, have begun to view privacy in terms of fairness. Brian Christian wrote that experts have pivoted "from the question of 'what they know' to the question of 'what they're doing with it'." Generative AI is often trained on unlicensed copyrighted works, including in domains such as images or computer code; the output is then used under the rationale of "fair use". Experts disagree about how well and under what circumstances this rationale will hold up in courts of law; relevant factors may include "the purpose and character of the use of the copyrighted work" and "the effect upon the potential market for the copyrighted work". Website owners who do not wish to have their content scraped can indicate it in a "robots.txt" file. In 2023, leading authors (including John Grisham and Jonathan Franzen) sued AI companies for using their work to train generative AI. Another discussed approach is to envision a separate sui generis system of protection for creations generated by AI to ensure fair attribution and compensation for human authors. The commercial AI scene is dominated by Big Tech companies such as Alphabet Inc., Amazon, Apple Inc., Meta Platforms, and Microsoft. Some of these players already own the vast majority of existing cloud infrastructure and computing power from data centers, allowing them to entrench further in the marketplace.
+  Rank 2: Score: 0.9693
+  Chunk: AI developers argue that this is the only way to deliver valuable applications and have developed several techniques that attempt to preserve privacy while still obtaining the data, such as data aggre...
 
-  Rank 3: Score: 0.9658
-  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine ethics; while almost all artificial intelligence researchers are familiar with Asimov's laws through popular culture, they generally consider the laws useless for many reasons, one of which is their ambiguity. Several works use AI to force us to confront the fundamental question of what makes us human, showing us artificial beings that have the ability to feel, and thus to suffer. This appears in Karel Čapek's R.U.R., the films A.I. Artificial Intelligence and Ex Machina, as well as the novel Do Androids Dream of Electric Sheep?, by Philip K. Dick. Dick considers the idea that our understanding of human subjectivity is altered by technology created with artificial intelligence. The two most widely used textbooks in 2023 (see the Open Syllabus): The four most widely used AI textbooks in 2008: Other textbooks: Artificial general intelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge reasoning Natural language processing Robotics AI safety Machine learning Symbolic Deep learning Bayesian networks Evolutionary algorithms Hybrid intelligent systems Systems integration Bioinformatics Deepfake Earth sciences Finance Generative AI Art Audio Music Art Audio Music Government Healthcare Mental health Mental health Industry Translation Military Physics Projects Art Audio Music Mental health Artificial consciousness Chinese room Friendly AI Control problem/Takeover Ethics Existential risk Turing test Uncanny valley Timeline Progress AI winter AI boom Glossary v t e Respect the dignity of individual people Connect with other people sincerely, openly, and inclusively Care for the wellbeing of everyone Protect social values, justice, and the public interest Artificial intelligence and elections – Use and impact of AI on political elections Artificial intelligence content detection – Software to detect AI-generated content
+  Rank 3: Score: 0.9655
+  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine et...
 
 ==================================================
 
+URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: tfidf, Normalization Method: soft
-Average Score: 0.9788
+Average Score: 0.9783
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: It is difficult or impossible to reliably evaluate whether an advanced AI is sentient (has the ability to feel), and if so, to what degree. But if there is a significant chance that a given machine can feel and suffer, then it may be entitled to certain rights or welfare protection measures, similarly to animals. Sapience (a set of capacities related to high intelligence, such as discernment or self-awareness) may provide another moral basis for AI rights. Robot rights are also sometimes proposed as a practical way to integrate autonomous agents into society. In 2017, the European Union considered granting "electronic personhood" to some of the most capable AI systems. Similarly to the legal status of companies, it would have conferred rights but also responsibilities. Critics argued in 2018 that granting rights to AI systems would downplay the importance of human rights, and that legislation should focus on user needs rather than speculative futuristic scenarios. They also noted that robots lacked the autonomy to take part to society on their own. Progress in AI increased interest in the topic. Proponents of AI welfare and rights often argue that AI sentience, if it emerges, would be particularly easy to deny. They warn that this may be a moral blind spot analogous to slavery or factory farming, which could lead to large-scale suffering if sentient AI is created and carelessly exploited. A superintelligence is a hypothetical agent that would possess intelligence far surpassing that of the brightest and most gifted human mind. If research into artificial general intelligence produced sufficiently intelligent software, it might be able to reprogram and improve itself. The improved software would be even better at improving itself, leading to what I. J. Good called an "intelligence explosion" and Vernor Vinge called a "singularity".
+  Chunk: It is difficult or impossible to reliably evaluate whether an advanced AI is sentient (has the ability to feel), and if so, to what degree. But if there is a significant chance that a given machine ca...
 
-  Rank 2: Score: 0.9705
-  Chunk: AI developers argue that this is the only way to deliver valuable applications and have developed several techniques that attempt to preserve privacy while still obtaining the data, such as data aggregation, de-identification and differential privacy. Since 2016, some privacy experts, such as Cynthia Dwork, have begun to view privacy in terms of fairness. Brian Christian wrote that experts have pivoted "from the question of 'what they know' to the question of 'what they're doing with it'." Generative AI is often trained on unlicensed copyrighted works, including in domains such as images or computer code; the output is then used under the rationale of "fair use". Experts disagree about how well and under what circumstances this rationale will hold up in courts of law; relevant factors may include "the purpose and character of the use of the copyrighted work" and "the effect upon the potential market for the copyrighted work". Website owners who do not wish to have their content scraped can indicate it in a "robots.txt" file. In 2023, leading authors (including John Grisham and Jonathan Franzen) sued AI companies for using their work to train generative AI. Another discussed approach is to envision a separate sui generis system of protection for creations generated by AI to ensure fair attribution and compensation for human authors. The commercial AI scene is dominated by Big Tech companies such as Alphabet Inc., Amazon, Apple Inc., Meta Platforms, and Microsoft. Some of these players already own the vast majority of existing cloud infrastructure and computing power from data centers, allowing them to entrench further in the marketplace.
+  Rank 2: Score: 0.9693
+  Chunk: AI developers argue that this is the only way to deliver valuable applications and have developed several techniques that attempt to preserve privacy while still obtaining the data, such as data aggre...
 
-  Rank 3: Score: 0.9658
-  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine ethics; while almost all artificial intelligence researchers are familiar with Asimov's laws through popular culture, they generally consider the laws useless for many reasons, one of which is their ambiguity. Several works use AI to force us to confront the fundamental question of what makes us human, showing us artificial beings that have the ability to feel, and thus to suffer. This appears in Karel Čapek's R.U.R., the films A.I. Artificial Intelligence and Ex Machina, as well as the novel Do Androids Dream of Electric Sheep?, by Philip K. Dick. Dick considers the idea that our understanding of human subjectivity is altered by technology created with artificial intelligence. The two most widely used textbooks in 2023 (see the Open Syllabus): The four most widely used AI textbooks in 2008: Other textbooks: Artificial general intelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge reasoning Natural language processing Robotics AI safety Machine learning Symbolic Deep learning Bayesian networks Evolutionary algorithms Hybrid intelligent systems Systems integration Bioinformatics Deepfake Earth sciences Finance Generative AI Art Audio Music Art Audio Music Government Healthcare Mental health Mental health Industry Translation Military Physics Projects Art Audio Music Mental health Artificial consciousness Chinese room Friendly AI Control problem/Takeover Ethics Existential risk Turing test Uncanny valley Timeline Progress AI winter AI boom Glossary v t e Respect the dignity of individual people Connect with other people sincerely, openly, and inclusively Care for the wellbeing of everyone Protect social values, justice, and the public interest Artificial intelligence and elections – Use and impact of AI on political elections Artificial intelligence content detection – Software to detect AI-generated content
+  Rank 3: Score: 0.9655
+  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine et...
 
 ==================================================
 
+URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: tfidf, Normalization Method: log
-Average Score: 0.9804
+Average Score: 0.9799
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: It is difficult or impossible to reliably evaluate whether an advanced AI is sentient (has the ability to feel), and if so, to what degree. But if there is a significant chance that a given machine can feel and suffer, then it may be entitled to certain rights or welfare protection measures, similarly to animals. Sapience (a set of capacities related to high intelligence, such as discernment or self-awareness) may provide another moral basis for AI rights. Robot rights are also sometimes proposed as a practical way to integrate autonomous agents into society. In 2017, the European Union considered granting "electronic personhood" to some of the most capable AI systems. Similarly to the legal status of companies, it would have conferred rights but also responsibilities. Critics argued in 2018 that granting rights to AI systems would downplay the importance of human rights, and that legislation should focus on user needs rather than speculative futuristic scenarios. They also noted that robots lacked the autonomy to take part to society on their own. Progress in AI increased interest in the topic. Proponents of AI welfare and rights often argue that AI sentience, if it emerges, would be particularly easy to deny. They warn that this may be a moral blind spot analogous to slavery or factory farming, which could lead to large-scale suffering if sentient AI is created and carelessly exploited. A superintelligence is a hypothetical agent that would possess intelligence far surpassing that of the brightest and most gifted human mind. If research into artificial general intelligence produced sufficiently intelligent software, it might be able to reprogram and improve itself. The improved software would be even better at improving itself, leading to what I. J. Good called an "intelligence explosion" and Vernor Vinge called a "singularity".
+  Chunk: It is difficult or impossible to reliably evaluate whether an advanced AI is sentient (has the ability to feel), and if so, to what degree. But if there is a significant chance that a given machine ca...
 
-  Rank 2: Score: 0.9727
-  Chunk: AI developers argue that this is the only way to deliver valuable applications and have developed several techniques that attempt to preserve privacy while still obtaining the data, such as data aggregation, de-identification and differential privacy. Since 2016, some privacy experts, such as Cynthia Dwork, have begun to view privacy in terms of fairness. Brian Christian wrote that experts have pivoted "from the question of 'what they know' to the question of 'what they're doing with it'." Generative AI is often trained on unlicensed copyrighted works, including in domains such as images or computer code; the output is then used under the rationale of "fair use". Experts disagree about how well and under what circumstances this rationale will hold up in courts of law; relevant factors may include "the purpose and character of the use of the copyrighted work" and "the effect upon the potential market for the copyrighted work". Website owners who do not wish to have their content scraped can indicate it in a "robots.txt" file. In 2023, leading authors (including John Grisham and Jonathan Franzen) sued AI companies for using their work to train generative AI. Another discussed approach is to envision a separate sui generis system of protection for creations generated by AI to ensure fair attribution and compensation for human authors. The commercial AI scene is dominated by Big Tech companies such as Alphabet Inc., Amazon, Apple Inc., Meta Platforms, and Microsoft. Some of these players already own the vast majority of existing cloud infrastructure and computing power from data centers, allowing them to entrench further in the marketplace.
+  Rank 2: Score: 0.9716
+  Chunk: AI developers argue that this is the only way to deliver valuable applications and have developed several techniques that attempt to preserve privacy while still obtaining the data, such as data aggre...
 
-  Rank 3: Score: 0.9683
-  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine ethics; while almost all artificial intelligence researchers are familiar with Asimov's laws through popular culture, they generally consider the laws useless for many reasons, one of which is their ambiguity. Several works use AI to force us to confront the fundamental question of what makes us human, showing us artificial beings that have the ability to feel, and thus to suffer. This appears in Karel Čapek's R.U.R., the films A.I. Artificial Intelligence and Ex Machina, as well as the novel Do Androids Dream of Electric Sheep?, by Philip K. Dick. Dick considers the idea that our understanding of human subjectivity is altered by technology created with artificial intelligence. The two most widely used textbooks in 2023 (see the Open Syllabus): The four most widely used AI textbooks in 2008: Other textbooks: Artificial general intelligence Intelligent agent Recursive self-improvement Planning Computer vision General game playing Knowledge reasoning Natural language processing Robotics AI safety Machine learning Symbolic Deep learning Bayesian networks Evolutionary algorithms Hybrid intelligent systems Systems integration Bioinformatics Deepfake Earth sciences Finance Generative AI Art Audio Music Art Audio Music Government Healthcare Mental health Mental health Industry Translation Military Physics Projects Art Audio Music Mental health Artificial consciousness Chinese room Friendly AI Control problem/Takeover Ethics Existential risk Turing test Uncanny valley Timeline Progress AI winter AI boom Glossary v t e Respect the dignity of individual people Connect with other people sincerely, openly, and inclusively Care for the wellbeing of everyone Protect social values, justice, and the public interest Artificial intelligence and elections – Use and impact of AI on political elections Artificial intelligence content detection – Software to detect AI-generated content
+  Rank 3: Score: 0.9681
+  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine et...
 
 ==================================================
 
+URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: word, Normalization Method: min-max
-Average Score: 0.9895
+Average Score: 0.9893
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: In a 2022 Ipsos survey, attitudes towards AI varied greatly by country; 78% of Chinese citizens, but only 35% of Americans, agreed that "products and services using AI have more benefits than drawbacks". A 2023 Reuters/Ipsos poll found that 61% of Americans agree, and 22% disagree, that AI poses risks to humanity. In a 2023 Fox News poll, 35% of Americans thought it "very important", and an additional 41% thought it "somewhat important", for the federal government to regulate AI, versus 13% responding "not very important" and 8% responding "not at all important". In November 2023, the first global AI Safety Summit was held in Bletchley Park in the UK to discuss the near and far term risks of AI and the possibility of mandatory and voluntary regulatory frameworks. 28 countries including the United States, China, and the European Union issued a declaration at the start of the summit, calling for international co-operation to manage the challenges and risks of artificial intelligence. In May 2024 at the AI Seoul Summit, 16 global AI tech companies agreed to safety commitments on the development of AI. The study of mechanical or "formal" reasoning began with philosophers and mathematicians in antiquity. The study of logic led directly to Alan Turing's theory of computation, which suggested that a machine, by shuffling symbols as simple as "0" and "1", could simulate any conceivable form of mathematical reasoning. This, along with concurrent discoveries in cybernetics, information theory and neurobiology, led researchers to consider the possibility of building an "electronic brain". They developed several areas of research that would become part of AI, such as McCullouch and Pitts design for "artificial neurons" in 1943, and Turing's influential 1950 paper 'Computing Machinery and Intelligence', which introduced the Turing test and showed that "machine intelligence" was plausible.
+  Chunk: In a 2022 Ipsos survey, attitudes towards AI varied greatly by country; 78% of Chinese citizens, but only 35% of Americans, agreed that "products and services using AI have more benefits than drawback...
 
-  Rank 2: Score: 0.9947
-  Chunk: However, technologies cannot improve exponentially indefinitely, and typically follow an S-shaped curve, slowing when they reach the physical limits of what the technology can do. Robot designer Hans Moravec, cyberneticist Kevin Warwick and inventor Ray Kurzweil have predicted that humans and machines may merge in the future into cyborgs that are more capable and powerful than either. This idea, called transhumanism, has roots in the writings of Aldous Huxley and Robert Ettinger. Edward Fredkin argues that "artificial intelligence is the next step in evolution", an idea first proposed by Samuel Butler's "Darwin among the Machines" as far back as 1863, and expanded upon by George Dyson in his 1998 book Darwin Among the Machines: The Evolution of Global Intelligence. Arguments for decomputing have been raised by Dan McQuillan (Resisting AI: An Anti-fascist Approach to Artificial Intelligence, 2022), meaning an opposition to the sweeping application and expansion of artificial intelligence. Similar to degrowth the approach criticizes AI as an outgrowth of the systemic issues and capitalist world we live in. Arguing that a different future is possible, in which distance between people is reduced and not increased to AI intermediaries. Thought-capable artificial beings have appeared as storytelling devices since antiquity, and have been a persistent theme in science fiction. A common trope in these works began with Mary Shelley's Frankenstein, where a human creation becomes a threat to its masters. This includes such works as Arthur C. Clarke's and Stanley Kubrick's 2001: A Space Odyssey (both 1968), with HAL 9000, the murderous computer in charge of the Discovery One spaceship, as well as The Terminator (1984) and The Matrix (1999). In contrast, the rare loyal robots such as Gort from The Day the Earth Stood Still (1951) and Bishop from Aliens (1986) are less prominent in popular culture.
+  Rank 2: Score: 0.9942
+  Chunk: However, technologies cannot improve exponentially indefinitely, and typically follow an S-shaped curve, slowing when they reach the physical limits of what the technology can do. Robot designer Hans ...
 
   Rank 3: Score: 0.9737
-  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The regulatory and policy landscape for AI is an emerging issue in jurisdictions globally. According to AI Index at Stanford, the annual number of AI-related laws passed in the 127 survey countries jumped from one passed in 2016 to 37 passed in 2022 alone. Between 2016 and 2020, more than 30 countries adopted dedicated strategies for AI. Most EU member states had released national AI strategies, as had Canada, China, India, Japan, Mauritius, the Russian Federation, Saudi Arabia, United Arab Emirates, U.S., and Vietnam. Others were in the process of elaborating their own AI strategy, including Bangladesh, Malaysia and Tunisia. The Global Partnership on Artificial Intelligence was launched in June 2020, stating a need for AI to be developed in accordance with human rights and democratic values, to ensure public confidence and trust in the technology. Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher published a joint statement in November 2021 calling for a government commission to regulate AI. In 2023, OpenAI leaders published recommendations for the governance of superintelligence, which they believe may happen in less than 10 years. In 2023, the United Nations also launched an advisory body to provide recommendations on AI governance; the body comprises technology company executives, governments officials and academics. In 2024, the Council of Europe created the first international legally binding treaty on AI, called the "Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law". It was adopted by the European Union, the United States, the United Kingdom, and other signatories.
+  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The re...
 
 ==================================================
 
+URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: word, Normalization Method: soft
-Average Score: 0.9895
+Average Score: 0.9893
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: In a 2022 Ipsos survey, attitudes towards AI varied greatly by country; 78% of Chinese citizens, but only 35% of Americans, agreed that "products and services using AI have more benefits than drawbacks". A 2023 Reuters/Ipsos poll found that 61% of Americans agree, and 22% disagree, that AI poses risks to humanity. In a 2023 Fox News poll, 35% of Americans thought it "very important", and an additional 41% thought it "somewhat important", for the federal government to regulate AI, versus 13% responding "not very important" and 8% responding "not at all important". In November 2023, the first global AI Safety Summit was held in Bletchley Park in the UK to discuss the near and far term risks of AI and the possibility of mandatory and voluntary regulatory frameworks. 28 countries including the United States, China, and the European Union issued a declaration at the start of the summit, calling for international co-operation to manage the challenges and risks of artificial intelligence. In May 2024 at the AI Seoul Summit, 16 global AI tech companies agreed to safety commitments on the development of AI. The study of mechanical or "formal" reasoning began with philosophers and mathematicians in antiquity. The study of logic led directly to Alan Turing's theory of computation, which suggested that a machine, by shuffling symbols as simple as "0" and "1", could simulate any conceivable form of mathematical reasoning. This, along with concurrent discoveries in cybernetics, information theory and neurobiology, led researchers to consider the possibility of building an "electronic brain". They developed several areas of research that would become part of AI, such as McCullouch and Pitts design for "artificial neurons" in 1943, and Turing's influential 1950 paper 'Computing Machinery and Intelligence', which introduced the Turing test and showed that "machine intelligence" was plausible.
+  Chunk: In a 2022 Ipsos survey, attitudes towards AI varied greatly by country; 78% of Chinese citizens, but only 35% of Americans, agreed that "products and services using AI have more benefits than drawback...
 
-  Rank 2: Score: 0.9947
-  Chunk: However, technologies cannot improve exponentially indefinitely, and typically follow an S-shaped curve, slowing when they reach the physical limits of what the technology can do. Robot designer Hans Moravec, cyberneticist Kevin Warwick and inventor Ray Kurzweil have predicted that humans and machines may merge in the future into cyborgs that are more capable and powerful than either. This idea, called transhumanism, has roots in the writings of Aldous Huxley and Robert Ettinger. Edward Fredkin argues that "artificial intelligence is the next step in evolution", an idea first proposed by Samuel Butler's "Darwin among the Machines" as far back as 1863, and expanded upon by George Dyson in his 1998 book Darwin Among the Machines: The Evolution of Global Intelligence. Arguments for decomputing have been raised by Dan McQuillan (Resisting AI: An Anti-fascist Approach to Artificial Intelligence, 2022), meaning an opposition to the sweeping application and expansion of artificial intelligence. Similar to degrowth the approach criticizes AI as an outgrowth of the systemic issues and capitalist world we live in. Arguing that a different future is possible, in which distance between people is reduced and not increased to AI intermediaries. Thought-capable artificial beings have appeared as storytelling devices since antiquity, and have been a persistent theme in science fiction. A common trope in these works began with Mary Shelley's Frankenstein, where a human creation becomes a threat to its masters. This includes such works as Arthur C. Clarke's and Stanley Kubrick's 2001: A Space Odyssey (both 1968), with HAL 9000, the murderous computer in charge of the Discovery One spaceship, as well as The Terminator (1984) and The Matrix (1999). In contrast, the rare loyal robots such as Gort from The Day the Earth Stood Still (1951) and Bishop from Aliens (1986) are less prominent in popular culture.
+  Rank 2: Score: 0.9942
+  Chunk: However, technologies cannot improve exponentially indefinitely, and typically follow an S-shaped curve, slowing when they reach the physical limits of what the technology can do. Robot designer Hans ...
 
   Rank 3: Score: 0.9737
-  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The regulatory and policy landscape for AI is an emerging issue in jurisdictions globally. According to AI Index at Stanford, the annual number of AI-related laws passed in the 127 survey countries jumped from one passed in 2016 to 37 passed in 2022 alone. Between 2016 and 2020, more than 30 countries adopted dedicated strategies for AI. Most EU member states had released national AI strategies, as had Canada, China, India, Japan, Mauritius, the Russian Federation, Saudi Arabia, United Arab Emirates, U.S., and Vietnam. Others were in the process of elaborating their own AI strategy, including Bangladesh, Malaysia and Tunisia. The Global Partnership on Artificial Intelligence was launched in June 2020, stating a need for AI to be developed in accordance with human rights and democratic values, to ensure public confidence and trust in the technology. Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher published a joint statement in November 2021 calling for a government commission to regulate AI. In 2023, OpenAI leaders published recommendations for the governance of superintelligence, which they believe may happen in less than 10 years. In 2023, the United Nations also launched an advisory body to provide recommendations on AI governance; the body comprises technology company executives, governments officials and academics. In 2024, the Council of Europe created the first international legally binding treaty on AI, called the "Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law". It was adopted by the European Union, the United States, the United Kingdom, and other signatories.
+  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The re...
 
 ==================================================
 
+URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: word, Normalization Method: log
-Average Score: 0.9902
+Average Score: 0.9900
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: In a 2022 Ipsos survey, attitudes towards AI varied greatly by country; 78% of Chinese citizens, but only 35% of Americans, agreed that "products and services using AI have more benefits than drawbacks". A 2023 Reuters/Ipsos poll found that 61% of Americans agree, and 22% disagree, that AI poses risks to humanity. In a 2023 Fox News poll, 35% of Americans thought it "very important", and an additional 41% thought it "somewhat important", for the federal government to regulate AI, versus 13% responding "not very important" and 8% responding "not at all important". In November 2023, the first global AI Safety Summit was held in Bletchley Park in the UK to discuss the near and far term risks of AI and the possibility of mandatory and voluntary regulatory frameworks. 28 countries including the United States, China, and the European Union issued a declaration at the start of the summit, calling for international co-operation to manage the challenges and risks of artificial intelligence. In May 2024 at the AI Seoul Summit, 16 global AI tech companies agreed to safety commitments on the development of AI. The study of mechanical or "formal" reasoning began with philosophers and mathematicians in antiquity. The study of logic led directly to Alan Turing's theory of computation, which suggested that a machine, by shuffling symbols as simple as "0" and "1", could simulate any conceivable form of mathematical reasoning. This, along with concurrent discoveries in cybernetics, information theory and neurobiology, led researchers to consider the possibility of building an "electronic brain". They developed several areas of research that would become part of AI, such as McCullouch and Pitts design for "artificial neurons" in 1943, and Turing's influential 1950 paper 'Computing Machinery and Intelligence', which introduced the Turing test and showed that "machine intelligence" was plausible.
+  Chunk: In a 2022 Ipsos survey, attitudes towards AI varied greatly by country; 78% of Chinese citizens, but only 35% of Americans, agreed that "products and services using AI have more benefits than drawback...
 
-  Rank 2: Score: 0.9950
-  Chunk: However, technologies cannot improve exponentially indefinitely, and typically follow an S-shaped curve, slowing when they reach the physical limits of what the technology can do. Robot designer Hans Moravec, cyberneticist Kevin Warwick and inventor Ray Kurzweil have predicted that humans and machines may merge in the future into cyborgs that are more capable and powerful than either. This idea, called transhumanism, has roots in the writings of Aldous Huxley and Robert Ettinger. Edward Fredkin argues that "artificial intelligence is the next step in evolution", an idea first proposed by Samuel Butler's "Darwin among the Machines" as far back as 1863, and expanded upon by George Dyson in his 1998 book Darwin Among the Machines: The Evolution of Global Intelligence. Arguments for decomputing have been raised by Dan McQuillan (Resisting AI: An Anti-fascist Approach to Artificial Intelligence, 2022), meaning an opposition to the sweeping application and expansion of artificial intelligence. Similar to degrowth the approach criticizes AI as an outgrowth of the systemic issues and capitalist world we live in. Arguing that a different future is possible, in which distance between people is reduced and not increased to AI intermediaries. Thought-capable artificial beings have appeared as storytelling devices since antiquity, and have been a persistent theme in science fiction. A common trope in these works began with Mary Shelley's Frankenstein, where a human creation becomes a threat to its masters. This includes such works as Arthur C. Clarke's and Stanley Kubrick's 2001: A Space Odyssey (both 1968), with HAL 9000, the murderous computer in charge of the Discovery One spaceship, as well as The Terminator (1984) and The Matrix (1999). In contrast, the rare loyal robots such as Gort from The Day the Earth Stood Still (1951) and Bishop from Aliens (1986) are less prominent in popular culture.
+  Rank 2: Score: 0.9946
+  Chunk: However, technologies cannot improve exponentially indefinitely, and typically follow an S-shaped curve, slowing when they reach the physical limits of what the technology can do. Robot designer Hans ...
 
   Rank 3: Score: 0.9755
-  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The regulatory and policy landscape for AI is an emerging issue in jurisdictions globally. According to AI Index at Stanford, the annual number of AI-related laws passed in the 127 survey countries jumped from one passed in 2016 to 37 passed in 2022 alone. Between 2016 and 2020, more than 30 countries adopted dedicated strategies for AI. Most EU member states had released national AI strategies, as had Canada, China, India, Japan, Mauritius, the Russian Federation, Saudi Arabia, United Arab Emirates, U.S., and Vietnam. Others were in the process of elaborating their own AI strategy, including Bangladesh, Malaysia and Tunisia. The Global Partnership on Artificial Intelligence was launched in June 2020, stating a need for AI to be developed in accordance with human rights and democratic values, to ensure public confidence and trust in the technology. Henry Kissinger, Eric Schmidt, and Daniel Huttenlocher published a joint statement in November 2021 calling for a government commission to regulate AI. In 2023, OpenAI leaders published recommendations for the governance of superintelligence, which they believe may happen in less than 10 years. In 2023, the United Nations also launched an advisory body to provide recommendations on AI governance; the body comprises technology company executives, governments officials and academics. In 2024, the Council of Europe created the first international legally binding treaty on AI, called the "Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law". It was adopted by the European Union, the United States, the United Kingdom, and other signatories.
+  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The re...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Machine_learning
+Similarity Method: bm25, Normalization Method: min-max
+Average Score: 0.9883
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering n...
+
+  Rank 2: Score: 0.9943
+  Chunk: Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some cl...
+
+  Rank 3: Score: 0.9706
+  Chunk: However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Machine_learning
+Similarity Method: bm25, Normalization Method: soft
+Average Score: 0.9883
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering n...
+
+  Rank 2: Score: 0.9943
+  Chunk: Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some cl...
+
+  Rank 3: Score: 0.9706
+  Chunk: However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Machine_learning
+Similarity Method: bm25, Normalization Method: log
+Average Score: 0.9941
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering n...
+
+  Rank 2: Score: 0.9971
+  Chunk: Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some cl...
+
+  Rank 3: Score: 0.9852
+  Chunk: However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Machine_learning
+Similarity Method: tfidf, Normalization Method: min-max
+Average Score: 0.8990
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some cl...
+
+  Rank 2: Score: 0.8849
+  Chunk: Analytical and computational techniques derived from deep-rooted physics of disordered systems can be extended to large-scale problems, including machine learning, e.g., to analyse the weight space of...
+
+  Rank 3: Score: 0.8122
+  Chunk: Machine learning has been used as a strategy to update the evidence related to a systematic review and increased reviewer burden related to the growth of biomedical literature. While it has improved w...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Machine_learning
+Similarity Method: tfidf, Normalization Method: soft
+Average Score: 0.8990
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some cl...
+
+  Rank 2: Score: 0.8849
+  Chunk: Analytical and computational techniques derived from deep-rooted physics of disordered systems can be extended to large-scale problems, including machine learning, e.g., to analyse the weight space of...
+
+  Rank 3: Score: 0.8122
+  Chunk: Machine learning has been used as a strategy to update the evidence related to a systematic review and increased reviewer burden related to the growth of biomedical literature. While it has improved w...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Machine_learning
+Similarity Method: tfidf, Normalization Method: log
+Average Score: 0.9054
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some cl...
+
+  Rank 2: Score: 0.8925
+  Chunk: Analytical and computational techniques derived from deep-rooted physics of disordered systems can be extended to large-scale problems, including machine learning, e.g., to analyse the weight space of...
+
+  Rank 3: Score: 0.8237
+  Chunk: Machine learning has been used as a strategy to update the evidence related to a systematic review and increased reviewer burden related to the growth of biomedical literature. While it has improved w...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Machine_learning
+Similarity Method: word, Normalization Method: min-max
+Average Score: 0.9914
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: Sparse dictionary learning is a feature learning method where a training example is represented as a linear combination of basis functions and assumed to be a sparse matrix. The method is strongly NP-...
+
+  Rank 2: Score: 0.9955
+  Chunk: However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data...
+
+  Rank 3: Score: 0.9788
+  Chunk: Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering n...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Machine_learning
+Similarity Method: word, Normalization Method: soft
+Average Score: 0.9914
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: Sparse dictionary learning is a feature learning method where a training example is represented as a linear combination of basis functions and assumed to be a sparse matrix. The method is strongly NP-...
+
+  Rank 2: Score: 0.9955
+  Chunk: However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data...
+
+  Rank 3: Score: 0.9788
+  Chunk: Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering n...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Machine_learning
+Similarity Method: word, Normalization Method: log
+Average Score: 0.9919
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: Sparse dictionary learning is a feature learning method where a training example is represented as a linear combination of basis functions and assumed to be a sparse matrix. The method is strongly NP-...
+
+  Rank 2: Score: 0.9957
+  Chunk: However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data...
+
+  Rank 3: Score: 0.9800
+  Chunk: Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering n...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Deep_learning
+Similarity Method: bm25, Normalization Method: min-max
+Average Score: 0.9199
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: In 2006, publications by Geoff Hinton, Ruslan Salakhutdinov, Osindero and Teh deep belief networks were developed for generative modeling. They are trained by training one restricted Boltzmann machine...
+
+  Rank 2: Score: 0.9110
+  Chunk: Deep learning has been successfully applied to inverse problems such as denoising, super-resolution, inpainting, and film colorization. These applications include learning methods such as "Shrinkage F...
+
+  Rank 3: Score: 0.8487
+  Chunk: As of 2008, researchers at The University of Texas at Austin (UT) developed a machine learning framework called Training an Agent Manually via Evaluative Reinforcement, or TAMER, which proposed new me...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Deep_learning
+Similarity Method: bm25, Normalization Method: soft
+Average Score: 0.9199
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: In 2006, publications by Geoff Hinton, Ruslan Salakhutdinov, Osindero and Teh deep belief networks were developed for generative modeling. They are trained by training one restricted Boltzmann machine...
+
+  Rank 2: Score: 0.9110
+  Chunk: Deep learning has been successfully applied to inverse problems such as denoising, super-resolution, inpainting, and film colorization. These applications include learning methods such as "Shrinkage F...
+
+  Rank 3: Score: 0.8487
+  Chunk: As of 2008, researchers at The University of Texas at Austin (UT) developed a machine learning framework called Training an Agent Manually via Evaluative Reinforcement, or TAMER, which proposed new me...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Deep_learning
+Similarity Method: bm25, Normalization Method: log
+Average Score: 0.9592
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: In 2006, publications by Geoff Hinton, Ruslan Salakhutdinov, Osindero and Teh deep belief networks were developed for generative modeling. They are trained by training one restricted Boltzmann machine...
+
+  Rank 2: Score: 0.9554
+  Chunk: Deep learning has been successfully applied to inverse problems such as denoising, super-resolution, inpainting, and film colorization. These applications include learning methods such as "Shrinkage F...
+
+  Rank 3: Score: 0.9221
+  Chunk: As of 2008, researchers at The University of Texas at Austin (UT) developed a machine learning framework called Training an Agent Manually via Evaluative Reinforcement, or TAMER, which proposed new me...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Deep_learning
+Similarity Method: tfidf, Normalization Method: min-max
+Average Score: 0.8621
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: In 2006, publications by Geoff Hinton, Ruslan Salakhutdinov, Osindero and Teh deep belief networks were developed for generative modeling. They are trained by training one restricted Boltzmann machine...
+
+  Rank 2: Score: 0.8910
+  Chunk: In further reference to the idea that artistic sensitivity might be inherent in relatively low levels of the cognitive hierarchy, a published series of graphic representations of the internal states o...
+
+  Rank 3: Score: 0.6954
+  Chunk: Deep learning has been successfully applied to inverse problems such as denoising, super-resolution, inpainting, and film colorization. These applications include learning methods such as "Shrinkage F...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Deep_learning
+Similarity Method: tfidf, Normalization Method: soft
+Average Score: 0.8621
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: In 2006, publications by Geoff Hinton, Ruslan Salakhutdinov, Osindero and Teh deep belief networks were developed for generative modeling. They are trained by training one restricted Boltzmann machine...
+
+  Rank 2: Score: 0.8910
+  Chunk: In further reference to the idea that artistic sensitivity might be inherent in relatively low levels of the cognitive hierarchy, a published series of graphic representations of the internal states o...
+
+  Rank 3: Score: 0.6954
+  Chunk: Deep learning has been successfully applied to inverse problems such as denoising, super-resolution, inpainting, and film colorization. These applications include learning methods such as "Shrinkage F...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Deep_learning
+Similarity Method: tfidf, Normalization Method: log
+Average Score: 0.8675
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: In 2006, publications by Geoff Hinton, Ruslan Salakhutdinov, Osindero and Teh deep belief networks were developed for generative modeling. They are trained by training one restricted Boltzmann machine...
+
+  Rank 2: Score: 0.8960
+  Chunk: In further reference to the idea that artistic sensitivity might be inherent in relatively low levels of the cognitive hierarchy, a published series of graphic representations of the internal states o...
+
+  Rank 3: Score: 0.7066
+  Chunk: Deep learning has been successfully applied to inverse problems such as denoising, super-resolution, inpainting, and film colorization. These applications include learning methods such as "Shrinkage F...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Deep_learning
+Similarity Method: word, Normalization Method: min-max
+Average Score: 0.9958
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: Most speech recognition researchers moved away from neural nets to pursue generative modeling. An exception was at SRI International in the late 1990s. Funded by the US government's NSA and DARPA, SRI...
+
+  Rank 2: Score: 0.9974
+  Chunk: A key advance for the deep learning revolution was hardware advances, especially GPU. Some early work dated back to 2004. In 2009, Raina, Madhavan, and Andrew Ng reported a 100M deep belief network tr...
+
+  Rank 3: Score: 0.9900
+  Chunk: Recurrent neural networks (RNN) were further developed in the 1980s. Recurrence is used for sequence processing, and when a recurrent network is unrolled, it mathematically resembles a deep feedforwar...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Deep_learning
+Similarity Method: word, Normalization Method: soft
+Average Score: 0.9958
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: Most speech recognition researchers moved away from neural nets to pursue generative modeling. An exception was at SRI International in the late 1990s. Funded by the US government's NSA and DARPA, SRI...
+
+  Rank 2: Score: 0.9974
+  Chunk: A key advance for the deep learning revolution was hardware advances, especially GPU. Some early work dated back to 2004. In 2009, Raina, Madhavan, and Andrew Ng reported a 100M deep belief network tr...
+
+  Rank 3: Score: 0.9900
+  Chunk: Recurrent neural networks (RNN) were further developed in the 1980s. Recurrence is used for sequence processing, and when a recurrent network is unrolled, it mathematically resembles a deep feedforwar...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Deep_learning
+Similarity Method: word, Normalization Method: log
+Average Score: 0.9961
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: Most speech recognition researchers moved away from neural nets to pursue generative modeling. An exception was at SRI International in the late 1990s. Funded by the US government's NSA and DARPA, SRI...
+
+  Rank 2: Score: 0.9976
+  Chunk: A key advance for the deep learning revolution was hardware advances, especially GPU. Some early work dated back to 2004. In 2009, Raina, Madhavan, and Andrew Ng reported a 100M deep belief network tr...
+
+  Rank 3: Score: 0.9906
+  Chunk: Recurrent neural networks (RNN) were further developed in the 1980s. Recurrence is used for sequence processing, and when a recurrent network is unrolled, it mathematically resembles a deep feedforwar...
 
 ==================================================
 

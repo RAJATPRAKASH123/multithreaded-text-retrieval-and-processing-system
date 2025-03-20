@@ -1,0 +1,78 @@
+classDiagram
+    %% DataExtractor Class
+    class DataExtractor {
+      - int max_words
+      - string chunk_strategy
+      + fetch_content(url: string, retries: int, delay: int, timeout: int) : string
+      + extract_text(html: string) : list~string~
+      + clean_text(text: string) : string
+      + create_chunks(extracted_text: list~string~, strategy: string, overlap: int) : list~string~
+    }
+
+    %% EmbeddingCreator Class
+    class EmbeddingCreator {
+      - string method
+      - string model_name
+      - object vectorizer
+      + __init__(method: string, model_name: string)
+      + create_embeddings(chunks: list~string~) : array or list
+      - _init_worker() : void
+      - _compute_glove_embedding(chunk: string) : np.array
+    }
+
+    %% TextSimilarity Class
+    class TextSimilarity {
+      - string method
+      - object bm25
+      + fit_bm25(chunks: list~string~) : void
+      + fit_tfidf(chunks: list~string~) : void
+      + tokenize_with_bigrams(text: string) : list~string~
+      + compute_similarity(query: string, chunk: string) : float
+    }
+
+    %% MultiThreadedRetriever Class
+    class MultiThreadedRetriever {
+      - np.array query_embedding
+      - list<np.array> chunk_embeddings
+      - list similarity_scores
+      + compute_similarity_for_chunk(idx: int) : void
+      + run() : list~float~
+    }
+
+    %% TextRetriever Class
+    class TextRetriever {
+      - string db_path
+      - list chunks
+      + __init__(method: string, db_path: string)
+      + setup_database() : void
+      + normalize_scores(scores: list~float~, method: string) : list~float~
+      + store_results(query: string, results: list~(string,float)~) : void
+      + retrieve_top_chunks(query: string, chunks: list~string~, query_embedding: np.array, chunk_embeddings: np.array, top_k: int, normalization_method: string) : list~(string,float)~
+    }
+
+    %% PipelineManager Class
+    class PipelineManager {
+      - list urls
+      - string query
+      - int max_words
+      - string chunk_strategy
+      - string embedding_method
+      - string retrieval_method
+      - list all_results_summary
+      - list all_detailed_results
+      + fetch_content_async(session: object, url: string) : string
+      + process_url(url: string) : dict
+      + run_all_urls() : list
+      + plot_results() : void
+      + save_results() : void
+      + run_pipeline() : void
+    }
+
+    %% Relationships
+    DataExtractor "1" --> "*" EmbeddingCreator : "provides chunks for embedding"
+    EmbeddingCreator "1" --> "1" TextSimilarity : "utilizes similarity functions"
+    TextRetriever "1" --> "1" TextSimilarity : "delegates similarity calculations"
+    TextRetriever "1" --> "1" MultiThreadedRetriever : "creates for threaded similarity"
+    PipelineManager "1" --> "*" DataExtractor : "orchestrates extraction using"
+    PipelineManager "1" --> "*" EmbeddingCreator : "orchestrates embedding creation using"
+    PipelineManager "1" --> "*" TextRetriever : "orchestrates retrieval using"

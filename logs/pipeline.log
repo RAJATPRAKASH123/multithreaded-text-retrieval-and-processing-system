@@ -1,0 +1,132 @@
+[https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | min-max -> Avg Score: 0.6940
+[https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | soft -> Avg Score: 0.6940
+[https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | log -> Avg Score: 0.8757
+[https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | min-max -> Avg Score: 0.9783
+[https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | soft -> Avg Score: 0.9783
+[https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | log -> Avg Score: 0.9799
+[https://en.wikipedia.org/wiki/Artificial_intelligence] word | min-max -> Avg Score: 0.9893
+[https://en.wikipedia.org/wiki/Artificial_intelligence] word | soft -> Avg Score: 0.9893
+[https://en.wikipedia.org/wiki/Artificial_intelligence] word | log -> Avg Score: 0.9900
+Pipeline completed successfully.
+2025-03-20 16:35:51 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | min-max -> Avg Score: 0.6940
+2025-03-20 16:35:51 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | soft -> Avg Score: 0.6940
+2025-03-20 16:35:51 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | log -> Avg Score: 0.8757
+2025-03-20 16:35:51 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | min-max -> Avg Score: 0.9783
+2025-03-20 16:35:51 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | soft -> Avg Score: 0.9783
+2025-03-20 16:35:51 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | log -> Avg Score: 0.9799
+2025-03-20 16:36:04 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | min-max -> Avg Score: 0.9893
+2025-03-20 16:36:16 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | soft -> Avg Score: 0.9893
+2025-03-20 16:36:28 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | log -> Avg Score: 0.9900
+2025-03-20 16:36:33 - INFO - Pipeline completed successfully.
+2025-03-20 16:37:08 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | min-max -> Avg Score: 0.9883
+2025-03-20 16:37:08 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | soft -> Avg Score: 0.9883
+2025-03-20 16:37:08 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | log -> Avg Score: 0.9941
+2025-03-20 16:37:08 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | min-max -> Avg Score: 0.8990
+2025-03-20 16:37:08 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | soft -> Avg Score: 0.8990
+2025-03-20 16:37:08 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | log -> Avg Score: 0.9054
+2025-03-20 16:37:20 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | min-max -> Avg Score: 0.9914
+2025-03-20 16:37:31 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | soft -> Avg Score: 0.9914
+2025-03-20 16:37:42 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | log -> Avg Score: 0.9919
+2025-03-20 16:37:43 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | min-max -> Avg Score: 0.6940
+2025-03-20 16:37:43 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | soft -> Avg Score: 0.6940
+2025-03-20 16:37:43 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | log -> Avg Score: 0.8757
+2025-03-20 16:37:43 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | min-max -> Avg Score: 0.9783
+2025-03-20 16:37:43 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | soft -> Avg Score: 0.9783
+2025-03-20 16:37:43 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | log -> Avg Score: 0.9799
+2025-03-20 16:37:55 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | min-max -> Avg Score: 0.9893
+2025-03-20 16:38:06 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | soft -> Avg Score: 0.9893
+2025-03-20 16:38:18 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | log -> Avg Score: 0.9900
+2025-03-20 16:38:18 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | min-max -> Avg Score: 0.9199
+2025-03-20 16:38:18 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | soft -> Avg Score: 0.9199
+2025-03-20 16:38:18 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | log -> Avg Score: 0.9592
+2025-03-20 16:38:18 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | min-max -> Avg Score: 0.8621
+2025-03-20 16:38:19 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | soft -> Avg Score: 0.8621
+2025-03-20 16:38:19 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | log -> Avg Score: 0.8675
+2025-03-20 16:38:30 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | min-max -> Avg Score: 0.9958
+2025-03-20 16:38:42 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | soft -> Avg Score: 0.9958
+2025-03-20 16:38:54 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | log -> Avg Score: 0.9961
+2025-03-20 16:39:08 - INFO - Pipeline completed successfully.
+2025-03-20 16:42:07 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | min-max -> Avg Score: 0.9883
+2025-03-20 16:42:07 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | soft -> Avg Score: 0.9883
+2025-03-20 16:42:07 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | log -> Avg Score: 0.9941
+2025-03-20 16:42:07 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | min-max -> Avg Score: 0.8990
+2025-03-20 16:42:07 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | soft -> Avg Score: 0.8990
+2025-03-20 16:42:07 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | log -> Avg Score: 0.9054
+2025-03-20 16:42:18 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | min-max -> Avg Score: 0.9914
+2025-03-20 16:42:30 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | soft -> Avg Score: 0.9914
+2025-03-20 16:42:41 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | log -> Avg Score: 0.9919
+2025-03-20 16:42:42 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | min-max -> Avg Score: 0.6940
+2025-03-20 16:42:42 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | soft -> Avg Score: 0.6940
+2025-03-20 16:42:42 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | log -> Avg Score: 0.8757
+2025-03-20 16:42:42 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | min-max -> Avg Score: 0.9783
+2025-03-20 16:42:42 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | soft -> Avg Score: 0.9783
+2025-03-20 16:42:42 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | log -> Avg Score: 0.9799
+2025-03-20 16:42:54 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | min-max -> Avg Score: 0.9893
+2025-03-20 16:43:06 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | soft -> Avg Score: 0.9893
+2025-03-20 16:43:17 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | log -> Avg Score: 0.9900
+2025-03-20 16:43:18 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | min-max -> Avg Score: 0.9199
+2025-03-20 16:43:18 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | soft -> Avg Score: 0.9199
+2025-03-20 16:43:18 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | log -> Avg Score: 0.9592
+2025-03-20 16:43:18 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | min-max -> Avg Score: 0.8621
+2025-03-20 16:43:18 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | soft -> Avg Score: 0.8621
+2025-03-20 16:43:18 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | log -> Avg Score: 0.8675
+2025-03-20 16:43:30 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | min-max -> Avg Score: 0.9958
+2025-03-20 16:43:41 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | soft -> Avg Score: 0.9958
+2025-03-20 16:43:52 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | log -> Avg Score: 0.9961
+2025-03-20 16:44:01 - INFO - Pipeline completed successfully.
+2025-03-20 16:44:43 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | min-max -> Avg Score: 0.9199
+2025-03-20 16:44:43 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | soft -> Avg Score: 0.9199
+2025-03-20 16:44:43 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | log -> Avg Score: 0.9592
+2025-03-20 16:44:43 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | min-max -> Avg Score: 0.8621
+2025-03-20 16:44:43 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | soft -> Avg Score: 0.8621
+2025-03-20 16:44:43 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | log -> Avg Score: 0.8675
+2025-03-20 16:44:56 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | min-max -> Avg Score: 0.9958
+2025-03-20 16:45:08 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | soft -> Avg Score: 0.9958
+2025-03-20 16:45:20 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | log -> Avg Score: 0.9961
+2025-03-20 16:45:21 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | min-max -> Avg Score: 0.6940
+2025-03-20 16:45:21 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | soft -> Avg Score: 0.6940
+2025-03-20 16:45:21 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | log -> Avg Score: 0.8757
+2025-03-20 16:45:22 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | min-max -> Avg Score: 0.9783
+2025-03-20 16:45:22 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | soft -> Avg Score: 0.9783
+2025-03-20 16:45:22 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | log -> Avg Score: 0.9799
+2025-03-20 16:45:34 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | min-max -> Avg Score: 0.9893
+2025-03-20 16:45:45 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | soft -> Avg Score: 0.9893
+2025-03-20 16:45:58 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | log -> Avg Score: 0.9900
+2025-03-20 16:45:58 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | min-max -> Avg Score: 0.9883
+2025-03-20 16:45:58 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | soft -> Avg Score: 0.9883
+2025-03-20 16:45:58 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | log -> Avg Score: 0.9941
+2025-03-20 16:45:58 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | min-max -> Avg Score: 0.8990
+2025-03-20 16:45:58 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | soft -> Avg Score: 0.8990
+2025-03-20 16:45:58 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | log -> Avg Score: 0.9054
+2025-03-20 16:46:15 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | min-max -> Avg Score: 0.9914
+2025-03-20 16:46:27 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | soft -> Avg Score: 0.9914
+2025-03-20 16:46:39 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | log -> Avg Score: 0.9919
+2025-03-20 16:46:45 - INFO - Pipeline completed successfully.
+2025-03-20 16:53:18 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | min-max -> Avg Score: 0.9883
+2025-03-20 16:53:18 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | soft -> Avg Score: 0.9883
+2025-03-20 16:53:18 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] bm25 | log -> Avg Score: 0.9941
+2025-03-20 16:53:18 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | min-max -> Avg Score: 0.8990
+2025-03-20 16:53:18 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | soft -> Avg Score: 0.8990
+2025-03-20 16:53:18 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] tfidf | log -> Avg Score: 0.9054
+2025-03-20 16:53:31 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | min-max -> Avg Score: 0.9914
+2025-03-20 16:53:42 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | soft -> Avg Score: 0.9914
+2025-03-20 16:53:54 - INFO - [https://en.wikipedia.org/wiki/Machine_learning] word | log -> Avg Score: 0.9919
+2025-03-20 16:53:55 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | min-max -> Avg Score: 0.9199
+2025-03-20 16:53:55 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | soft -> Avg Score: 0.9199
+2025-03-20 16:53:55 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] bm25 | log -> Avg Score: 0.9592
+2025-03-20 16:53:55 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | min-max -> Avg Score: 0.8621
+2025-03-20 16:53:55 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | soft -> Avg Score: 0.8621
+2025-03-20 16:53:55 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] tfidf | log -> Avg Score: 0.8675
+2025-03-20 16:54:07 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | min-max -> Avg Score: 0.9958
+2025-03-20 16:54:18 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | soft -> Avg Score: 0.9958
+2025-03-20 16:54:30 - INFO - [https://en.wikipedia.org/wiki/Deep_learning] word | log -> Avg Score: 0.9961
+2025-03-20 16:54:31 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | min-max -> Avg Score: 0.6940
+2025-03-20 16:54:31 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | soft -> Avg Score: 0.6940
+2025-03-20 16:54:31 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] bm25 | log -> Avg Score: 0.8757
+2025-03-20 16:54:31 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | min-max -> Avg Score: 0.9783
+2025-03-20 16:54:31 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | soft -> Avg Score: 0.9783
+2025-03-20 16:54:31 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] tfidf | log -> Avg Score: 0.9799
+2025-03-20 16:54:43 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | min-max -> Avg Score: 0.9893
+2025-03-20 16:54:55 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | soft -> Avg Score: 0.9893
+2025-03-20 16:55:06 - INFO - [https://en.wikipedia.org/wiki/Artificial_intelligence] word | log -> Avg Score: 0.9900
+2025-03-20 16:55:13 - INFO - Pipeline completed successfully.
