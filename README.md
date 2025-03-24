@@ -32,33 +32,101 @@ This project implements a **class-based, multi-threaded** system that simulates 
 
 ```
 MultiThreadedTextRetrievalSystem/
-├── cache.json                # Cache file for storing processed URL results
-├── data/                     # (Optional) Raw data files, sample HTML pages, etc.
-├── db/
-│   └── retrieval_results.db  # SQLite database storing retrieval scores
-├── logs/
-│   ├── error_log.txt         # Error logs (from extraction, etc.)
-│   ├── output.log            # (Optional) Additional output logs
-│   └── pipeline.log          # Main pipeline log (RotatingFileHandler)
-├── plots/
-│   ├── heatmap_scores.png    # Heatmap of average normalized scores
-│   └── grouped_bar_scores.png# Grouped bar chart for comparisons
-├── results/
-│   └── results.txt           # Detailed retrieval results
-├── src/
-│   ├── __init__.py           # Marks src as a Python package
-│   ├── cache_manager.py      # Manages caching logic (cache.json file handling)
-│   ├── embedding.py          # EmbeddingCreator class (GloVe/TF-IDF/BM25 logic)
-│   ├── extraction.py         # DataExtractor class for HTML parsing & chunking
-│   ├── logger.py             # Logger class (with RotatingFileHandler)
-│   ├── processing.py         # (Optional) Async text processing functions
-│   ├── retrieval.py          # TextRetriever & MultiThreadedRetriever classes
-│   ├── similarity.py         # Lower-level similarity utilities (e.g., cosine similarity)
-│   └── text_similarity.py    # TextSimilarity class (BM25, TF-IDF, word-based similarity)
-├── main.py                   # Entry point (PipelineManager)
-├── requirements.txt          # Python dependencies
-├── setup.sh                  # Script to install dependencies and run the system
-└── README.md                 # Project overview, setup instructions, etc.
+multithreaded-text-retrieval-system/
+│── services/
+│   ├── extraction-service/
+│   │   ├── src/
+│   │   │   ├── main.py
+│   │   │   ├── extraction.py
+│   │   │   ├── logger.py
+│   │   │   ├── config.py
+│   │   │   ├── cache_manager.py
+│   │   │   └── exceptions.py
+│   │   ├── tests/
+│   │   │   └── test_extraction.py
+│   │   ├── requirements.txt
+│   │   ├── Dockerfile
+│   │   ├── README.md
+│   │   ├── .env
+│   │   └── setup.sh
+│   ├── embedding-service/
+│   │   ├── src/
+│   │   │   ├── main.py
+│   │   │   ├── embedding.py
+│   │   │   ├── logger.py
+│   │   │   ├── config.py
+│   │   │   └── exceptions.py
+│   │   ├── tests/
+│   │   │   └── test_embedding.py
+│   │   ├── requirements.txt
+│   │   ├── Dockerfile
+│   │   ├── README.md
+│   │   ├── .env
+│   │   └── setup.sh
+│   ├── retrieval-service/
+│   │   ├── src/
+│   │   │   ├── main.py
+│   │   │   ├── retrieval.py
+│   │   │   ├── similarity.py
+│   │   │   ├── logger.py
+│   │   │   ├── config.py
+│   │   │   └── exceptions.py
+│   │   ├── tests/
+│   │   │   └── test_retrieval.py
+│   │   ├── requirements.txt
+│   │   ├── Dockerfile
+│   │   ├── README.md
+│   │   ├── .env
+│   │   └── setup.sh
+│   ├── pipeline-service/
+│   │   ├── src/
+│   │   │   ├── main.py
+│   │   │   ├── pipeline_manager.py
+│   │   │   ├── logger.py
+│   │   │   ├── config.py
+│   │   │   └── exceptions.py
+│   │   ├── tests/
+│   │   │   └── test_pipeline.py
+│   │   ├── requirements.txt
+│   │   ├── Dockerfile
+│   │   ├── README.md
+│   │   ├── .env
+│   │   └── setup.sh
+│
+│── shared/
+│   ├── src/
+│   │   ├── logger.py
+│   │   ├── config.py
+│   │   ├── cache_manager.py
+│   │   └── exceptions.py
+│   ├── tests/
+│   │   └── test_logger.py
+│   ├── requirements.txt
+│   └── README.md
+│
+│── config/
+│   ├── config.yaml
+│   ├── docker-compose.yml
+│   └── .env
+│
+│── logs/                       # Log files are written here
+│   ├── extraction.log
+│   ├── embedding.log
+│   ├── retrieval.log
+│   └── pipeline.log
+│
+│── scripts/
+│   ├── deploy.sh
+│   ├── start_services.sh
+│   └── stop_services.sh
+│
+│── tests/
+│   └── test_end_to_end.py
+│
+│── .gitignore
+│── README.md
+│── setup.sh
+
 
 ```
 
