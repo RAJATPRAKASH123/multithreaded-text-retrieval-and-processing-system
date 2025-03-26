@@ -3,14 +3,19 @@ import gensim.downloader as api
 from sklearn.feature_extraction.text import TfidfVectorizer
 from rank_bm25 import BM25Okapi
 from scipy.spatial.distance import cosine
+from src.logger import Logger
+from src.embedding import EmbeddingException
+
 
 class TextSimilarity:
     """Computes similarity using BM25, TF-IDF, or Word Embeddings (GloVe)."""
 
-    def __init__(self, method="bm25"):
+    def __init__(self, method="bm25", model_name="glove-wiki-gigaword-50"):
         """
-        :param method: "word" (GloVe), "tfidf" (TF-IDF), or "bm25" (BM25).
+        :param method: "word" (GloVe), "tfidf" (TF-IDF), "bm25" (BM25), or "dense" (alias for glove).
+        :param model_name: Name of the pre-trained model to load.
         """
+        self.logger = Logger("logs/text_similarity.log", verbose=False)
         self.method = method.lower()
         if self.method == "word":
             self.word_model = api.load("glove-wiki-gigaword-50")
@@ -21,8 +26,15 @@ class TextSimilarity:
         elif self.method == "bm25":
             self.bm25 = None
             self.sentences = []
+        elif self.method == "dense":
+            try:
+                self.word_model = api.load(model_name)
+                self.logger.log(f"Model '{model_name}' loaded successfully with method '{self.method}'.", level="INFO")
+            except Exception as e:
+                raise EmbeddingException(f"Failed to load model '{model_name}': {e}")
         else:
-            raise ValueError("Invalid method. Choose 'word', 'tfidf', or 'bm25'.")
+            raise ValueError("Invalid method. Choose 'word', 'tfidf', 'bm25', or 'dense'.")
+        self.logger.log(f"TextSimilarity initialized with method: {self.method}", level="INFO")
 
     def tokenize_with_bigrams(self, text):
         """Tokenizes text into words and bigrams."""
@@ -81,3 +93,8 @@ class TextSimilarity:
             chunk for chunk in chunks 
             if len(chunk.split()) > 10 and not any(word in chunk.lower() for word in stop_words)
         ]
+
+def cosine_similarity(vec1, vec2):
+    if np.linalg.norm(vec1) == 0 or np.linalg.norm(vec2) == 0:
+        return 0.0
+    return 1 - cosine(vec1, vec2)

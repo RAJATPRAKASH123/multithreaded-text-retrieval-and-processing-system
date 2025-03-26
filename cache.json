@@ -1,0 +1,956 @@
+{
+    "https://en.wikipedia.org/wiki/Machine_learning": {
+        "url_results_summary": [
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "bm25",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9882785816669438
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "bm25",
+                "Normalization Method": "soft",
+                "Average Score": 0.9882784575756225
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "bm25",
+                "Normalization Method": "log",
+                "Average Score": 0.9941313416603692
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "min-max",
+                "Average Score": 0.8990365344987944
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "soft",
+                "Average Score": 0.8990312240217566
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "log",
+                "Average Score": 0.9053705738132883
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "word",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9914330296099935
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "word",
+                "Normalization Method": "soft",
+                "Average Score": 0.9914286439780703
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "word",
+                "Normalization Method": "log",
+                "Average Score": 0.9919275675137014
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "dense",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9914330296099935
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "dense",
+                "Normalization Method": "soft",
+                "Average Score": 0.9914286439780703
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "dense",
+                "Normalization Method": "log",
+                "Average Score": 0.9919275675137014
+            }
+        ],
+        "url_detailed_results": [
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "bm25",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9882785816669438,
+                "Top Chunks": [
+                    [
+                        "recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental conditions optimal outcomes machine learning becoming useful tool investigate predict evacuation decision making large scale small scale disasters different solutions tested predict householders decide evacuate wildfires hurricanes applications focusing pre evacuation decisions building fires although machine learning transformative fields programs often fail deliver expected results reasons numerous lack suitable data lack access data data bias privacy problems badly chosen tasks algorithms wrong tools people lack resources evaluation problems black box theory poses another yet significant challenge black box refers situation algorithm process producing output entirely opaque meaning even coders algorithm audit pattern machine extracted data house lords select committee claimed intelligence system could substantial impact individual life would considered acceptable unless provided full satisfactory explanation decisions makes 2018 car uber failed detect pedestrian killed collision attempts use machine learning healthcare ibm watson system failed deliver even years time billions dollars invested microsoft bing chat chatbot reported produce hostile offensive response users",
+                        1.0
+                    ],
+                    [
+                        "tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks measured p improves experience definition tasks machine learning concerned offers fundamentally operational definition rather defining field cognitive terms follows alan turing proposal paper computing machinery intelligence question machines think replaced question machines thinking entities machine learning two objectives one classify data based models developed purpose make predictions future outcomes based models hypothetical algorithm specific classifying data may use computer vision moles coupled supervised learning order train classify cancerous moles machine learning algorithm stock trading may inform trader future potential predictions scientific endeavor machine learning grew quest artificial intelligence ai early days ai academic discipline researchers interested machines learn data attempted approach problem various symbolic methods well termed neural networks mostly perceptrons models later found reinventions generalized linear models statistics probabilistic reasoning also employed especially automated medical diagnosis",
+                        0.9942602693905344
+                    ],
+                    [
+                        "however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come dominate ai statistics favor work learning continue within ai leading inductive logic programming ilp statistical line research outside field ai proper pattern recognition information retrieval neural networks research abandoned ai computer science around time line continued outside field connectionism researchers disciplines including john hopfield david rumelhart geoffrey hinton main success came reinvention backpropagation machine learning ml reorganized recognized field started flourish 1990s field changed goal achieving artificial intelligence tackling solvable problems practical nature shifted focus away symbolic approaches inherited ai toward methods models borrowed statistics fuzzy logic probability theory close connection machine learning compression system predicts posterior probabilities sequence given entire history used optimal data compression using arithmetic coding output distribution conversely optimal compressor used prediction finding symbol compresses best given previous history equivalence used justification using data compression benchmark general intelligence",
+                        0.9705754756102969
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "bm25",
+                "Normalization Method": "soft",
+                "Average Score": 0.9882784575756225,
+                "Top Chunks": [
+                    [
+                        "recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental conditions optimal outcomes machine learning becoming useful tool investigate predict evacuation decision making large scale small scale disasters different solutions tested predict householders decide evacuate wildfires hurricanes applications focusing pre evacuation decisions building fires although machine learning transformative fields programs often fail deliver expected results reasons numerous lack suitable data lack access data data bias privacy problems badly chosen tasks algorithms wrong tools people lack resources evaluation problems black box theory poses another yet significant challenge black box refers situation algorithm process producing output entirely opaque meaning even coders algorithm audit pattern machine extracted data house lords select committee claimed intelligence system could substantial impact individual life would considered acceptable unless provided full satisfactory explanation decisions makes 2018 car uber failed detect pedestrian killed collision attempts use machine learning healthcare ibm watson system failed deliver even years time billions dollars invested microsoft bing chat chatbot reported produce hostile offensive response users",
+                        0.9999998744369012
+                    ],
+                    [
+                        "tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks measured p improves experience definition tasks machine learning concerned offers fundamentally operational definition rather defining field cognitive terms follows alan turing proposal paper computing machinery intelligence question machines think replaced question machines thinking entities machine learning two objectives one classify data based models developed purpose make predictions future outcomes based models hypothetical algorithm specific classifying data may use computer vision moles coupled supervised learning order train classify cancerous moles machine learning algorithm stock trading may inform trader future potential predictions scientific endeavor machine learning grew quest artificial intelligence ai early days ai academic discipline researchers interested machines learn data attempted approach problem various symbolic methods well termed neural networks mostly perceptrons models later found reinventions generalized linear models statistics probabilistic reasoning also employed especially automated medical diagnosis",
+                        0.9942601445481339
+                    ],
+                    [
+                        "however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come dominate ai statistics favor work learning continue within ai leading inductive logic programming ilp statistical line research outside field ai proper pattern recognition information retrieval neural networks research abandoned ai computer science around time line continued outside field connectionism researchers disciplines including john hopfield david rumelhart geoffrey hinton main success came reinvention backpropagation machine learning ml reorganized recognized field started flourish 1990s field changed goal achieving artificial intelligence tackling solvable problems practical nature shifted focus away symbolic approaches inherited ai toward methods models borrowed statistics fuzzy logic probability theory close connection machine learning compression system predicts posterior probabilities sequence given entire history used optimal data compression using arithmetic coding output distribution conversely optimal compressor used prediction finding symbol compresses best given previous history equivalence used justification using data compression benchmark general intelligence",
+                        0.9705753537418326
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "bm25",
+                "Normalization Method": "log",
+                "Average Score": 0.9941313416603692,
+                "Top Chunks": [
+                    [
+                        "recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental conditions optimal outcomes machine learning becoming useful tool investigate predict evacuation decision making large scale small scale disasters different solutions tested predict householders decide evacuate wildfires hurricanes applications focusing pre evacuation decisions building fires although machine learning transformative fields programs often fail deliver expected results reasons numerous lack suitable data lack access data data bias privacy problems badly chosen tasks algorithms wrong tools people lack resources evaluation problems black box theory poses another yet significant challenge black box refers situation algorithm process producing output entirely opaque meaning even coders algorithm audit pattern machine extracted data house lords select committee claimed intelligence system could substantial impact individual life would considered acceptable unless provided full satisfactory explanation decisions makes 2018 car uber failed detect pedestrian killed collision attempts use machine learning healthcare ibm watson system failed deliver even years time billions dollars invested microsoft bing chat chatbot reported produce hostile offensive response users",
+                        1.0
+                    ],
+                    [
+                        "tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks measured p improves experience definition tasks machine learning concerned offers fundamentally operational definition rather defining field cognitive terms follows alan turing proposal paper computing machinery intelligence question machines think replaced question machines thinking entities machine learning two objectives one classify data based models developed purpose make predictions future outcomes based models hypothetical algorithm specific classifying data may use computer vision moles coupled supervised learning order train classify cancerous moles machine learning algorithm stock trading may inform trader future potential predictions scientific endeavor machine learning grew quest artificial intelligence ai early days ai academic discipline researchers interested machines learn data attempted approach problem various symbolic methods well termed neural networks mostly perceptrons models later found reinventions generalized linear models statistics probabilistic reasoning also employed especially automated medical diagnosis",
+                        0.9971492689900896
+                    ],
+                    [
+                        "however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come dominate ai statistics favor work learning continue within ai leading inductive logic programming ilp statistical line research outside field ai proper pattern recognition information retrieval neural networks research abandoned ai computer science around time line continued outside field connectionism researchers disciplines including john hopfield david rumelhart geoffrey hinton main success came reinvention backpropagation machine learning ml reorganized recognized field started flourish 1990s field changed goal achieving artificial intelligence tackling solvable problems practical nature shifted focus away symbolic approaches inherited ai toward methods models borrowed statistics fuzzy logic probability theory close connection machine learning compression system predicts posterior probabilities sequence given entire history used optimal data compression using arithmetic coding output distribution conversely optimal compressor used prediction finding symbol compresses best given previous history equivalence used justification using data compression benchmark general intelligence",
+                        0.9852447559910179
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "min-max",
+                "Average Score": 0.8990365344987944,
+                "Top Chunks": [
+                    [
+                        "tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks measured p improves experience definition tasks machine learning concerned offers fundamentally operational definition rather defining field cognitive terms follows alan turing proposal paper computing machinery intelligence question machines think replaced question machines thinking entities machine learning two objectives one classify data based models developed purpose make predictions future outcomes based models hypothetical algorithm specific classifying data may use computer vision moles coupled supervised learning order train classify cancerous moles machine learning algorithm stock trading may inform trader future potential predictions scientific endeavor machine learning grew quest artificial intelligence ai early days ai academic discipline researchers interested machines learn data attempted approach problem various symbolic methods well termed neural networks mostly perceptrons models later found reinventions generalized linear models statistics probabilistic reasoning also employed especially automated medical diagnosis",
+                        1.0
+                    ],
+                    [
+                        "analytical computational techniques derived physics disordered systems extended problems including machine learning analyse weight space deep neural networks statistical physics thus finding applications area medical diagnostics core objective learner generalize experience generalization context ability learning machine perform accurately new unseen experienced learning data set training examples come generally unknown probability distribution considered representative space occurrences learner build general model space enables produce sufficiently accurate predictions new cases computational analysis machine learning algorithms performance branch theoretical computer science known computational learning theory via probably approximately correct learning model training sets finite future uncertain learning theory usually yield guarantees performance algorithms instead probabilistic bounds performance quite common decomposition one way quantify generalization error best performance context generalization complexity hypothesis match complexity function underlying data hypothesis less complex function model fitted data complexity model increased response training error decreases hypothesis complex model subject overfitting generalization poorer",
+                        0.8848806030224996
+                    ],
+                    [
+                        "machine learning used strategy update evidence related systematic review increased reviewer burden related growth biomedical literature improved training sets yet developed sufficiently reduce workload burden without limiting necessary sensitivity findings research explainable ai xai interpretable ai explainable machine learning xml artificial intelligence ai humans understand decisions predictions made ai contrasts black box concept machine learning even designers explain ai arrived specific decision refining mental models users systems dismantling misconceptions xai promises help users perform effectively xai may implementation social right explanation settling bad overly complex theory gerrymandered fit past training data known overfitting many systems attempt reduce overfitting rewarding theory accordance well fits data penalizing theory accordance complex theory learners also disappoint learning wrong lesson toy example image classifier trained pictures brown horses black cats might conclude brown patches likely horses example unlike humans current image classifiers often primarily make judgments spatial relationship components picture learn relationships pixels humans oblivious still correlate images certain types real objects modifying patterns legitimate image result adversarial images system misclassifies",
+                        0.8122290004738838
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "soft",
+                "Average Score": 0.8990312240217566,
+                "Top Chunks": [
+                    [
+                        "tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks measured p improves experience definition tasks machine learning concerned offers fundamentally operational definition rather defining field cognitive terms follows alan turing proposal paper computing machinery intelligence question machines think replaced question machines thinking entities machine learning two objectives one classify data based models developed purpose make predictions future outcomes based models hypothetical algorithm specific classifying data may use computer vision moles coupled supervised learning order train classify cancerous moles machine learning algorithm stock trading may inform trader future potential predictions scientific endeavor machine learning grew quest artificial intelligence ai early days ai academic discipline researchers interested machines learn data attempted approach problem various symbolic methods well termed neural networks mostly perceptrons models later found reinventions generalized linear models statistics probabilistic reasoning also employed especially automated medical diagnosis",
+                        0.9999940931465696
+                    ],
+                    [
+                        "analytical computational techniques derived physics disordered systems extended problems including machine learning analyse weight space deep neural networks statistical physics thus finding applications area medical diagnostics core objective learner generalize experience generalization context ability learning machine perform accurately new unseen experienced learning data set training examples come generally unknown probability distribution considered representative space occurrences learner build general model space enables produce sufficiently accurate predictions new cases computational analysis machine learning algorithms performance branch theoretical computer science known computational learning theory via probably approximately correct learning model training sets finite future uncertain learning theory usually yield guarantees performance algorithms instead probabilistic bounds performance quite common decomposition one way quantify generalization error best performance context generalization complexity hypothesis match complexity function underlying data hypothesis less complex function model fitted data complexity model increased response training error decreases hypothesis complex model subject overfitting generalization poorer",
+                        0.8848753761624741
+                    ],
+                    [
+                        "machine learning used strategy update evidence related systematic review increased reviewer burden related growth biomedical literature improved training sets yet developed sufficiently reduce workload burden without limiting necessary sensitivity findings research explainable ai xai interpretable ai explainable machine learning xml artificial intelligence ai humans understand decisions predictions made ai contrasts black box concept machine learning even designers explain ai arrived specific decision refining mental models users systems dismantling misconceptions xai promises help users perform effectively xai may implementation social right explanation settling bad overly complex theory gerrymandered fit past training data known overfitting many systems attempt reduce overfitting rewarding theory accordance well fits data penalizing theory accordance complex theory learners also disappoint learning wrong lesson toy example image classifier trained pictures brown horses black cats might conclude brown patches likely horses example unlike humans current image classifiers often primarily make judgments spatial relationship components picture learn relationships pixels humans oblivious still correlate images certain types real objects modifying patterns legitimate image result adversarial images system misclassifies",
+                        0.8122242027562261
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "log",
+                "Average Score": 0.9053705738132883,
+                "Top Chunks": [
+                    [
+                        "tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks measured p improves experience definition tasks machine learning concerned offers fundamentally operational definition rather defining field cognitive terms follows alan turing proposal paper computing machinery intelligence question machines think replaced question machines thinking entities machine learning two objectives one classify data based models developed purpose make predictions future outcomes based models hypothetical algorithm specific classifying data may use computer vision moles coupled supervised learning order train classify cancerous moles machine learning algorithm stock trading may inform trader future potential predictions scientific endeavor machine learning grew quest artificial intelligence ai early days ai academic discipline researchers interested machines learn data attempted approach problem various symbolic methods well termed neural networks mostly perceptrons models later found reinventions generalized linear models statistics probabilistic reasoning also employed especially automated medical diagnosis",
+                        1.0
+                    ],
+                    [
+                        "analytical computational techniques derived physics disordered systems extended problems including machine learning analyse weight space deep neural networks statistical physics thus finding applications area medical diagnostics core objective learner generalize experience generalization context ability learning machine perform accurately new unseen experienced learning data set training examples come generally unknown probability distribution considered representative space occurrences learner build general model space enables produce sufficiently accurate predictions new cases computational analysis machine learning algorithms performance branch theoretical computer science known computational learning theory via probably approximately correct learning model training sets finite future uncertain learning theory usually yield guarantees performance algorithms instead probabilistic bounds performance quite common decomposition one way quantify generalization error best performance context generalization complexity hypothesis match complexity function underlying data hypothesis less complex function model fitted data complexity model increased response training error decreases hypothesis complex model subject overfitting generalization poorer",
+                        0.8924573668027141
+                    ],
+                    [
+                        "machine learning used strategy update evidence related systematic review increased reviewer burden related growth biomedical literature improved training sets yet developed sufficiently reduce workload burden without limiting necessary sensitivity findings research explainable ai xai interpretable ai explainable machine learning xml artificial intelligence ai humans understand decisions predictions made ai contrasts black box concept machine learning even designers explain ai arrived specific decision refining mental models users systems dismantling misconceptions xai promises help users perform effectively xai may implementation social right explanation settling bad overly complex theory gerrymandered fit past training data known overfitting many systems attempt reduce overfitting rewarding theory accordance well fits data penalizing theory accordance complex theory learners also disappoint learning wrong lesson toy example image classifier trained pictures brown horses black cats might conclude brown patches likely horses example unlike humans current image classifiers often primarily make judgments spatial relationship components picture learn relationships pixels humans oblivious still correlate images certain types real objects modifying patterns legitimate image result adversarial images system misclassifies",
+                        0.8236543546371508
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "word",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9914330296099935,
+                "Top Chunks": [
+                    [
+                        "sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix method strongly difficult solve approximately popular heuristic method sparse dictionary learning algorithm sparse dictionary learning applied several contexts classification problem determine class previously unseen training example belongs dictionary class already built new training example associated class best sparsely represented corresponding dictionary sparse dictionary learning also applied image key idea clean image patch sparsely represented image dictionary noise data mining anomaly detection also known outlier detection identification rare items events observations raise suspicions differing significantly majority data typically anomalous items represent issue bank fraud structural defect medical problems errors text anomalies referred outliers novelties noise deviations exceptions particular context abuse network intrusion detection interesting objects often rare objects unexpected bursts inactivity pattern adhere common statistical definition outlier rare object many outlier detection methods particular unsupervised algorithms fail data unless aggregated appropriately instead cluster analysis algorithm may able detect formed patterns",
+                        1.0
+                    ],
+                    [
+                        "however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come dominate ai statistics favor work learning continue within ai leading inductive logic programming ilp statistical line research outside field ai proper pattern recognition information retrieval neural networks research abandoned ai computer science around time line continued outside field connectionism researchers disciplines including john hopfield david rumelhart geoffrey hinton main success came reinvention backpropagation machine learning ml reorganized recognized field started flourish 1990s field changed goal achieving artificial intelligence tackling solvable problems practical nature shifted focus away symbolic approaches inherited ai toward methods models borrowed statistics fuzzy logic probability theory close connection machine learning compression system predicts posterior probabilities sequence given entire history used optimal data compression using arithmetic coding output distribution conversely optimal compressor used prediction finding symbol compresses best given previous history equivalence used justification using data compression benchmark general intelligence",
+                        0.99548528148504
+                    ],
+                    [
+                        "recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental conditions optimal outcomes machine learning becoming useful tool investigate predict evacuation decision making large scale small scale disasters different solutions tested predict householders decide evacuate wildfires hurricanes applications focusing pre evacuation decisions building fires although machine learning transformative fields programs often fail deliver expected results reasons numerous lack suitable data lack access data data bias privacy problems badly chosen tasks algorithms wrong tools people lack resources evaluation problems black box theory poses another yet significant challenge black box refers situation algorithm process producing output entirely opaque meaning even coders algorithm audit pattern machine extracted data house lords select committee claimed intelligence system could substantial impact individual life would considered acceptable unless provided full satisfactory explanation decisions makes 2018 car uber failed detect pedestrian killed collision attempts use machine learning healthcare ibm watson system failed deliver even years time billions dollars invested microsoft bing chat chatbot reported produce hostile offensive response users",
+                        0.9788138073449405
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "word",
+                "Normalization Method": "soft",
+                "Average Score": 0.9914286439780703,
+                "Top Chunks": [
+                    [
+                        "sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix method strongly difficult solve approximately popular heuristic method sparse dictionary learning algorithm sparse dictionary learning applied several contexts classification problem determine class previously unseen training example belongs dictionary class already built new training example associated class best sparsely represented corresponding dictionary sparse dictionary learning also applied image key idea clean image patch sparsely represented image dictionary noise data mining anomaly detection also known outlier detection identification rare items events observations raise suspicions differing significantly majority data typically anomalous items represent issue bank fraud structural defect medical problems errors text anomalies referred outliers novelties noise deviations exceptions particular context abuse network intrusion detection interesting objects often rare objects unexpected bursts inactivity pattern adhere common statistical definition outlier rare object many outlier detection methods particular unsupervised algorithms fail data unless aggregated appropriately instead cluster analysis algorithm may able detect formed patterns",
+                        0.9999955764718421
+                    ],
+                    [
+                        "however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come dominate ai statistics favor work learning continue within ai leading inductive logic programming ilp statistical line research outside field ai proper pattern recognition information retrieval neural networks research abandoned ai computer science around time line continued outside field connectionism researchers disciplines including john hopfield david rumelhart geoffrey hinton main success came reinvention backpropagation machine learning ml reorganized recognized field started flourish 1990s field changed goal achieving artificial intelligence tackling solvable problems practical nature shifted focus away symbolic approaches inherited ai toward methods models borrowed statistics fuzzy logic probability theory close connection machine learning compression system predicts posterior probabilities sequence given entire history used optimal data compression using arithmetic coding output distribution conversely optimal compressor used prediction finding symbol compresses best given previous history equivalence used justification using data compression benchmark general intelligence",
+                        0.9954808779278665
+                    ],
+                    [
+                        "recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental conditions optimal outcomes machine learning becoming useful tool investigate predict evacuation decision making large scale small scale disasters different solutions tested predict householders decide evacuate wildfires hurricanes applications focusing pre evacuation decisions building fires although machine learning transformative fields programs often fail deliver expected results reasons numerous lack suitable data lack access data data bias privacy problems badly chosen tasks algorithms wrong tools people lack resources evaluation problems black box theory poses another yet significant challenge black box refers situation algorithm process producing output entirely opaque meaning even coders algorithm audit pattern machine extracted data house lords select committee claimed intelligence system could substantial impact individual life would considered acceptable unless provided full satisfactory explanation decisions makes 2018 car uber failed detect pedestrian killed collision attempts use machine learning healthcare ibm watson system failed deliver even years time billions dollars invested microsoft bing chat chatbot reported produce hostile offensive response users",
+                        0.9788094775345024
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "word",
+                "Normalization Method": "log",
+                "Average Score": 0.9919275675137014,
+                "Top Chunks": [
+                    [
+                        "sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix method strongly difficult solve approximately popular heuristic method sparse dictionary learning algorithm sparse dictionary learning applied several contexts classification problem determine class previously unseen training example belongs dictionary class already built new training example associated class best sparsely represented corresponding dictionary sparse dictionary learning also applied image key idea clean image patch sparsely represented image dictionary noise data mining anomaly detection also known outlier detection identification rare items events observations raise suspicions differing significantly majority data typically anomalous items represent issue bank fraud structural defect medical problems errors text anomalies referred outliers novelties noise deviations exceptions particular context abuse network intrusion detection interesting objects often rare objects unexpected bursts inactivity pattern adhere common statistical definition outlier rare object many outlier detection methods particular unsupervised algorithms fail data unless aggregated appropriately instead cluster analysis algorithm may able detect formed patterns",
+                        1.0
+                    ],
+                    [
+                        "however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come dominate ai statistics favor work learning continue within ai leading inductive logic programming ilp statistical line research outside field ai proper pattern recognition information retrieval neural networks research abandoned ai computer science around time line continued outside field connectionism researchers disciplines including john hopfield david rumelhart geoffrey hinton main success came reinvention backpropagation machine learning ml reorganized recognized field started flourish 1990s field changed goal achieving artificial intelligence tackling solvable problems practical nature shifted focus away symbolic approaches inherited ai toward methods models borrowed statistics fuzzy logic probability theory close connection machine learning compression system predicts posterior probabilities sequence given entire history used optimal data compression using arithmetic coding output distribution conversely optimal compressor used prediction finding symbol compresses best given previous history equivalence used justification using data compression benchmark general intelligence",
+                        0.9957492659908193
+                    ],
+                    [
+                        "recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental conditions optimal outcomes machine learning becoming useful tool investigate predict evacuation decision making large scale small scale disasters different solutions tested predict householders decide evacuate wildfires hurricanes applications focusing pre evacuation decisions building fires although machine learning transformative fields programs often fail deliver expected results reasons numerous lack suitable data lack access data data bias privacy problems badly chosen tasks algorithms wrong tools people lack resources evaluation problems black box theory poses another yet significant challenge black box refers situation algorithm process producing output entirely opaque meaning even coders algorithm audit pattern machine extracted data house lords select committee claimed intelligence system could substantial impact individual life would considered acceptable unless provided full satisfactory explanation decisions makes 2018 car uber failed detect pedestrian killed collision attempts use machine learning healthcare ibm watson system failed deliver even years time billions dollars invested microsoft bing chat chatbot reported produce hostile offensive response users",
+                        0.9800334365502851
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "dense",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9914330296099935,
+                "Top Chunks": [
+                    [
+                        "sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix method strongly difficult solve approximately popular heuristic method sparse dictionary learning algorithm sparse dictionary learning applied several contexts classification problem determine class previously unseen training example belongs dictionary class already built new training example associated class best sparsely represented corresponding dictionary sparse dictionary learning also applied image key idea clean image patch sparsely represented image dictionary noise data mining anomaly detection also known outlier detection identification rare items events observations raise suspicions differing significantly majority data typically anomalous items represent issue bank fraud structural defect medical problems errors text anomalies referred outliers novelties noise deviations exceptions particular context abuse network intrusion detection interesting objects often rare objects unexpected bursts inactivity pattern adhere common statistical definition outlier rare object many outlier detection methods particular unsupervised algorithms fail data unless aggregated appropriately instead cluster analysis algorithm may able detect formed patterns",
+                        1.0
+                    ],
+                    [
+                        "however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come dominate ai statistics favor work learning continue within ai leading inductive logic programming ilp statistical line research outside field ai proper pattern recognition information retrieval neural networks research abandoned ai computer science around time line continued outside field connectionism researchers disciplines including john hopfield david rumelhart geoffrey hinton main success came reinvention backpropagation machine learning ml reorganized recognized field started flourish 1990s field changed goal achieving artificial intelligence tackling solvable problems practical nature shifted focus away symbolic approaches inherited ai toward methods models borrowed statistics fuzzy logic probability theory close connection machine learning compression system predicts posterior probabilities sequence given entire history used optimal data compression using arithmetic coding output distribution conversely optimal compressor used prediction finding symbol compresses best given previous history equivalence used justification using data compression benchmark general intelligence",
+                        0.99548528148504
+                    ],
+                    [
+                        "recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental conditions optimal outcomes machine learning becoming useful tool investigate predict evacuation decision making large scale small scale disasters different solutions tested predict householders decide evacuate wildfires hurricanes applications focusing pre evacuation decisions building fires although machine learning transformative fields programs often fail deliver expected results reasons numerous lack suitable data lack access data data bias privacy problems badly chosen tasks algorithms wrong tools people lack resources evaluation problems black box theory poses another yet significant challenge black box refers situation algorithm process producing output entirely opaque meaning even coders algorithm audit pattern machine extracted data house lords select committee claimed intelligence system could substantial impact individual life would considered acceptable unless provided full satisfactory explanation decisions makes 2018 car uber failed detect pedestrian killed collision attempts use machine learning healthcare ibm watson system failed deliver even years time billions dollars invested microsoft bing chat chatbot reported produce hostile offensive response users",
+                        0.9788138073449405
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "dense",
+                "Normalization Method": "soft",
+                "Average Score": 0.9914286439780703,
+                "Top Chunks": [
+                    [
+                        "sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix method strongly difficult solve approximately popular heuristic method sparse dictionary learning algorithm sparse dictionary learning applied several contexts classification problem determine class previously unseen training example belongs dictionary class already built new training example associated class best sparsely represented corresponding dictionary sparse dictionary learning also applied image key idea clean image patch sparsely represented image dictionary noise data mining anomaly detection also known outlier detection identification rare items events observations raise suspicions differing significantly majority data typically anomalous items represent issue bank fraud structural defect medical problems errors text anomalies referred outliers novelties noise deviations exceptions particular context abuse network intrusion detection interesting objects often rare objects unexpected bursts inactivity pattern adhere common statistical definition outlier rare object many outlier detection methods particular unsupervised algorithms fail data unless aggregated appropriately instead cluster analysis algorithm may able detect formed patterns",
+                        0.9999955764718421
+                    ],
+                    [
+                        "however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come dominate ai statistics favor work learning continue within ai leading inductive logic programming ilp statistical line research outside field ai proper pattern recognition information retrieval neural networks research abandoned ai computer science around time line continued outside field connectionism researchers disciplines including john hopfield david rumelhart geoffrey hinton main success came reinvention backpropagation machine learning ml reorganized recognized field started flourish 1990s field changed goal achieving artificial intelligence tackling solvable problems practical nature shifted focus away symbolic approaches inherited ai toward methods models borrowed statistics fuzzy logic probability theory close connection machine learning compression system predicts posterior probabilities sequence given entire history used optimal data compression using arithmetic coding output distribution conversely optimal compressor used prediction finding symbol compresses best given previous history equivalence used justification using data compression benchmark general intelligence",
+                        0.9954808779278665
+                    ],
+                    [
+                        "recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental conditions optimal outcomes machine learning becoming useful tool investigate predict evacuation decision making large scale small scale disasters different solutions tested predict householders decide evacuate wildfires hurricanes applications focusing pre evacuation decisions building fires although machine learning transformative fields programs often fail deliver expected results reasons numerous lack suitable data lack access data data bias privacy problems badly chosen tasks algorithms wrong tools people lack resources evaluation problems black box theory poses another yet significant challenge black box refers situation algorithm process producing output entirely opaque meaning even coders algorithm audit pattern machine extracted data house lords select committee claimed intelligence system could substantial impact individual life would considered acceptable unless provided full satisfactory explanation decisions makes 2018 car uber failed detect pedestrian killed collision attempts use machine learning healthcare ibm watson system failed deliver even years time billions dollars invested microsoft bing chat chatbot reported produce hostile offensive response users",
+                        0.9788094775345024
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Machine_learning",
+                "Similarity Method": "dense",
+                "Normalization Method": "log",
+                "Average Score": 0.9919275675137014,
+                "Top Chunks": [
+                    [
+                        "sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix method strongly difficult solve approximately popular heuristic method sparse dictionary learning algorithm sparse dictionary learning applied several contexts classification problem determine class previously unseen training example belongs dictionary class already built new training example associated class best sparsely represented corresponding dictionary sparse dictionary learning also applied image key idea clean image patch sparsely represented image dictionary noise data mining anomaly detection also known outlier detection identification rare items events observations raise suspicions differing significantly majority data typically anomalous items represent issue bank fraud structural defect medical problems errors text anomalies referred outliers novelties noise deviations exceptions particular context abuse network intrusion detection interesting objects often rare objects unexpected bursts inactivity pattern adhere common statistical definition outlier rare object many outlier detection methods particular unsupervised algorithms fail data unless aggregated appropriately instead cluster analysis algorithm may able detect formed patterns",
+                        1.0
+                    ],
+                    [
+                        "however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come dominate ai statistics favor work learning continue within ai leading inductive logic programming ilp statistical line research outside field ai proper pattern recognition information retrieval neural networks research abandoned ai computer science around time line continued outside field connectionism researchers disciplines including john hopfield david rumelhart geoffrey hinton main success came reinvention backpropagation machine learning ml reorganized recognized field started flourish 1990s field changed goal achieving artificial intelligence tackling solvable problems practical nature shifted focus away symbolic approaches inherited ai toward methods models borrowed statistics fuzzy logic probability theory close connection machine learning compression system predicts posterior probabilities sequence given entire history used optimal data compression using arithmetic coding output distribution conversely optimal compressor used prediction finding symbol compresses best given previous history equivalence used justification using data compression benchmark general intelligence",
+                        0.9957492659908193
+                    ],
+                    [
+                        "recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental conditions optimal outcomes machine learning becoming useful tool investigate predict evacuation decision making large scale small scale disasters different solutions tested predict householders decide evacuate wildfires hurricanes applications focusing pre evacuation decisions building fires although machine learning transformative fields programs often fail deliver expected results reasons numerous lack suitable data lack access data data bias privacy problems badly chosen tasks algorithms wrong tools people lack resources evaluation problems black box theory poses another yet significant challenge black box refers situation algorithm process producing output entirely opaque meaning even coders algorithm audit pattern machine extracted data house lords select committee claimed intelligence system could substantial impact individual life would considered acceptable unless provided full satisfactory explanation decisions makes 2018 car uber failed detect pedestrian killed collision attempts use machine learning healthcare ibm watson system failed deliver even years time billions dollars invested microsoft bing chat chatbot reported produce hostile offensive response users",
+                        0.9800334365502851
+                    ]
+                ]
+            }
+        ]
+    },
+    "https://en.wikipedia.org/wiki/Deep_learning": {
+        "url_results_summary": [
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "bm25",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9199937341852552
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "bm25",
+                "Normalization Method": "soft",
+                "Average Score": 0.9199936518681223
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "bm25",
+                "Normalization Method": "log",
+                "Average Score": 0.9592096448435904
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "min-max",
+                "Average Score": 0.8621212842612511
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "soft",
+                "Average Score": 0.8621140141210949
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "log",
+                "Average Score": 0.8675260082871259
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "word",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9958328239103538
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "word",
+                "Normalization Method": "soft",
+                "Average Score": 0.9958280063390785
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "word",
+                "Normalization Method": "log",
+                "Average Score": 0.9960541236623683
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "dense",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9958328239103538
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "dense",
+                "Normalization Method": "soft",
+                "Average Score": 0.9958280063390785
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "dense",
+                "Normalization Method": "log",
+                "Average Score": 0.9960541236623683
+            }
+        ],
+        "url_detailed_results": [
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "bm25",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9199937341852552,
+                "Top Chunks": [
+                    [
+                        "2006 publications geoff hinton ruslan salakhutdinov osindero teh deep belief networks developed generative modeling trained training one restricted boltzmann machine freezing training another one top first one optionally using supervised backpropagation could model probability distributions distribution mnist images convergence slow impact deep learning industry began early 2000s cnns already processed estimated 10 20 checks written us according yann lecun industrial applications deep learning speech recognition started around 2010",
+                        1.0
+                    ],
+                    [
+                        "deep learning successfully applied inverse problems denoising inpainting film colorization applications include learning methods shrinkage fields effective image restoration trains image dataset deep image prior trains image needs restoration deep learning successfully applied financial fraud detection tax evasion detection laundering november 2023 researchers google deepmind lawrence berkeley national laboratory announced developed ai system known gnome system contributed materials science discovering 2 million new materials within relatively short timeframe gnome employs deep learning techniques efficiently explore potential material structures achieving significant increase identification stable inorganic crystal structures system predictions validated autonomous robotic experiments demonstrating noteworthy success rate 71 data newly discovered materials publicly available materials project database offering researchers opportunity identify materials desired properties various applications development implications future scientific discovery integration ai material science research potentially expediting material innovation reducing costs product development use ai deep learning suggests possibility minimizing eliminating manual lab experiments allowing scientists focus design analysis unique compounds united states department defense applied deep learning train robots new tasks observation",
+                        0.9110638038068005
+                    ],
+                    [
+                        "2008 researchers university texas austin ut developed machine learning framework called training agent manually via evaluative reinforcement tamer proposed new methods robots computer programs learn perform tasks interacting human instructor first developed tamer new algorithm called deep tamer later introduced 2018 collaboration army research laboratory arl ut researchers deep tamer used deep learning provide robot ability learn new tasks observation using deep tamer robot learned task human trainer watching video streams observing human perform task robot later practiced task help coaching trainer provided feedback good job bad job deep learning attracted criticism comment cases outside field computer science main criticism concerns lack theory surrounding methods learning common deep architectures implemented using gradient descent however theory surrounding algorithms contrastive divergence less clear converge fast approximating deep learning methods often looked black box confirmations done empirically rather theoretically",
+                        0.8489173987489651
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "bm25",
+                "Normalization Method": "soft",
+                "Average Score": 0.9199936518681223,
+                "Top Chunks": [
+                    [
+                        "2006 publications geoff hinton ruslan salakhutdinov osindero teh deep belief networks developed generative modeling trained training one restricted boltzmann machine freezing training another one top first one optionally using supervised backpropagation could model probability distributions distribution mnist images convergence slow impact deep learning industry began early 2000s cnns already processed estimated 10 20 checks written us according yann lecun industrial applications deep learning speech recognition started around 2010",
+                        0.9999999105242462
+                    ],
+                    [
+                        "deep learning successfully applied inverse problems denoising inpainting film colorization applications include learning methods shrinkage fields effective image restoration trains image dataset deep image prior trains image needs restoration deep learning successfully applied financial fraud detection tax evasion detection laundering november 2023 researchers google deepmind lawrence berkeley national laboratory announced developed ai system known gnome system contributed materials science discovering 2 million new materials within relatively short timeframe gnome employs deep learning techniques efficiently explore potential material structures achieving significant increase identification stable inorganic crystal structures system predictions validated autonomous robotic experiments demonstrating noteworthy success rate 71 data newly discovered materials publicly available materials project database offering researchers opportunity identify materials desired properties various applications development implications future scientific discovery integration ai material science research potentially expediting material innovation reducing costs product development use ai deep learning suggests possibility minimizing eliminating manual lab experiments allowing scientists focus design analysis unique compounds united states department defense applied deep learning train robots new tasks observation",
+                        0.9110637222886799
+                    ],
+                    [
+                        "2008 researchers university texas austin ut developed machine learning framework called training agent manually via evaluative reinforcement tamer proposed new methods robots computer programs learn perform tasks interacting human instructor first developed tamer new algorithm called deep tamer later introduced 2018 collaboration army research laboratory arl ut researchers deep tamer used deep learning provide robot ability learn new tasks observation using deep tamer robot learned task human trainer watching video streams observing human perform task robot later practiced task help coaching trainer provided feedback good job bad job deep learning attracted criticism comment cases outside field computer science main criticism concerns lack theory surrounding methods learning common deep architectures implemented using gradient descent however theory surrounding algorithms contrastive divergence less clear converge fast approximating deep learning methods often looked black box confirmations done empirically rather theoretically",
+                        0.8489173227914409
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "bm25",
+                "Normalization Method": "log",
+                "Average Score": 0.9592096448435904,
+                "Top Chunks": [
+                    [
+                        "2006 publications geoff hinton ruslan salakhutdinov osindero teh deep belief networks developed generative modeling trained training one restricted boltzmann machine freezing training another one top first one optionally using supervised backpropagation could model probability distributions distribution mnist images convergence slow impact deep learning industry began early 2000s cnns already processed estimated 10 20 checks written us according yann lecun industrial applications deep learning speech recognition started around 2010",
+                        1.0
+                    ],
+                    [
+                        "deep learning successfully applied inverse problems denoising inpainting film colorization applications include learning methods shrinkage fields effective image restoration trains image dataset deep image prior trains image needs restoration deep learning successfully applied financial fraud detection tax evasion detection laundering november 2023 researchers google deepmind lawrence berkeley national laboratory announced developed ai system known gnome system contributed materials science discovering 2 million new materials within relatively short timeframe gnome employs deep learning techniques efficiently explore potential material structures achieving significant increase identification stable inorganic crystal structures system predictions validated autonomous robotic experiments demonstrating noteworthy success rate 71 data newly discovered materials publicly available materials project database offering researchers opportunity identify materials desired properties various applications development implications future scientific discovery integration ai material science research potentially expediting material innovation reducing costs product development use ai deep learning suggests possibility minimizing eliminating manual lab experiments allowing scientists focus design analysis unique compounds united states department defense applied deep learning train robots new tasks observation",
+                        0.9554419556009864
+                    ],
+                    [
+                        "2008 researchers university texas austin ut developed machine learning framework called training agent manually via evaluative reinforcement tamer proposed new methods robots computer programs learn perform tasks interacting human instructor first developed tamer new algorithm called deep tamer later introduced 2018 collaboration army research laboratory arl ut researchers deep tamer used deep learning provide robot ability learn new tasks observation using deep tamer robot learned task human trainer watching video streams observing human perform task robot later practiced task help coaching trainer provided feedback good job bad job deep learning attracted criticism comment cases outside field computer science main criticism concerns lack theory surrounding methods learning common deep architectures implemented using gradient descent however theory surrounding algorithms contrastive divergence less clear converge fast approximating deep learning methods often looked black box confirmations done empirically rather theoretically",
+                        0.9221869789297846
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "min-max",
+                "Average Score": 0.8621212842612511,
+                "Top Chunks": [
+                    [
+                        "2006 publications geoff hinton ruslan salakhutdinov osindero teh deep belief networks developed generative modeling trained training one restricted boltzmann machine freezing training another one top first one optionally using supervised backpropagation could model probability distributions distribution mnist images convergence slow impact deep learning industry began early 2000s cnns already processed estimated 10 20 checks written us according yann lecun industrial applications deep learning speech recognition started around 2010",
+                        1.0
+                    ],
+                    [
+                        "reference idea artistic sensitivity might inherent relatively low levels cognitive hierarchy published series graphic representations internal states deep layers neural networks attempting discern within essentially random data images trained demonstrate visual appeal original research notice received well comments subject time frequently accessed article guardian website deep learning architectures display problematic behaviors confidently classifying unrecognizable images belonging familiar category ordinary images 2014 misclassifying minuscule perturbations correctly classified images 2013 goertzel hypothesized behaviors due limitations internal representations limitations would inhibit integration heterogeneous artificial general intelligence agi architectures issues may possibly addressed deep learning architectures internally form states homologous decompositions observed entities events learning grammar visual linguistic training data would equivalent restricting system commonsense reasoning operates concepts terms grammatical production rules basic goal human language acquisition artificial intelligence ai",
+                        0.8909599970687038
+                    ],
+                    [
+                        "deep learning successfully applied inverse problems denoising inpainting film colorization applications include learning methods shrinkage fields effective image restoration trains image dataset deep image prior trains image needs restoration deep learning successfully applied financial fraud detection tax evasion detection laundering november 2023 researchers google deepmind lawrence berkeley national laboratory announced developed ai system known gnome system contributed materials science discovering 2 million new materials within relatively short timeframe gnome employs deep learning techniques efficiently explore potential material structures achieving significant increase identification stable inorganic crystal structures system predictions validated autonomous robotic experiments demonstrating noteworthy success rate 71 data newly discovered materials publicly available materials project database offering researchers opportunity identify materials desired properties various applications development implications future scientific discovery integration ai material science research potentially expediting material innovation reducing costs product development use ai deep learning suggests possibility minimizing eliminating manual lab experiments allowing scientists focus design analysis unique compounds united states department defense applied deep learning train robots new tasks observation",
+                        0.6954038557150497
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "soft",
+                "Average Score": 0.8621140141210949,
+                "Top Chunks": [
+                    [
+                        "2006 publications geoff hinton ruslan salakhutdinov osindero teh deep belief networks developed generative modeling trained training one restricted boltzmann machine freezing training another one top first one optionally using supervised backpropagation could model probability distributions distribution mnist images convergence slow impact deep learning industry began early 2000s cnns already processed estimated 10 20 checks written us according yann lecun industrial applications deep learning speech recognition started around 2010",
+                        0.9999915671492062
+                    ],
+                    [
+                        "reference idea artistic sensitivity might inherent relatively low levels cognitive hierarchy published series graphic representations internal states deep layers neural networks attempting discern within essentially random data images trained demonstrate visual appeal original research notice received well comments subject time frequently accessed article guardian website deep learning architectures display problematic behaviors confidently classifying unrecognizable images belonging familiar category ordinary images 2014 misclassifying minuscule perturbations correctly classified images 2013 goertzel hypothesized behaviors due limitations internal representations limitations would inhibit integration heterogeneous artificial general intelligence agi architectures issues may possibly addressed deep learning architectures internally form states homologous decompositions observed entities events learning grammar visual linguistic training data would equivalent restricting system commonsense reasoning operates concepts terms grammatical production rules basic goal human language acquisition artificial intelligence ai",
+                        0.8909524837359852
+                    ],
+                    [
+                        "deep learning successfully applied inverse problems denoising inpainting film colorization applications include learning methods shrinkage fields effective image restoration trains image dataset deep image prior trains image needs restoration deep learning successfully applied financial fraud detection tax evasion detection laundering november 2023 researchers google deepmind lawrence berkeley national laboratory announced developed ai system known gnome system contributed materials science discovering 2 million new materials within relatively short timeframe gnome employs deep learning techniques efficiently explore potential material structures achieving significant increase identification stable inorganic crystal structures system predictions validated autonomous robotic experiments demonstrating noteworthy success rate 71 data newly discovered materials publicly available materials project database offering researchers opportunity identify materials desired properties various applications development implications future scientific discovery integration ai material science research potentially expediting material innovation reducing costs product development use ai deep learning suggests possibility minimizing eliminating manual lab experiments allowing scientists focus design analysis unique compounds united states department defense applied deep learning train robots new tasks observation",
+                        0.695397991478093
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "log",
+                "Average Score": 0.8675260082871259,
+                "Top Chunks": [
+                    [
+                        "2006 publications geoff hinton ruslan salakhutdinov osindero teh deep belief networks developed generative modeling trained training one restricted boltzmann machine freezing training another one top first one optionally using supervised backpropagation could model probability distributions distribution mnist images convergence slow impact deep learning industry began early 2000s cnns already processed estimated 10 20 checks written us according yann lecun industrial applications deep learning speech recognition started around 2010",
+                        1.0
+                    ],
+                    [
+                        "reference idea artistic sensitivity might inherent relatively low levels cognitive hierarchy published series graphic representations internal states deep layers neural networks attempting discern within essentially random data images trained demonstrate visual appeal original research notice received well comments subject time frequently accessed article guardian website deep learning architectures display problematic behaviors confidently classifying unrecognizable images belonging familiar category ordinary images 2014 misclassifying minuscule perturbations correctly classified images 2013 goertzel hypothesized behaviors due limitations internal representations limitations would inhibit integration heterogeneous artificial general intelligence agi architectures issues may possibly addressed deep learning architectures internally form states homologous decompositions observed entities events learning grammar visual linguistic training data would equivalent restricting system commonsense reasoning operates concepts terms grammatical production rules basic goal human language acquisition artificial intelligence ai",
+                        0.8960109698051535
+                    ],
+                    [
+                        "deep learning successfully applied inverse problems denoising inpainting film colorization applications include learning methods shrinkage fields effective image restoration trains image dataset deep image prior trains image needs restoration deep learning successfully applied financial fraud detection tax evasion detection laundering november 2023 researchers google deepmind lawrence berkeley national laboratory announced developed ai system known gnome system contributed materials science discovering 2 million new materials within relatively short timeframe gnome employs deep learning techniques efficiently explore potential material structures achieving significant increase identification stable inorganic crystal structures system predictions validated autonomous robotic experiments demonstrating noteworthy success rate 71 data newly discovered materials publicly available materials project database offering researchers opportunity identify materials desired properties various applications development implications future scientific discovery integration ai material science research potentially expediting material innovation reducing costs product development use ai deep learning suggests possibility minimizing eliminating manual lab experiments allowing scientists focus design analysis unique compounds united states department defense applied deep learning train robots new tasks observation",
+                        0.7065670550562241
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "word",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9958328239103538,
+                "Top Chunks": [
+                    [
+                        "speech recognition researchers moved away neural nets pursue generative modeling exception sri international late 1990s funded us government nsa darpa sri researched speech speaker recognition speaker recognition team led larry heck reported significant success deep neural networks speech processing 1998 nist speaker recognition benchmark deployed nuance verifier representing first major industrial application deep learning principle elevating raw features optimization first explored successfully architecture deep autoencoder raw spectrogram linear features late 1990s showing superiority features contain stages fixed transformation spectrograms raw features speech waveforms later produced excellent results neural networks entered lull simpler models use handcrafted features gabor filters support vector machines svms became preferred choices 1990s 2000s artificial neural networks computational cost lack understanding brain wires biological networks 2003 lstm became competitive traditional speech recognizers certain tasks 2006 alex graves santiago fern\u00e1ndez faustino gomez schmidhuber combined connectionist temporal classification ctc stacks lstms 2009 became first rnn win pattern recognition contest connected handwriting recognition",
+                        1.0
+                    ],
+                    [
+                        "key advance deep learning revolution hardware advances especially gpu early work dated back 2004 2009 raina madhavan andrew ng reported 100m deep belief network trained 30 nvidia geforce gtx 280 gpus early demonstration deep learning reported 70 times faster training 2011 cnn named dannet dan ciresan ueli meier jonathan masci luca maria gambardella j\u00fcrgen schmidhuber achieved first time superhuman performance visual pattern recognition contest outperforming traditional methods factor 3 contests also showed cnns gpu improved performance significantly 2012 andrew ng jeff dean created fnn learned recognize concepts cats watching unlabeled images taken youtube videos october 2012 alexnet alex krizhevsky ilya sutskever geoffrey hinton imagenet competition significant margin shallow machine learning methods incremental improvements included network karen simonyan andrew zisserman google inceptionv3 success image classification extended challenging task generating descriptions captions images often combination cnns lstms 2014 state art training deep neural network 20 30 layers stacking many layers led steep reduction training accuracy known degradation problem 2015 two techniques developed train deep networks highway network published may 2015 residual neural network resnet dec 2015 resnet behaves like highway net",
+                        0.9974492326359813
+                    ],
+                    [
+                        "recurrent neural networks rnn developed 1980s recurrence used sequence processing recurrent network unrolled mathematically resembles deep feedforward layer consequently similar properties issues developments mutual influences rnn two early influential works jordan network 1986 elman network 1990 applied rnn study problems cognitive psychology 1980s backpropagation work well deep learning long credit assignment paths overcome problem 1991 j\u00fcrgen schmidhuber proposed hierarchy rnns one level time learning rnn tries predict next input next unexpected input rnn neural history compressor uses predictive coding learn internal representations multiple time scales substantially facilitate downstream deep learning rnn hierarchy collapsed single rnn distilling higher level chunker network lower level automatizer network 1993 neural history compressor solved deep learning task required 1000 subsequent layers rnn unfolded time p chatgpt refers sepp hochreiter diploma thesis 1991 implemented neural history compressor identified analyzed vanishing gradient problem hochreiter proposed recurrent residual connections solve vanishing gradient problem led long memory lstm published 1995 lstm learn deep learning tasks long credit assignment paths require memories events happened thousands discrete time steps lstm yet modern architecture required forget gate introduced 1999 became standard rnn architecture",
+                        0.9900492390950802
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "word",
+                "Normalization Method": "soft",
+                "Average Score": 0.9958280063390785,
+                "Top Chunks": [
+                    [
+                        "speech recognition researchers moved away neural nets pursue generative modeling exception sri international late 1990s funded us government nsa darpa sri researched speech speaker recognition speaker recognition team led larry heck reported significant success deep neural networks speech processing 1998 nist speaker recognition benchmark deployed nuance verifier representing first major industrial application deep learning principle elevating raw features optimization first explored successfully architecture deep autoencoder raw spectrogram linear features late 1990s showing superiority features contain stages fixed transformation spectrograms raw features speech waveforms later produced excellent results neural networks entered lull simpler models use handcrafted features gabor filters support vector machines svms became preferred choices 1990s 2000s artificial neural networks computational cost lack understanding brain wires biological networks 2003 lstm became competitive traditional speech recognizers certain tasks 2006 alex graves santiago fern\u00e1ndez faustino gomez schmidhuber combined connectionist temporal classification ctc stacks lstms 2009 became first rnn win pattern recognition contest connected handwriting recognition",
+                        0.9999951622690479
+                    ],
+                    [
+                        "key advance deep learning revolution hardware advances especially gpu early work dated back 2004 2009 raina madhavan andrew ng reported 100m deep belief network trained 30 nvidia geforce gtx 280 gpus early demonstration deep learning reported 70 times faster training 2011 cnn named dannet dan ciresan ueli meier jonathan masci luca maria gambardella j\u00fcrgen schmidhuber achieved first time superhuman performance visual pattern recognition contest outperforming traditional methods factor 3 contests also showed cnns gpu improved performance significantly 2012 andrew ng jeff dean created fnn learned recognize concepts cats watching unlabeled images taken youtube videos october 2012 alexnet alex krizhevsky ilya sutskever geoffrey hinton imagenet competition significant margin shallow machine learning methods incremental improvements included network karen simonyan andrew zisserman google inceptionv3 success image classification extended challenging task generating descriptions captions images often combination cnns lstms 2014 state art training deep neural network 20 30 layers stacking many layers led steep reduction training accuracy known degradation problem 2015 two techniques developed train deep networks highway network published may 2015 residual neural network resnet dec 2015 resnet behaves like highway net",
+                        0.9974444072449554
+                    ],
+                    [
+                        "recurrent neural networks rnn developed 1980s recurrence used sequence processing recurrent network unrolled mathematically resembles deep feedforward layer consequently similar properties issues developments mutual influences rnn two early influential works jordan network 1986 elman network 1990 applied rnn study problems cognitive psychology 1980s backpropagation work well deep learning long credit assignment paths overcome problem 1991 j\u00fcrgen schmidhuber proposed hierarchy rnns one level time learning rnn tries predict next input next unexpected input rnn neural history compressor uses predictive coding learn internal representations multiple time scales substantially facilitate downstream deep learning rnn hierarchy collapsed single rnn distilling higher level chunker network lower level automatizer network 1993 neural history compressor solved deep learning task required 1000 subsequent layers rnn unfolded time p chatgpt refers sepp hochreiter diploma thesis 1991 implemented neural history compressor identified analyzed vanishing gradient problem hochreiter proposed recurrent residual connections solve vanishing gradient problem led long memory lstm published 1995 lstm learn deep learning tasks long credit assignment paths require memories events happened thousands discrete time steps lstm yet modern architecture required forget gate introduced 1999 became standard rnn architecture",
+                        0.9900444495032321
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "word",
+                "Normalization Method": "log",
+                "Average Score": 0.9960541236623683,
+                "Top Chunks": [
+                    [
+                        "speech recognition researchers moved away neural nets pursue generative modeling exception sri international late 1990s funded us government nsa darpa sri researched speech speaker recognition speaker recognition team led larry heck reported significant success deep neural networks speech processing 1998 nist speaker recognition benchmark deployed nuance verifier representing first major industrial application deep learning principle elevating raw features optimization first explored successfully architecture deep autoencoder raw spectrogram linear features late 1990s showing superiority features contain stages fixed transformation spectrograms raw features speech waveforms later produced excellent results neural networks entered lull simpler models use handcrafted features gabor filters support vector machines svms became preferred choices 1990s 2000s artificial neural networks computational cost lack understanding brain wires biological networks 2003 lstm became competitive traditional speech recognizers certain tasks 2006 alex graves santiago fern\u00e1ndez faustino gomez schmidhuber combined connectionist temporal classification ctc stacks lstms 2009 became first rnn win pattern recognition contest connected handwriting recognition",
+                        1.0
+                    ],
+                    [
+                        "key advance deep learning revolution hardware advances especially gpu early work dated back 2004 2009 raina madhavan andrew ng reported 100m deep belief network trained 30 nvidia geforce gtx 280 gpus early demonstration deep learning reported 70 times faster training 2011 cnn named dannet dan ciresan ueli meier jonathan masci luca maria gambardella j\u00fcrgen schmidhuber achieved first time superhuman performance visual pattern recognition contest outperforming traditional methods factor 3 contests also showed cnns gpu improved performance significantly 2012 andrew ng jeff dean created fnn learned recognize concepts cats watching unlabeled images taken youtube videos october 2012 alexnet alex krizhevsky ilya sutskever geoffrey hinton imagenet competition significant margin shallow machine learning methods incremental improvements included network karen simonyan andrew zisserman google inceptionv3 success image classification extended challenging task generating descriptions captions images often combination cnns lstms 2014 state art training deep neural network 20 30 layers stacking many layers led steep reduction training accuracy known degradation problem 2015 two techniques developed train deep networks highway network published may 2015 residual neural network resnet dec 2015 resnet behaves like highway net",
+                        0.9975854402472759
+                    ],
+                    [
+                        "recurrent neural networks rnn developed 1980s recurrence used sequence processing recurrent network unrolled mathematically resembles deep feedforward layer consequently similar properties issues developments mutual influences rnn two early influential works jordan network 1986 elman network 1990 applied rnn study problems cognitive psychology 1980s backpropagation work well deep learning long credit assignment paths overcome problem 1991 j\u00fcrgen schmidhuber proposed hierarchy rnns one level time learning rnn tries predict next input next unexpected input rnn neural history compressor uses predictive coding learn internal representations multiple time scales substantially facilitate downstream deep learning rnn hierarchy collapsed single rnn distilling higher level chunker network lower level automatizer network 1993 neural history compressor solved deep learning task required 1000 subsequent layers rnn unfolded time p chatgpt refers sepp hochreiter diploma thesis 1991 implemented neural history compressor identified analyzed vanishing gradient problem hochreiter proposed recurrent residual connections solve vanishing gradient problem led long memory lstm published 1995 lstm learn deep learning tasks long credit assignment paths require memories events happened thousands discrete time steps lstm yet modern architecture required forget gate introduced 1999 became standard rnn architecture",
+                        0.990576930739829
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "dense",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9958328239103538,
+                "Top Chunks": [
+                    [
+                        "speech recognition researchers moved away neural nets pursue generative modeling exception sri international late 1990s funded us government nsa darpa sri researched speech speaker recognition speaker recognition team led larry heck reported significant success deep neural networks speech processing 1998 nist speaker recognition benchmark deployed nuance verifier representing first major industrial application deep learning principle elevating raw features optimization first explored successfully architecture deep autoencoder raw spectrogram linear features late 1990s showing superiority features contain stages fixed transformation spectrograms raw features speech waveforms later produced excellent results neural networks entered lull simpler models use handcrafted features gabor filters support vector machines svms became preferred choices 1990s 2000s artificial neural networks computational cost lack understanding brain wires biological networks 2003 lstm became competitive traditional speech recognizers certain tasks 2006 alex graves santiago fern\u00e1ndez faustino gomez schmidhuber combined connectionist temporal classification ctc stacks lstms 2009 became first rnn win pattern recognition contest connected handwriting recognition",
+                        1.0
+                    ],
+                    [
+                        "key advance deep learning revolution hardware advances especially gpu early work dated back 2004 2009 raina madhavan andrew ng reported 100m deep belief network trained 30 nvidia geforce gtx 280 gpus early demonstration deep learning reported 70 times faster training 2011 cnn named dannet dan ciresan ueli meier jonathan masci luca maria gambardella j\u00fcrgen schmidhuber achieved first time superhuman performance visual pattern recognition contest outperforming traditional methods factor 3 contests also showed cnns gpu improved performance significantly 2012 andrew ng jeff dean created fnn learned recognize concepts cats watching unlabeled images taken youtube videos october 2012 alexnet alex krizhevsky ilya sutskever geoffrey hinton imagenet competition significant margin shallow machine learning methods incremental improvements included network karen simonyan andrew zisserman google inceptionv3 success image classification extended challenging task generating descriptions captions images often combination cnns lstms 2014 state art training deep neural network 20 30 layers stacking many layers led steep reduction training accuracy known degradation problem 2015 two techniques developed train deep networks highway network published may 2015 residual neural network resnet dec 2015 resnet behaves like highway net",
+                        0.9974492326359813
+                    ],
+                    [
+                        "recurrent neural networks rnn developed 1980s recurrence used sequence processing recurrent network unrolled mathematically resembles deep feedforward layer consequently similar properties issues developments mutual influences rnn two early influential works jordan network 1986 elman network 1990 applied rnn study problems cognitive psychology 1980s backpropagation work well deep learning long credit assignment paths overcome problem 1991 j\u00fcrgen schmidhuber proposed hierarchy rnns one level time learning rnn tries predict next input next unexpected input rnn neural history compressor uses predictive coding learn internal representations multiple time scales substantially facilitate downstream deep learning rnn hierarchy collapsed single rnn distilling higher level chunker network lower level automatizer network 1993 neural history compressor solved deep learning task required 1000 subsequent layers rnn unfolded time p chatgpt refers sepp hochreiter diploma thesis 1991 implemented neural history compressor identified analyzed vanishing gradient problem hochreiter proposed recurrent residual connections solve vanishing gradient problem led long memory lstm published 1995 lstm learn deep learning tasks long credit assignment paths require memories events happened thousands discrete time steps lstm yet modern architecture required forget gate introduced 1999 became standard rnn architecture",
+                        0.9900492390950802
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "dense",
+                "Normalization Method": "soft",
+                "Average Score": 0.9958280063390785,
+                "Top Chunks": [
+                    [
+                        "speech recognition researchers moved away neural nets pursue generative modeling exception sri international late 1990s funded us government nsa darpa sri researched speech speaker recognition speaker recognition team led larry heck reported significant success deep neural networks speech processing 1998 nist speaker recognition benchmark deployed nuance verifier representing first major industrial application deep learning principle elevating raw features optimization first explored successfully architecture deep autoencoder raw spectrogram linear features late 1990s showing superiority features contain stages fixed transformation spectrograms raw features speech waveforms later produced excellent results neural networks entered lull simpler models use handcrafted features gabor filters support vector machines svms became preferred choices 1990s 2000s artificial neural networks computational cost lack understanding brain wires biological networks 2003 lstm became competitive traditional speech recognizers certain tasks 2006 alex graves santiago fern\u00e1ndez faustino gomez schmidhuber combined connectionist temporal classification ctc stacks lstms 2009 became first rnn win pattern recognition contest connected handwriting recognition",
+                        0.9999951622690479
+                    ],
+                    [
+                        "key advance deep learning revolution hardware advances especially gpu early work dated back 2004 2009 raina madhavan andrew ng reported 100m deep belief network trained 30 nvidia geforce gtx 280 gpus early demonstration deep learning reported 70 times faster training 2011 cnn named dannet dan ciresan ueli meier jonathan masci luca maria gambardella j\u00fcrgen schmidhuber achieved first time superhuman performance visual pattern recognition contest outperforming traditional methods factor 3 contests also showed cnns gpu improved performance significantly 2012 andrew ng jeff dean created fnn learned recognize concepts cats watching unlabeled images taken youtube videos october 2012 alexnet alex krizhevsky ilya sutskever geoffrey hinton imagenet competition significant margin shallow machine learning methods incremental improvements included network karen simonyan andrew zisserman google inceptionv3 success image classification extended challenging task generating descriptions captions images often combination cnns lstms 2014 state art training deep neural network 20 30 layers stacking many layers led steep reduction training accuracy known degradation problem 2015 two techniques developed train deep networks highway network published may 2015 residual neural network resnet dec 2015 resnet behaves like highway net",
+                        0.9974444072449554
+                    ],
+                    [
+                        "recurrent neural networks rnn developed 1980s recurrence used sequence processing recurrent network unrolled mathematically resembles deep feedforward layer consequently similar properties issues developments mutual influences rnn two early influential works jordan network 1986 elman network 1990 applied rnn study problems cognitive psychology 1980s backpropagation work well deep learning long credit assignment paths overcome problem 1991 j\u00fcrgen schmidhuber proposed hierarchy rnns one level time learning rnn tries predict next input next unexpected input rnn neural history compressor uses predictive coding learn internal representations multiple time scales substantially facilitate downstream deep learning rnn hierarchy collapsed single rnn distilling higher level chunker network lower level automatizer network 1993 neural history compressor solved deep learning task required 1000 subsequent layers rnn unfolded time p chatgpt refers sepp hochreiter diploma thesis 1991 implemented neural history compressor identified analyzed vanishing gradient problem hochreiter proposed recurrent residual connections solve vanishing gradient problem led long memory lstm published 1995 lstm learn deep learning tasks long credit assignment paths require memories events happened thousands discrete time steps lstm yet modern architecture required forget gate introduced 1999 became standard rnn architecture",
+                        0.9900444495032321
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Deep_learning",
+                "Similarity Method": "dense",
+                "Normalization Method": "log",
+                "Average Score": 0.9960541236623683,
+                "Top Chunks": [
+                    [
+                        "speech recognition researchers moved away neural nets pursue generative modeling exception sri international late 1990s funded us government nsa darpa sri researched speech speaker recognition speaker recognition team led larry heck reported significant success deep neural networks speech processing 1998 nist speaker recognition benchmark deployed nuance verifier representing first major industrial application deep learning principle elevating raw features optimization first explored successfully architecture deep autoencoder raw spectrogram linear features late 1990s showing superiority features contain stages fixed transformation spectrograms raw features speech waveforms later produced excellent results neural networks entered lull simpler models use handcrafted features gabor filters support vector machines svms became preferred choices 1990s 2000s artificial neural networks computational cost lack understanding brain wires biological networks 2003 lstm became competitive traditional speech recognizers certain tasks 2006 alex graves santiago fern\u00e1ndez faustino gomez schmidhuber combined connectionist temporal classification ctc stacks lstms 2009 became first rnn win pattern recognition contest connected handwriting recognition",
+                        1.0
+                    ],
+                    [
+                        "key advance deep learning revolution hardware advances especially gpu early work dated back 2004 2009 raina madhavan andrew ng reported 100m deep belief network trained 30 nvidia geforce gtx 280 gpus early demonstration deep learning reported 70 times faster training 2011 cnn named dannet dan ciresan ueli meier jonathan masci luca maria gambardella j\u00fcrgen schmidhuber achieved first time superhuman performance visual pattern recognition contest outperforming traditional methods factor 3 contests also showed cnns gpu improved performance significantly 2012 andrew ng jeff dean created fnn learned recognize concepts cats watching unlabeled images taken youtube videos october 2012 alexnet alex krizhevsky ilya sutskever geoffrey hinton imagenet competition significant margin shallow machine learning methods incremental improvements included network karen simonyan andrew zisserman google inceptionv3 success image classification extended challenging task generating descriptions captions images often combination cnns lstms 2014 state art training deep neural network 20 30 layers stacking many layers led steep reduction training accuracy known degradation problem 2015 two techniques developed train deep networks highway network published may 2015 residual neural network resnet dec 2015 resnet behaves like highway net",
+                        0.9975854402472759
+                    ],
+                    [
+                        "recurrent neural networks rnn developed 1980s recurrence used sequence processing recurrent network unrolled mathematically resembles deep feedforward layer consequently similar properties issues developments mutual influences rnn two early influential works jordan network 1986 elman network 1990 applied rnn study problems cognitive psychology 1980s backpropagation work well deep learning long credit assignment paths overcome problem 1991 j\u00fcrgen schmidhuber proposed hierarchy rnns one level time learning rnn tries predict next input next unexpected input rnn neural history compressor uses predictive coding learn internal representations multiple time scales substantially facilitate downstream deep learning rnn hierarchy collapsed single rnn distilling higher level chunker network lower level automatizer network 1993 neural history compressor solved deep learning task required 1000 subsequent layers rnn unfolded time p chatgpt refers sepp hochreiter diploma thesis 1991 implemented neural history compressor identified analyzed vanishing gradient problem hochreiter proposed recurrent residual connections solve vanishing gradient problem led long memory lstm published 1995 lstm learn deep learning tasks long credit assignment paths require memories events happened thousands discrete time steps lstm yet modern architecture required forget gate introduced 1999 became standard rnn architecture",
+                        0.990576930739829
+                    ]
+                ]
+            }
+        ]
+    },
+    "https://en.wikipedia.org/wiki/Artificial_intelligence": {
+        "url_results_summary": [
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "bm25",
+                "Normalization Method": "min-max",
+                "Average Score": 0.6945648163381769
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "bm25",
+                "Normalization Method": "soft",
+                "Average Score": 0.6945647835850807
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "bm25",
+                "Normalization Method": "log",
+                "Average Score": 0.8761248695590851
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "min-max",
+                "Average Score": 0.977052275273127
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "soft",
+                "Average Score": 0.9770466964305843
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "log",
+                "Average Score": 0.9787535609862408
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "word",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9912879929163543
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "word",
+                "Normalization Method": "soft",
+                "Average Score": 0.9912848844133956
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "word",
+                "Normalization Method": "log",
+                "Average Score": 0.9920017570954659
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "dense",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9912879929163543
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "dense",
+                "Normalization Method": "soft",
+                "Average Score": 0.9912848844133956
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "dense",
+                "Normalization Method": "log",
+                "Average Score": 0.9920017570954659
+            }
+        ],
+        "url_detailed_results": [
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "bm25",
+                "Normalization Method": "min-max",
+                "Average Score": 0.6945648163381769,
+                "Top Chunks": [
+                    [
+                        "isaac asimov introduced three laws robotics many stories notably multivac computer asimov laws often brought lay discussions machine ethics almost artificial intelligence researchers familiar asimov laws popular culture generally consider laws useless many reasons one ambiguity several works use ai force us confront fundamental question makes us human showing us artificial beings ability feel thus suffer appears karel \u010dapek films artificial intelligence ex machina well novel androids dream electric sheep philip dick dick considers idea understanding human subjectivity altered technology created artificial intelligence two widely used textbooks 2023 see open syllabus four widely used ai textbooks 2008 textbooks artificial general intelligence intelligent agent recursive planning computer vision general game playing knowledge reasoning natural language processing robotics ai safety machine learning symbolic deep learning bayesian networks evolutionary algorithms hybrid intelligent systems systems integration bioinformatics deepfake earth sciences finance generative ai art audio music art audio music government healthcare mental health mental health industry translation military physics projects art audio music mental health artificial consciousness chinese room friendly ai control ethics existential risk turing test uncanny valley timeline progress ai winter ai boom glossary v e respect dignity individual people connect people sincerely openly inclusively care wellbeing everyone protect social values justice public interest artificial intelligence elections use impact ai political elections artificial intelligence content detection software detect content",
+                        1.0
+                    ],
+                    [
+                        "markov decision process transition model describes probability particular action change state particular way reward function supplies utility state cost action policy associates decision possible state policy could calculated iteration heuristic learned game theory describes rational behavior multiple interacting agents used ai programs make decisions involve agents machine learning study programs improve performance given task automatically part ai beginning several kinds machine learning unsupervised learning analyzes stream data finds patterns makes predictions without guidance supervised learning requires labeling training data expected answers comes two main varieties classification program must learn predict category input belongs regression program must deduce numeric function based numeric input reinforcement learning agent rewarded good responses punished bad ones agent learns choose responses classified good transfer learning knowledge gained one problem applied new problem deep learning type machine learning runs inputs biologically inspired artificial neural networks types learning computational learning theory assess learners computational complexity sample complexity much data required notions optimization",
+                        0.5636577469131548
+                    ],
+                    [
+                        "regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdictions globally according ai index stanford annual number laws passed 127 survey countries jumped one passed 2016 37 passed 2022 alone 2016 2020 30 countries adopted dedicated strategies ai eu member states released national ai strategies canada china india japan mauritius russian federation saudi arabia united arab emirates vietnam others process elaborating ai strategy including bangladesh malaysia tunisia global partnership artificial intelligence launched june 2020 stating need ai developed accordance human rights democratic values ensure public confidence trust technology henry kissinger eric schmidt daniel huttenlocher published joint statement november 2021 calling government commission regulate ai 2023 openai leaders published recommendations governance superintelligence believe may happen less 10 years 2023 united nations also launched advisory body provide recommendations ai governance body comprises technology company executives governments officials academics 2024 council europe created first international legally binding treaty ai called framework convention artificial intelligence human rights democracy rule law adopted european union united states united kingdom signatories",
+                        0.5200367021013756
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "bm25",
+                "Normalization Method": "soft",
+                "Average Score": 0.6945647835850807,
+                "Top Chunks": [
+                    [
+                        "isaac asimov introduced three laws robotics many stories notably multivac computer asimov laws often brought lay discussions machine ethics almost artificial intelligence researchers familiar asimov laws popular culture generally consider laws useless many reasons one ambiguity several works use ai force us confront fundamental question makes us human showing us artificial beings ability feel thus suffer appears karel \u010dapek films artificial intelligence ex machina well novel androids dream electric sheep philip dick dick considers idea understanding human subjectivity altered technology created artificial intelligence two widely used textbooks 2023 see open syllabus four widely used ai textbooks 2008 textbooks artificial general intelligence intelligent agent recursive planning computer vision general game playing knowledge reasoning natural language processing robotics ai safety machine learning symbolic deep learning bayesian networks evolutionary algorithms hybrid intelligent systems systems integration bioinformatics deepfake earth sciences finance generative ai art audio music art audio music government healthcare mental health mental health industry translation military physics projects art audio music mental health artificial consciousness chinese room friendly ai control ethics existential risk turing test uncanny valley timeline progress ai winter ai boom glossary v e respect dignity individual people connect people sincerely openly inclusively care wellbeing everyone protect social values justice public interest artificial intelligence elections use impact ai political elections artificial intelligence content detection software detect content",
+                        0.9999999528437155
+                    ],
+                    [
+                        "markov decision process transition model describes probability particular action change state particular way reward function supplies utility state cost action policy associates decision possible state policy could calculated iteration heuristic learned game theory describes rational behavior multiple interacting agents used ai programs make decisions involve agents machine learning study programs improve performance given task automatically part ai beginning several kinds machine learning unsupervised learning analyzes stream data finds patterns makes predictions without guidance supervised learning requires labeling training data expected answers comes two main varieties classification program must learn predict category input belongs regression program must deduce numeric function based numeric input reinforcement learning agent rewarded good responses punished bad ones agent learns choose responses classified good transfer learning knowledge gained one problem applied new problem deep learning type machine learning runs inputs biologically inspired artificial neural networks types learning computational learning theory assess learners computational complexity sample complexity much data required notions optimization",
+                        0.5636577203331498
+                    ],
+                    [
+                        "regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdictions globally according ai index stanford annual number laws passed 127 survey countries jumped one passed 2016 37 passed 2022 alone 2016 2020 30 countries adopted dedicated strategies ai eu member states released national ai strategies canada china india japan mauritius russian federation saudi arabia united arab emirates vietnam others process elaborating ai strategy including bangladesh malaysia tunisia global partnership artificial intelligence launched june 2020 stating need ai developed accordance human rights democratic values ensure public confidence trust technology henry kissinger eric schmidt daniel huttenlocher published joint statement november 2021 calling government commission regulate ai 2023 openai leaders published recommendations governance superintelligence believe may happen less 10 years 2023 united nations also launched advisory body provide recommendations ai governance body comprises technology company executives governments officials academics 2024 council europe created first international legally binding treaty ai called framework convention artificial intelligence human rights democracy rule law adopted european union united states united kingdom signatories",
+                        0.520036677578377
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "bm25",
+                "Normalization Method": "log",
+                "Average Score": 0.8761248695590851,
+                "Top Chunks": [
+                    [
+                        "isaac asimov introduced three laws robotics many stories notably multivac computer asimov laws often brought lay discussions machine ethics almost artificial intelligence researchers familiar asimov laws popular culture generally consider laws useless many reasons one ambiguity several works use ai force us confront fundamental question makes us human showing us artificial beings ability feel thus suffer appears karel \u010dapek films artificial intelligence ex machina well novel androids dream electric sheep philip dick dick considers idea understanding human subjectivity altered technology created artificial intelligence two widely used textbooks 2023 see open syllabus four widely used ai textbooks 2008 textbooks artificial general intelligence intelligent agent recursive planning computer vision general game playing knowledge reasoning natural language processing robotics ai safety machine learning symbolic deep learning bayesian networks evolutionary algorithms hybrid intelligent systems systems integration bioinformatics deepfake earth sciences finance generative ai art audio music art audio music government healthcare mental health mental health industry translation military physics projects art audio music mental health artificial consciousness chinese room friendly ai control ethics existential risk turing test uncanny valley timeline progress ai winter ai boom glossary v e respect dignity individual people connect people sincerely openly inclusively care wellbeing everyone protect social values justice public interest artificial intelligence elections use impact ai political elections artificial intelligence content detection software detect content",
+                        1.0
+                    ],
+                    [
+                        "markov decision process transition model describes probability particular action change state particular way reward function supplies utility state cost action policy associates decision possible state policy could calculated iteration heuristic learned game theory describes rational behavior multiple interacting agents used ai programs make decisions involve agents machine learning study programs improve performance given task automatically part ai beginning several kinds machine learning unsupervised learning analyzes stream data finds patterns makes predictions without guidance supervised learning requires labeling training data expected answers comes two main varieties classification program must learn predict category input belongs regression program must deduce numeric function based numeric input reinforcement learning agent rewarded good responses punished bad ones agent learns choose responses classified good transfer learning knowledge gained one problem applied new problem deep learning type machine learning runs inputs biologically inspired artificial neural networks types learning computational learning theory assess learners computational complexity sample complexity much data required notions optimization",
+                        0.826136366409644
+                    ],
+                    [
+                        "regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdictions globally according ai index stanford annual number laws passed 127 survey countries jumped one passed 2016 37 passed 2022 alone 2016 2020 30 countries adopted dedicated strategies ai eu member states released national ai strategies canada china india japan mauritius russian federation saudi arabia united arab emirates vietnam others process elaborating ai strategy including bangladesh malaysia tunisia global partnership artificial intelligence launched june 2020 stating need ai developed accordance human rights democratic values ensure public confidence trust technology henry kissinger eric schmidt daniel huttenlocher published joint statement november 2021 calling government commission regulate ai 2023 openai leaders published recommendations governance superintelligence believe may happen less 10 years 2023 united nations also launched advisory body provide recommendations ai governance body comprises technology company executives governments officials academics 2024 council europe created first international legally binding treaty ai called framework convention artificial intelligence human rights democracy rule law adopted european union united states united kingdom signatories",
+                        0.8022382422676115
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "min-max",
+                "Average Score": 0.977052275273127,
+                "Top Chunks": [
+                    [
+                        "difficult impossible reliably evaluate whether advanced ai sentient ability feel degree significant chance given machine feel suffer may entitled certain rights welfare protection measures similarly animals sapience set capacities related high intelligence discernment may provide another moral basis ai rights robot rights also sometimes proposed practical way integrate autonomous agents society 2017 european union considered granting electronic personhood capable ai systems similarly legal status companies would conferred rights also responsibilities critics argued 2018 granting rights ai systems would downplay importance human rights legislation focus user needs rather speculative futuristic scenarios also noted robots lacked autonomy take part society progress ai increased interest topic proponents ai welfare rights often argue ai sentience emerges would particularly easy deny warn may moral blind spot analogous slavery factory farming could lead suffering sentient ai created carelessly exploited superintelligence hypothetical agent would possess intelligence far surpassing brightest gifted human mind research artificial general intelligence produced sufficiently intelligent software might able reprogram improve improved software would even better improving leading j good called intelligence explosion vernor vinge called singularity",
+                        1.0
+                    ],
+                    [
+                        "ai developers argue way deliver valuable applications developed several techniques attempt preserve privacy still obtaining data data aggregation differential privacy since 2016 privacy experts cynthia dwork begun view privacy terms fairness brian christian wrote experts pivoted question know question generative ai often trained unlicensed copyrighted works including domains images computer code output used rationale fair use experts disagree well circumstances rationale hold courts law relevant factors may include purpose character use copyrighted work effect upon potential market copyrighted work website owners wish content scraped indicate file 2023 leading authors including john grisham jonathan franzen sued ai companies using work train generative ai another discussed approach envision separate sui generis system protection creations generated ai ensure fair attribution compensation human authors commercial ai scene dominated big tech companies alphabet amazon apple meta platforms microsoft players already vast majority existing cloud infrastructure computing power data centers allowing entrench marketplace",
+                        0.9672788659799958
+                    ],
+                    [
+                        "isaac asimov introduced three laws robotics many stories notably multivac computer asimov laws often brought lay discussions machine ethics almost artificial intelligence researchers familiar asimov laws popular culture generally consider laws useless many reasons one ambiguity several works use ai force us confront fundamental question makes us human showing us artificial beings ability feel thus suffer appears karel \u010dapek films artificial intelligence ex machina well novel androids dream electric sheep philip dick dick considers idea understanding human subjectivity altered technology created artificial intelligence two widely used textbooks 2023 see open syllabus four widely used ai textbooks 2008 textbooks artificial general intelligence intelligent agent recursive planning computer vision general game playing knowledge reasoning natural language processing robotics ai safety machine learning symbolic deep learning bayesian networks evolutionary algorithms hybrid intelligent systems systems integration bioinformatics deepfake earth sciences finance generative ai art audio music art audio music government healthcare mental health mental health industry translation military physics projects art audio music mental health artificial consciousness chinese room friendly ai control ethics existential risk turing test uncanny valley timeline progress ai winter ai boom glossary v e respect dignity individual people connect people sincerely openly inclusively care wellbeing everyone protect social values justice public interest artificial intelligence elections use impact ai political elections artificial intelligence content detection software detect content",
+                        0.9638779598393851
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "soft",
+                "Average Score": 0.9770466964305843,
+                "Top Chunks": [
+                    [
+                        "difficult impossible reliably evaluate whether advanced ai sentient ability feel degree significant chance given machine feel suffer may entitled certain rights welfare protection measures similarly animals sapience set capacities related high intelligence discernment may provide another moral basis ai rights robot rights also sometimes proposed practical way integrate autonomous agents society 2017 european union considered granting electronic personhood capable ai systems similarly legal status companies would conferred rights also responsibilities critics argued 2018 granting rights ai systems would downplay importance human rights legislation focus user needs rather speculative futuristic scenarios also noted robots lacked autonomy take part society progress ai increased interest topic proponents ai welfare rights often argue ai sentience emerges would particularly easy deny warn may moral blind spot analogous slavery factory farming could lead suffering sentient ai created carelessly exploited superintelligence hypothetical agent would possess intelligence far surpassing brightest gifted human mind research artificial general intelligence produced sufficiently intelligent software might able reprogram improve improved software would even better improving leading j good called intelligence explosion vernor vinge called singularity",
+                        0.9999942901289073
+                    ],
+                    [
+                        "ai developers argue way deliver valuable applications developed several techniques attempt preserve privacy still obtaining data data aggregation differential privacy since 2016 privacy experts cynthia dwork begun view privacy terms fairness brian christian wrote experts pivoted question know question generative ai often trained unlicensed copyrighted works including domains images computer code output used rationale fair use experts disagree well circumstances rationale hold courts law relevant factors may include purpose character use copyrighted work effect upon potential market copyrighted work website owners wish content scraped indicate file 2023 leading authors including john grisham jonathan franzen sued ai companies using work train generative ai another discussed approach envision separate sui generis system protection creations generated ai ensure fair attribution compensation human authors commercial ai scene dominated big tech companies alphabet amazon apple meta platforms microsoft players already vast majority existing cloud infrastructure computing power data centers allowing entrench marketplace",
+                        0.9672733429423603
+                    ],
+                    [
+                        "isaac asimov introduced three laws robotics many stories notably multivac computer asimov laws often brought lay discussions machine ethics almost artificial intelligence researchers familiar asimov laws popular culture generally consider laws useless many reasons one ambiguity several works use ai force us confront fundamental question makes us human showing us artificial beings ability feel thus suffer appears karel \u010dapek films artificial intelligence ex machina well novel androids dream electric sheep philip dick dick considers idea understanding human subjectivity altered technology created artificial intelligence two widely used textbooks 2023 see open syllabus four widely used ai textbooks 2008 textbooks artificial general intelligence intelligent agent recursive planning computer vision general game playing knowledge reasoning natural language processing robotics ai safety machine learning symbolic deep learning bayesian networks evolutionary algorithms hybrid intelligent systems systems integration bioinformatics deepfake earth sciences finance generative ai art audio music art audio music government healthcare mental health mental health industry translation military physics projects art audio music mental health artificial consciousness chinese room friendly ai control ethics existential risk turing test uncanny valley timeline progress ai winter ai boom glossary v e respect dignity individual people connect people sincerely openly inclusively care wellbeing everyone protect social values justice public interest artificial intelligence elections use impact ai political elections artificial intelligence content detection software detect content",
+                        0.9638724562204852
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "tfidf",
+                "Normalization Method": "log",
+                "Average Score": 0.9787535609862408,
+                "Top Chunks": [
+                    [
+                        "difficult impossible reliably evaluate whether advanced ai sentient ability feel degree significant chance given machine feel suffer may entitled certain rights welfare protection measures similarly animals sapience set capacities related high intelligence discernment may provide another moral basis ai rights robot rights also sometimes proposed practical way integrate autonomous agents society 2017 european union considered granting electronic personhood capable ai systems similarly legal status companies would conferred rights also responsibilities critics argued 2018 granting rights ai systems would downplay importance human rights legislation focus user needs rather speculative futuristic scenarios also noted robots lacked autonomy take part society progress ai increased interest topic proponents ai welfare rights often argue ai sentience emerges would particularly easy deny warn may moral blind spot analogous slavery factory farming could lead suffering sentient ai created carelessly exploited superintelligence hypothetical agent would possess intelligence far surpassing brightest gifted human mind research artificial general intelligence produced sufficiently intelligent software might able reprogram improve improved software would even better improving leading j good called intelligence explosion vernor vinge called singularity",
+                        1.0
+                    ],
+                    [
+                        "ai developers argue way deliver valuable applications developed several techniques attempt preserve privacy still obtaining data data aggregation differential privacy since 2016 privacy experts cynthia dwork begun view privacy terms fairness brian christian wrote experts pivoted question know question generative ai often trained unlicensed copyrighted works including domains images computer code output used rationale fair use experts disagree well circumstances rationale hold courts law relevant factors may include purpose character use copyrighted work effect upon potential market copyrighted work website owners wish content scraped indicate file 2023 leading authors including john grisham jonathan franzen sued ai companies using work train generative ai another discussed approach envision separate sui generis system protection creations generated ai ensure fair attribution compensation human authors commercial ai scene dominated big tech companies alphabet amazon apple meta platforms microsoft players already vast majority existing cloud infrastructure computing power data centers allowing entrench marketplace",
+                        0.9697087729959114
+                    ],
+                    [
+                        "isaac asimov introduced three laws robotics many stories notably multivac computer asimov laws often brought lay discussions machine ethics almost artificial intelligence researchers familiar asimov laws popular culture generally consider laws useless many reasons one ambiguity several works use ai force us confront fundamental question makes us human showing us artificial beings ability feel thus suffer appears karel \u010dapek films artificial intelligence ex machina well novel androids dream electric sheep philip dick dick considers idea understanding human subjectivity altered technology created artificial intelligence two widely used textbooks 2023 see open syllabus four widely used ai textbooks 2008 textbooks artificial general intelligence intelligent agent recursive planning computer vision general game playing knowledge reasoning natural language processing robotics ai safety machine learning symbolic deep learning bayesian networks evolutionary algorithms hybrid intelligent systems systems integration bioinformatics deepfake earth sciences finance generative ai art audio music art audio music government healthcare mental health mental health industry translation military physics projects art audio music mental health artificial consciousness chinese room friendly ai control ethics existential risk turing test uncanny valley timeline progress ai winter ai boom glossary v e respect dignity individual people connect people sincerely openly inclusively care wellbeing everyone protect social values justice public interest artificial intelligence elections use impact ai political elections artificial intelligence content detection software detect content",
+                        0.9665519099628106
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "word",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9912879929163543,
+                "Top Chunks": [
+                    [
+                        "2022 ipsos survey attitudes towards ai varied greatly country 78 chinese citizens 35 americans agreed products services using ai benefits drawbacks 2023 poll found 61 americans agree 22 disagree ai poses risks humanity 2023 fox news poll 35 americans thought important additional 41 thought somewhat important federal government regulate ai versus 13 responding important 8 responding important november 2023 first global ai safety summit held bletchley park uk discuss near far term risks ai possibility mandatory voluntary regulatory frameworks 28 countries including united states china european union issued declaration start summit calling international manage challenges risks artificial intelligence may 2024 ai seoul summit 16 global ai tech companies agreed safety commitments development ai study mechanical formal reasoning began philosophers mathematicians antiquity study logic led directly alan turing theory computation suggested machine shuffling symbols simple 0 1 could simulate conceivable form mathematical reasoning along concurrent discoveries cybernetics information theory neurobiology led researchers consider possibility building electronic brain developed several areas research would become part ai mccullouch pitts design artificial neurons 1943 turing influential 1950 paper machinery intelligence introduced turing test showed machine intelligence plausible",
+                        1.0
+                    ],
+                    [
+                        "however technologies improve exponentially indefinitely typically follow curve slowing reach physical limits technology robot designer hans moravec cyberneticist kevin warwick inventor ray kurzweil predicted humans machines may merge future cyborgs capable powerful either idea called transhumanism roots writings aldous huxley robert ettinger edward fredkin argues artificial intelligence next step evolution idea first proposed samuel butler darwin among machines far back 1863 expanded upon george dyson 1998 book darwin among machines evolution global intelligence arguments decomputing raised dan mcquillan resisting ai approach artificial intelligence 2022 meaning opposition sweeping application expansion artificial intelligence similar degrowth approach criticizes ai outgrowth systemic issues capitalist world live argues different future possible distance people reduced rather increased ai intermediaries artificial beings appeared storytelling devices since antiquity persistent theme science fiction common trope works began mary shelley frankenstein human creation becomes threat masters includes works arthur clarke stanley kubrick 2001 space odyssey 1968 hal 9000 murderous computer charge discovery one spaceship well terminator 1984 matrix 1999 contrast rare loyal robots gort day earth stood still 1951 bishop aliens 1986 less prominent popular culture",
+                        0.9952700515348688
+                    ],
+                    [
+                        "regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdictions globally according ai index stanford annual number laws passed 127 survey countries jumped one passed 2016 37 passed 2022 alone 2016 2020 30 countries adopted dedicated strategies ai eu member states released national ai strategies canada china india japan mauritius russian federation saudi arabia united arab emirates vietnam others process elaborating ai strategy including bangladesh malaysia tunisia global partnership artificial intelligence launched june 2020 stating need ai developed accordance human rights democratic values ensure public confidence trust technology henry kissinger eric schmidt daniel huttenlocher published joint statement november 2021 calling government commission regulate ai 2023 openai leaders published recommendations governance superintelligence believe may happen less 10 years 2023 united nations also launched advisory body provide recommendations ai governance body comprises technology company executives governments officials academics 2024 council europe created first international legally binding treaty ai called framework convention artificial intelligence human rights democracy rule law adopted european union united states united kingdom signatories",
+                        0.9785939272141938
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "word",
+                "Normalization Method": "soft",
+                "Average Score": 0.9912848844133956,
+                "Top Chunks": [
+                    [
+                        "2022 ipsos survey attitudes towards ai varied greatly country 78 chinese citizens 35 americans agreed products services using ai benefits drawbacks 2023 poll found 61 americans agree 22 disagree ai poses risks humanity 2023 fox news poll 35 americans thought important additional 41 thought somewhat important federal government regulate ai versus 13 responding important 8 responding important november 2023 first global ai safety summit held bletchley park uk discuss near far term risks ai possibility mandatory voluntary regulatory frameworks 28 countries including united states china european union issued declaration start summit calling international manage challenges risks artificial intelligence may 2024 ai seoul summit 16 global ai tech companies agreed safety commitments development ai study mechanical formal reasoning began philosophers mathematicians antiquity study logic led directly alan turing theory computation suggested machine shuffling symbols simple 0 1 could simulate conceivable form mathematical reasoning along concurrent discoveries cybernetics information theory neurobiology led researchers consider possibility building electronic brain developed several areas research would become part ai mccullouch pitts design artificial neurons 1943 turing influential 1950 paper machinery intelligence introduced turing test showed machine intelligence plausible",
+                        0.9999968641777356
+                    ],
+                    [
+                        "however technologies improve exponentially indefinitely typically follow curve slowing reach physical limits technology robot designer hans moravec cyberneticist kevin warwick inventor ray kurzweil predicted humans machines may merge future cyborgs capable powerful either idea called transhumanism roots writings aldous huxley robert ettinger edward fredkin argues artificial intelligence next step evolution idea first proposed samuel butler darwin among machines far back 1863 expanded upon george dyson 1998 book darwin among machines evolution global intelligence arguments decomputing raised dan mcquillan resisting ai approach artificial intelligence 2022 meaning opposition sweeping application expansion artificial intelligence similar degrowth approach criticizes ai outgrowth systemic issues capitalist world live argues different future possible distance people reduced rather increased ai intermediaries artificial beings appeared storytelling devices since antiquity persistent theme science fiction common trope works began mary shelley frankenstein human creation becomes threat masters includes works arthur clarke stanley kubrick 2001 space odyssey 1968 hal 9000 murderous computer charge discovery one spaceship well terminator 1984 matrix 1999 contrast rare loyal robots gort day earth stood still 1951 bishop aliens 1986 less prominent popular culture",
+                        0.9952669305448821
+                    ],
+                    [
+                        "regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdictions globally according ai index stanford annual number laws passed 127 survey countries jumped one passed 2016 37 passed 2022 alone 2016 2020 30 countries adopted dedicated strategies ai eu member states released national ai strategies canada china india japan mauritius russian federation saudi arabia united arab emirates vietnam others process elaborating ai strategy including bangladesh malaysia tunisia global partnership artificial intelligence launched june 2020 stating need ai developed accordance human rights democratic values ensure public confidence trust technology henry kissinger eric schmidt daniel huttenlocher published joint statement november 2021 calling government commission regulate ai 2023 openai leaders published recommendations governance superintelligence believe may happen less 10 years 2023 united nations also launched advisory body provide recommendations ai governance body comprises technology company executives governments officials academics 2024 council europe created first international legally binding treaty ai called framework convention artificial intelligence human rights democracy rule law adopted european union united states united kingdom signatories",
+                        0.9785908585175691
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "word",
+                "Normalization Method": "log",
+                "Average Score": 0.9920017570954659,
+                "Top Chunks": [
+                    [
+                        "2022 ipsos survey attitudes towards ai varied greatly country 78 chinese citizens 35 americans agreed products services using ai benefits drawbacks 2023 poll found 61 americans agree 22 disagree ai poses risks humanity 2023 fox news poll 35 americans thought important additional 41 thought somewhat important federal government regulate ai versus 13 responding important 8 responding important november 2023 first global ai safety summit held bletchley park uk discuss near far term risks ai possibility mandatory voluntary regulatory frameworks 28 countries including united states china european union issued declaration start summit calling international manage challenges risks artificial intelligence may 2024 ai seoul summit 16 global ai tech companies agreed safety commitments development ai study mechanical formal reasoning began philosophers mathematicians antiquity study logic led directly alan turing theory computation suggested machine shuffling symbols simple 0 1 could simulate conceivable form mathematical reasoning along concurrent discoveries cybernetics information theory neurobiology led researchers consider possibility building electronic brain developed several areas research would become part ai mccullouch pitts design artificial neurons 1943 turing influential 1950 paper machinery intelligence introduced turing test showed machine intelligence plausible",
+                        1.0
+                    ],
+                    [
+                        "however technologies improve exponentially indefinitely typically follow curve slowing reach physical limits technology robot designer hans moravec cyberneticist kevin warwick inventor ray kurzweil predicted humans machines may merge future cyborgs capable powerful either idea called transhumanism roots writings aldous huxley robert ettinger edward fredkin argues artificial intelligence next step evolution idea first proposed samuel butler darwin among machines far back 1863 expanded upon george dyson 1998 book darwin among machines evolution global intelligence arguments decomputing raised dan mcquillan resisting ai approach artificial intelligence 2022 meaning opposition sweeping application expansion artificial intelligence similar degrowth approach criticizes ai outgrowth systemic issues capitalist world live argues different future possible distance people reduced rather increased ai intermediaries artificial beings appeared storytelling devices since antiquity persistent theme science fiction common trope works began mary shelley frankenstein human creation becomes threat masters includes works arthur clarke stanley kubrick 2001 space odyssey 1968 hal 9000 murderous computer charge discovery one spaceship well terminator 1984 matrix 1999 contrast rare loyal robots gort day earth stood still 1951 bishop aliens 1986 less prominent popular culture",
+                        0.9956623759962712
+                    ],
+                    [
+                        "regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdictions globally according ai index stanford annual number laws passed 127 survey countries jumped one passed 2016 37 passed 2022 alone 2016 2020 30 countries adopted dedicated strategies ai eu member states released national ai strategies canada china india japan mauritius russian federation saudi arabia united arab emirates vietnam others process elaborating ai strategy including bangladesh malaysia tunisia global partnership artificial intelligence launched june 2020 stating need ai developed accordance human rights democratic values ensure public confidence trust technology henry kissinger eric schmidt daniel huttenlocher published joint statement november 2021 calling government commission regulate ai 2023 openai leaders published recommendations governance superintelligence believe may happen less 10 years 2023 united nations also launched advisory body provide recommendations ai governance body comprises technology company executives governments officials academics 2024 council europe created first international legally binding treaty ai called framework convention artificial intelligence human rights democracy rule law adopted european union united states united kingdom signatories",
+                        0.9803428952901264
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "dense",
+                "Normalization Method": "min-max",
+                "Average Score": 0.9912879929163543,
+                "Top Chunks": [
+                    [
+                        "2022 ipsos survey attitudes towards ai varied greatly country 78 chinese citizens 35 americans agreed products services using ai benefits drawbacks 2023 poll found 61 americans agree 22 disagree ai poses risks humanity 2023 fox news poll 35 americans thought important additional 41 thought somewhat important federal government regulate ai versus 13 responding important 8 responding important november 2023 first global ai safety summit held bletchley park uk discuss near far term risks ai possibility mandatory voluntary regulatory frameworks 28 countries including united states china european union issued declaration start summit calling international manage challenges risks artificial intelligence may 2024 ai seoul summit 16 global ai tech companies agreed safety commitments development ai study mechanical formal reasoning began philosophers mathematicians antiquity study logic led directly alan turing theory computation suggested machine shuffling symbols simple 0 1 could simulate conceivable form mathematical reasoning along concurrent discoveries cybernetics information theory neurobiology led researchers consider possibility building electronic brain developed several areas research would become part ai mccullouch pitts design artificial neurons 1943 turing influential 1950 paper machinery intelligence introduced turing test showed machine intelligence plausible",
+                        1.0
+                    ],
+                    [
+                        "however technologies improve exponentially indefinitely typically follow curve slowing reach physical limits technology robot designer hans moravec cyberneticist kevin warwick inventor ray kurzweil predicted humans machines may merge future cyborgs capable powerful either idea called transhumanism roots writings aldous huxley robert ettinger edward fredkin argues artificial intelligence next step evolution idea first proposed samuel butler darwin among machines far back 1863 expanded upon george dyson 1998 book darwin among machines evolution global intelligence arguments decomputing raised dan mcquillan resisting ai approach artificial intelligence 2022 meaning opposition sweeping application expansion artificial intelligence similar degrowth approach criticizes ai outgrowth systemic issues capitalist world live argues different future possible distance people reduced rather increased ai intermediaries artificial beings appeared storytelling devices since antiquity persistent theme science fiction common trope works began mary shelley frankenstein human creation becomes threat masters includes works arthur clarke stanley kubrick 2001 space odyssey 1968 hal 9000 murderous computer charge discovery one spaceship well terminator 1984 matrix 1999 contrast rare loyal robots gort day earth stood still 1951 bishop aliens 1986 less prominent popular culture",
+                        0.9952700515348688
+                    ],
+                    [
+                        "regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdictions globally according ai index stanford annual number laws passed 127 survey countries jumped one passed 2016 37 passed 2022 alone 2016 2020 30 countries adopted dedicated strategies ai eu member states released national ai strategies canada china india japan mauritius russian federation saudi arabia united arab emirates vietnam others process elaborating ai strategy including bangladesh malaysia tunisia global partnership artificial intelligence launched june 2020 stating need ai developed accordance human rights democratic values ensure public confidence trust technology henry kissinger eric schmidt daniel huttenlocher published joint statement november 2021 calling government commission regulate ai 2023 openai leaders published recommendations governance superintelligence believe may happen less 10 years 2023 united nations also launched advisory body provide recommendations ai governance body comprises technology company executives governments officials academics 2024 council europe created first international legally binding treaty ai called framework convention artificial intelligence human rights democracy rule law adopted european union united states united kingdom signatories",
+                        0.9785939272141938
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "dense",
+                "Normalization Method": "soft",
+                "Average Score": 0.9912848844133956,
+                "Top Chunks": [
+                    [
+                        "2022 ipsos survey attitudes towards ai varied greatly country 78 chinese citizens 35 americans agreed products services using ai benefits drawbacks 2023 poll found 61 americans agree 22 disagree ai poses risks humanity 2023 fox news poll 35 americans thought important additional 41 thought somewhat important federal government regulate ai versus 13 responding important 8 responding important november 2023 first global ai safety summit held bletchley park uk discuss near far term risks ai possibility mandatory voluntary regulatory frameworks 28 countries including united states china european union issued declaration start summit calling international manage challenges risks artificial intelligence may 2024 ai seoul summit 16 global ai tech companies agreed safety commitments development ai study mechanical formal reasoning began philosophers mathematicians antiquity study logic led directly alan turing theory computation suggested machine shuffling symbols simple 0 1 could simulate conceivable form mathematical reasoning along concurrent discoveries cybernetics information theory neurobiology led researchers consider possibility building electronic brain developed several areas research would become part ai mccullouch pitts design artificial neurons 1943 turing influential 1950 paper machinery intelligence introduced turing test showed machine intelligence plausible",
+                        0.9999968641777356
+                    ],
+                    [
+                        "however technologies improve exponentially indefinitely typically follow curve slowing reach physical limits technology robot designer hans moravec cyberneticist kevin warwick inventor ray kurzweil predicted humans machines may merge future cyborgs capable powerful either idea called transhumanism roots writings aldous huxley robert ettinger edward fredkin argues artificial intelligence next step evolution idea first proposed samuel butler darwin among machines far back 1863 expanded upon george dyson 1998 book darwin among machines evolution global intelligence arguments decomputing raised dan mcquillan resisting ai approach artificial intelligence 2022 meaning opposition sweeping application expansion artificial intelligence similar degrowth approach criticizes ai outgrowth systemic issues capitalist world live argues different future possible distance people reduced rather increased ai intermediaries artificial beings appeared storytelling devices since antiquity persistent theme science fiction common trope works began mary shelley frankenstein human creation becomes threat masters includes works arthur clarke stanley kubrick 2001 space odyssey 1968 hal 9000 murderous computer charge discovery one spaceship well terminator 1984 matrix 1999 contrast rare loyal robots gort day earth stood still 1951 bishop aliens 1986 less prominent popular culture",
+                        0.9952669305448821
+                    ],
+                    [
+                        "regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdictions globally according ai index stanford annual number laws passed 127 survey countries jumped one passed 2016 37 passed 2022 alone 2016 2020 30 countries adopted dedicated strategies ai eu member states released national ai strategies canada china india japan mauritius russian federation saudi arabia united arab emirates vietnam others process elaborating ai strategy including bangladesh malaysia tunisia global partnership artificial intelligence launched june 2020 stating need ai developed accordance human rights democratic values ensure public confidence trust technology henry kissinger eric schmidt daniel huttenlocher published joint statement november 2021 calling government commission regulate ai 2023 openai leaders published recommendations governance superintelligence believe may happen less 10 years 2023 united nations also launched advisory body provide recommendations ai governance body comprises technology company executives governments officials academics 2024 council europe created first international legally binding treaty ai called framework convention artificial intelligence human rights democracy rule law adopted european union united states united kingdom signatories",
+                        0.9785908585175691
+                    ]
+                ]
+            },
+            {
+                "URL": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "Similarity Method": "dense",
+                "Normalization Method": "log",
+                "Average Score": 0.9920017570954659,
+                "Top Chunks": [
+                    [
+                        "2022 ipsos survey attitudes towards ai varied greatly country 78 chinese citizens 35 americans agreed products services using ai benefits drawbacks 2023 poll found 61 americans agree 22 disagree ai poses risks humanity 2023 fox news poll 35 americans thought important additional 41 thought somewhat important federal government regulate ai versus 13 responding important 8 responding important november 2023 first global ai safety summit held bletchley park uk discuss near far term risks ai possibility mandatory voluntary regulatory frameworks 28 countries including united states china european union issued declaration start summit calling international manage challenges risks artificial intelligence may 2024 ai seoul summit 16 global ai tech companies agreed safety commitments development ai study mechanical formal reasoning began philosophers mathematicians antiquity study logic led directly alan turing theory computation suggested machine shuffling symbols simple 0 1 could simulate conceivable form mathematical reasoning along concurrent discoveries cybernetics information theory neurobiology led researchers consider possibility building electronic brain developed several areas research would become part ai mccullouch pitts design artificial neurons 1943 turing influential 1950 paper machinery intelligence introduced turing test showed machine intelligence plausible",
+                        1.0
+                    ],
+                    [
+                        "however technologies improve exponentially indefinitely typically follow curve slowing reach physical limits technology robot designer hans moravec cyberneticist kevin warwick inventor ray kurzweil predicted humans machines may merge future cyborgs capable powerful either idea called transhumanism roots writings aldous huxley robert ettinger edward fredkin argues artificial intelligence next step evolution idea first proposed samuel butler darwin among machines far back 1863 expanded upon george dyson 1998 book darwin among machines evolution global intelligence arguments decomputing raised dan mcquillan resisting ai approach artificial intelligence 2022 meaning opposition sweeping application expansion artificial intelligence similar degrowth approach criticizes ai outgrowth systemic issues capitalist world live argues different future possible distance people reduced rather increased ai intermediaries artificial beings appeared storytelling devices since antiquity persistent theme science fiction common trope works began mary shelley frankenstein human creation becomes threat masters includes works arthur clarke stanley kubrick 2001 space odyssey 1968 hal 9000 murderous computer charge discovery one spaceship well terminator 1984 matrix 1999 contrast rare loyal robots gort day earth stood still 1951 bishop aliens 1986 less prominent popular culture",
+                        0.9956623759962712
+                    ],
+                    [
+                        "regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdictions globally according ai index stanford annual number laws passed 127 survey countries jumped one passed 2016 37 passed 2022 alone 2016 2020 30 countries adopted dedicated strategies ai eu member states released national ai strategies canada china india japan mauritius russian federation saudi arabia united arab emirates vietnam others process elaborating ai strategy including bangladesh malaysia tunisia global partnership artificial intelligence launched june 2020 stating need ai developed accordance human rights democratic values ensure public confidence trust technology henry kissinger eric schmidt daniel huttenlocher published joint statement november 2021 calling government commission regulate ai 2023 openai leaders published recommendations governance superintelligence believe may happen less 10 years 2023 united nations also launched advisory body provide recommendations ai governance body comprises technology company executives governments officials academics 2024 council europe created first international legally binding treaty ai called framework convention artificial intelligence human rights democracy rule law adopted european union united states united kingdom signatories",
+                        0.9803428952901264
+                    ]
+                ]
+            }
+        ]
+    }
+}

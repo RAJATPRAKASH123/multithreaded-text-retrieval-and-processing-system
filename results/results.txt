@@ -1,135 +1,180 @@
 URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: bm25, Normalization Method: min-max
-Average Score: 0.6940
+Average Score: 0.6946
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine et...
+  Chunk: isaac asimov introduced three laws robotics many stories notably multivac computer asimov laws often brought lay discussions machine ethics almost artificial intelligence researchers familiar asimov l...
 
-  Rank 2: Score: 0.5625
-  Chunk: A Markov decision process has a transition model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of ea...
+  Rank 2: Score: 0.5637
+  Chunk: markov decision process transition model describes probability particular action change state particular way reward function supplies utility state cost action policy associates decision possible stat...
 
-  Rank 3: Score: 0.5193
-  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The re...
+  Rank 3: Score: 0.5200
+  Chunk: regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdi...
 
 ==================================================
 
 URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: bm25, Normalization Method: soft
-Average Score: 0.6940
+Average Score: 0.6946
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine et...
+  Chunk: isaac asimov introduced three laws robotics many stories notably multivac computer asimov laws often brought lay discussions machine ethics almost artificial intelligence researchers familiar asimov l...
 
-  Rank 2: Score: 0.5625
-  Chunk: A Markov decision process has a transition model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of ea...
+  Rank 2: Score: 0.5637
+  Chunk: markov decision process transition model describes probability particular action change state particular way reward function supplies utility state cost action policy associates decision possible stat...
 
-  Rank 3: Score: 0.5193
-  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The re...
+  Rank 3: Score: 0.5200
+  Chunk: regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdi...
 
 ==================================================
 
 URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: bm25, Normalization Method: log
-Average Score: 0.8757
+Average Score: 0.8761
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine et...
+  Chunk: isaac asimov introduced three laws robotics many stories notably multivac computer asimov laws often brought lay discussions machine ethics almost artificial intelligence researchers familiar asimov l...
 
-  Rank 2: Score: 0.8255
-  Chunk: A Markov decision process has a transition model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of ea...
+  Rank 2: Score: 0.8261
+  Chunk: markov decision process transition model describes probability particular action change state particular way reward function supplies utility state cost action policy associates decision possible stat...
 
-  Rank 3: Score: 0.8018
-  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The re...
+  Rank 3: Score: 0.8022
+  Chunk: regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdi...
 
 ==================================================
 
 URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: tfidf, Normalization Method: min-max
-Average Score: 0.9783
+Average Score: 0.9771
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: It is difficult or impossible to reliably evaluate whether an advanced AI is sentient (has the ability to feel), and if so, to what degree. But if there is a significant chance that a given machine ca...
+  Chunk: difficult impossible reliably evaluate whether advanced ai sentient ability feel degree significant chance given machine feel suffer may entitled certain rights welfare protection measures similarly a...
 
-  Rank 2: Score: 0.9693
-  Chunk: AI developers argue that this is the only way to deliver valuable applications and have developed several techniques that attempt to preserve privacy while still obtaining the data, such as data aggre...
+  Rank 2: Score: 0.9673
+  Chunk: ai developers argue way deliver valuable applications developed several techniques attempt preserve privacy still obtaining data data aggregation differential privacy since 2016 privacy experts cynthi...
 
-  Rank 3: Score: 0.9655
-  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine et...
+  Rank 3: Score: 0.9639
+  Chunk: isaac asimov introduced three laws robotics many stories notably multivac computer asimov laws often brought lay discussions machine ethics almost artificial intelligence researchers familiar asimov l...
 
 ==================================================
 
 URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: tfidf, Normalization Method: soft
-Average Score: 0.9783
+Average Score: 0.9770
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: It is difficult or impossible to reliably evaluate whether an advanced AI is sentient (has the ability to feel), and if so, to what degree. But if there is a significant chance that a given machine ca...
+  Chunk: difficult impossible reliably evaluate whether advanced ai sentient ability feel degree significant chance given machine feel suffer may entitled certain rights welfare protection measures similarly a...
 
-  Rank 2: Score: 0.9693
-  Chunk: AI developers argue that this is the only way to deliver valuable applications and have developed several techniques that attempt to preserve privacy while still obtaining the data, such as data aggre...
+  Rank 2: Score: 0.9673
+  Chunk: ai developers argue way deliver valuable applications developed several techniques attempt preserve privacy still obtaining data data aggregation differential privacy since 2016 privacy experts cynthi...
 
-  Rank 3: Score: 0.9655
-  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine et...
+  Rank 3: Score: 0.9639
+  Chunk: isaac asimov introduced three laws robotics many stories notably multivac computer asimov laws often brought lay discussions machine ethics almost artificial intelligence researchers familiar asimov l...
 
 ==================================================
 
 URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: tfidf, Normalization Method: log
-Average Score: 0.9799
+Average Score: 0.9788
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: It is difficult or impossible to reliably evaluate whether an advanced AI is sentient (has the ability to feel), and if so, to what degree. But if there is a significant chance that a given machine ca...
+  Chunk: difficult impossible reliably evaluate whether advanced ai sentient ability feel degree significant chance given machine feel suffer may entitled certain rights welfare protection measures similarly a...
 
-  Rank 2: Score: 0.9716
-  Chunk: AI developers argue that this is the only way to deliver valuable applications and have developed several techniques that attempt to preserve privacy while still obtaining the data, such as data aggre...
+  Rank 2: Score: 0.9697
+  Chunk: ai developers argue way deliver valuable applications developed several techniques attempt preserve privacy still obtaining data data aggregation differential privacy since 2016 privacy experts cynthi...
 
-  Rank 3: Score: 0.9681
-  Chunk: Isaac Asimov introduced the Three Laws of Robotics in many stories, most notably with the "Multivac" super-intelligent computer. Asimov's laws are often brought up during lay discussions of machine et...
+  Rank 3: Score: 0.9666
+  Chunk: isaac asimov introduced three laws robotics many stories notably multivac computer asimov laws often brought lay discussions machine ethics almost artificial intelligence researchers familiar asimov l...
 
 ==================================================
 
 URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: word, Normalization Method: min-max
-Average Score: 0.9893
+Average Score: 0.9913
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: In a 2022 Ipsos survey, attitudes towards AI varied greatly by country; 78% of Chinese citizens, but only 35% of Americans, agreed that "products and services using AI have more benefits than drawback...
+  Chunk: 2022 ipsos survey attitudes towards ai varied greatly country 78 chinese citizens 35 americans agreed products services using ai benefits drawbacks 2023 poll found 61 americans agree 22 disagree ai po...
 
-  Rank 2: Score: 0.9942
-  Chunk: However, technologies cannot improve exponentially indefinitely, and typically follow an S-shaped curve, slowing when they reach the physical limits of what the technology can do. Robot designer Hans ...
+  Rank 2: Score: 0.9953
+  Chunk: however technologies improve exponentially indefinitely typically follow curve slowing reach physical limits technology robot designer hans moravec cyberneticist kevin warwick inventor ray kurzweil pr...
 
-  Rank 3: Score: 0.9737
-  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The re...
+  Rank 3: Score: 0.9786
+  Chunk: regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdi...
 
 ==================================================
 
 URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: word, Normalization Method: soft
-Average Score: 0.9893
+Average Score: 0.9913
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: In a 2022 Ipsos survey, attitudes towards AI varied greatly by country; 78% of Chinese citizens, but only 35% of Americans, agreed that "products and services using AI have more benefits than drawback...
+  Chunk: 2022 ipsos survey attitudes towards ai varied greatly country 78 chinese citizens 35 americans agreed products services using ai benefits drawbacks 2023 poll found 61 americans agree 22 disagree ai po...
 
-  Rank 2: Score: 0.9942
-  Chunk: However, technologies cannot improve exponentially indefinitely, and typically follow an S-shaped curve, slowing when they reach the physical limits of what the technology can do. Robot designer Hans ...
+  Rank 2: Score: 0.9953
+  Chunk: however technologies improve exponentially indefinitely typically follow curve slowing reach physical limits technology robot designer hans moravec cyberneticist kevin warwick inventor ray kurzweil pr...
 
-  Rank 3: Score: 0.9737
-  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The re...
+  Rank 3: Score: 0.9786
+  Chunk: regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdi...
 
 ==================================================
 
 URL: https://en.wikipedia.org/wiki/Artificial_intelligence
 Similarity Method: word, Normalization Method: log
-Average Score: 0.9900
+Average Score: 0.9920
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: In a 2022 Ipsos survey, attitudes towards AI varied greatly by country; 78% of Chinese citizens, but only 35% of Americans, agreed that "products and services using AI have more benefits than drawback...
+  Chunk: 2022 ipsos survey attitudes towards ai varied greatly country 78 chinese citizens 35 americans agreed products services using ai benefits drawbacks 2023 poll found 61 americans agree 22 disagree ai po...
 
-  Rank 2: Score: 0.9946
-  Chunk: However, technologies cannot improve exponentially indefinitely, and typically follow an S-shaped curve, slowing when they reach the physical limits of what the technology can do. Robot designer Hans ...
+  Rank 2: Score: 0.9957
+  Chunk: however technologies improve exponentially indefinitely typically follow curve slowing reach physical limits technology robot designer hans moravec cyberneticist kevin warwick inventor ray kurzweil pr...
 
-  Rank 3: Score: 0.9755
-  Chunk: The regulation of artificial intelligence is the development of public sector policies and laws for promoting and regulating AI; it is therefore related to the broader regulation of algorithms. The re...
+  Rank 3: Score: 0.9803
+  Chunk: regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdi...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Artificial_intelligence
+Similarity Method: dense, Normalization Method: min-max
+Average Score: 0.9913
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: 2022 ipsos survey attitudes towards ai varied greatly country 78 chinese citizens 35 americans agreed products services using ai benefits drawbacks 2023 poll found 61 americans agree 22 disagree ai po...
+
+  Rank 2: Score: 0.9953
+  Chunk: however technologies improve exponentially indefinitely typically follow curve slowing reach physical limits technology robot designer hans moravec cyberneticist kevin warwick inventor ray kurzweil pr...
+
+  Rank 3: Score: 0.9786
+  Chunk: regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdi...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Artificial_intelligence
+Similarity Method: dense, Normalization Method: soft
+Average Score: 0.9913
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: 2022 ipsos survey attitudes towards ai varied greatly country 78 chinese citizens 35 americans agreed products services using ai benefits drawbacks 2023 poll found 61 americans agree 22 disagree ai po...
+
+  Rank 2: Score: 0.9953
+  Chunk: however technologies improve exponentially indefinitely typically follow curve slowing reach physical limits technology robot designer hans moravec cyberneticist kevin warwick inventor ray kurzweil pr...
+
+  Rank 3: Score: 0.9786
+  Chunk: regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdi...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Artificial_intelligence
+Similarity Method: dense, Normalization Method: log
+Average Score: 0.9920
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: 2022 ipsos survey attitudes towards ai varied greatly country 78 chinese citizens 35 americans agreed products services using ai benefits drawbacks 2023 poll found 61 americans agree 22 disagree ai po...
+
+  Rank 2: Score: 0.9957
+  Chunk: however technologies improve exponentially indefinitely typically follow curve slowing reach physical limits technology robot designer hans moravec cyberneticist kevin warwick inventor ray kurzweil pr...
+
+  Rank 3: Score: 0.9803
+  Chunk: regulation artificial intelligence development public sector policies laws promoting regulating ai therefore related broader regulation algorithms regulatory policy landscape ai emerging issue jurisdi...
 
 ==================================================
 
@@ -138,13 +183,13 @@ Similarity Method: bm25, Normalization Method: min-max
 Average Score: 0.9883
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering n...
+  Chunk: recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental cond...
 
   Rank 2: Score: 0.9943
-  Chunk: Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some cl...
+  Chunk: tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks mea...
 
   Rank 3: Score: 0.9706
-  Chunk: However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data...
+  Chunk: however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come domin...
 
 ==================================================
 
@@ -153,13 +198,13 @@ Similarity Method: bm25, Normalization Method: soft
 Average Score: 0.9883
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering n...
+  Chunk: recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental cond...
 
   Rank 2: Score: 0.9943
-  Chunk: Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some cl...
+  Chunk: tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks mea...
 
   Rank 3: Score: 0.9706
-  Chunk: However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data...
+  Chunk: however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come domin...
 
 ==================================================
 
@@ -168,13 +213,13 @@ Similarity Method: bm25, Normalization Method: log
 Average Score: 0.9941
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering n...
+  Chunk: recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental cond...
 
   Rank 2: Score: 0.9971
-  Chunk: Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some cl...
+  Chunk: tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks mea...
 
   Rank 3: Score: 0.9852
-  Chunk: However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data...
+  Chunk: however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come domin...
 
 ==================================================
 
@@ -183,13 +228,13 @@ Similarity Method: tfidf, Normalization Method: min-max
 Average Score: 0.8990
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some cl...
+  Chunk: tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks mea...
 
   Rank 2: Score: 0.8849
-  Chunk: Analytical and computational techniques derived from deep-rooted physics of disordered systems can be extended to large-scale problems, including machine learning, e.g., to analyse the weight space of...
+  Chunk: analytical computational techniques derived physics disordered systems extended problems including machine learning analyse weight space deep neural networks statistical physics thus finding applicati...
 
   Rank 3: Score: 0.8122
-  Chunk: Machine learning has been used as a strategy to update the evidence related to a systematic review and increased reviewer burden related to the growth of biomedical literature. While it has improved w...
+  Chunk: machine learning used strategy update evidence related systematic review increased reviewer burden related growth biomedical literature improved training sets yet developed sufficiently reduce workloa...
 
 ==================================================
 
@@ -198,13 +243,13 @@ Similarity Method: tfidf, Normalization Method: soft
 Average Score: 0.8990
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some cl...
+  Chunk: tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks mea...
 
   Rank 2: Score: 0.8849
-  Chunk: Analytical and computational techniques derived from deep-rooted physics of disordered systems can be extended to large-scale problems, including machine learning, e.g., to analyse the weight space of...
+  Chunk: analytical computational techniques derived physics disordered systems extended problems including machine learning analyse weight space deep neural networks statistical physics thus finding applicati...
 
   Rank 3: Score: 0.8122
-  Chunk: Machine learning has been used as a strategy to update the evidence related to a systematic review and increased reviewer burden related to the growth of biomedical literature. While it has improved w...
+  Chunk: machine learning used strategy update evidence related systematic review increased reviewer burden related growth biomedical literature improved training sets yet developed sufficiently reduce workloa...
 
 ==================================================
 
@@ -213,13 +258,13 @@ Similarity Method: tfidf, Normalization Method: log
 Average Score: 0.9054
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: "A computer program is said to learn from experience E with respect to some cl...
+  Chunk: tom mitchell provided widely quoted formal definition algorithms studied machine learning field computer program said learn experience e respect class tasks performance measure p performance tasks mea...
 
   Rank 2: Score: 0.8925
-  Chunk: Analytical and computational techniques derived from deep-rooted physics of disordered systems can be extended to large-scale problems, including machine learning, e.g., to analyse the weight space of...
+  Chunk: analytical computational techniques derived physics disordered systems extended problems including machine learning analyse weight space deep neural networks statistical physics thus finding applicati...
 
   Rank 3: Score: 0.8237
-  Chunk: Machine learning has been used as a strategy to update the evidence related to a systematic review and increased reviewer burden related to the growth of biomedical literature. While it has improved w...
+  Chunk: machine learning used strategy update evidence related systematic review increased reviewer burden related growth biomedical literature improved training sets yet developed sufficiently reduce workloa...
 
 ==================================================
 
@@ -228,13 +273,13 @@ Similarity Method: word, Normalization Method: min-max
 Average Score: 0.9914
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Sparse dictionary learning is a feature learning method where a training example is represented as a linear combination of basis functions and assumed to be a sparse matrix. The method is strongly NP-...
+  Chunk: sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix method strongly difficult solve approximately popular heuristic...
 
   Rank 2: Score: 0.9955
-  Chunk: However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data...
+  Chunk: however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come domin...
 
   Rank 3: Score: 0.9788
-  Chunk: Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering n...
+  Chunk: recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental cond...
 
 ==================================================
 
@@ -243,13 +288,13 @@ Similarity Method: word, Normalization Method: soft
 Average Score: 0.9914
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Sparse dictionary learning is a feature learning method where a training example is represented as a linear combination of basis functions and assumed to be a sparse matrix. The method is strongly NP-...
+  Chunk: sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix method strongly difficult solve approximately popular heuristic...
 
   Rank 2: Score: 0.9955
-  Chunk: However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data...
+  Chunk: however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come domin...
 
   Rank 3: Score: 0.9788
-  Chunk: Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering n...
+  Chunk: recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental cond...
 
 ==================================================
 
@@ -258,43 +303,88 @@ Similarity Method: word, Normalization Method: log
 Average Score: 0.9919
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Sparse dictionary learning is a feature learning method where a training example is represented as a linear combination of basis functions and assumed to be a sparse matrix. The method is strongly NP-...
+  Chunk: sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix method strongly difficult solve approximately popular heuristic...
 
   Rank 2: Score: 0.9957
-  Chunk: However, an increasing emphasis on the logical, knowledge-based approach caused a rift between AI and machine learning. Probabilistic systems were plagued by theoretical and practical problems of data...
+  Chunk: however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come domin...
 
   Rank 3: Score: 0.9800
-  Chunk: Recent advancements in machine learning have extended into the field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering n...
+  Chunk: recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental cond...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Machine_learning
+Similarity Method: dense, Normalization Method: min-max
+Average Score: 0.9914
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix method strongly difficult solve approximately popular heuristic...
+
+  Rank 2: Score: 0.9955
+  Chunk: however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come domin...
+
+  Rank 3: Score: 0.9788
+  Chunk: recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental cond...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Machine_learning
+Similarity Method: dense, Normalization Method: soft
+Average Score: 0.9914
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix method strongly difficult solve approximately popular heuristic...
+
+  Rank 2: Score: 0.9955
+  Chunk: however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come domin...
+
+  Rank 3: Score: 0.9788
+  Chunk: recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental cond...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Machine_learning
+Similarity Method: dense, Normalization Method: log
+Average Score: 0.9919
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: sparse dictionary learning feature learning method training example represented linear combination basis functions assumed sparse matrix method strongly difficult solve approximately popular heuristic...
+
+  Rank 2: Score: 0.9957
+  Chunk: however increasing emphasis logical approach caused rift ai machine learning probabilistic systems plagued theoretical practical problems data acquisition representation 1980 expert systems come domin...
+
+  Rank 3: Score: 0.9800
+  Chunk: recent advancements machine learning extended field quantum chemistry novel algorithms enable prediction solvent effects chemical reactions thereby offering new tools chemists tailor experimental cond...
 
 ==================================================
 
 URL: https://en.wikipedia.org/wiki/Deep_learning
 Similarity Method: bm25, Normalization Method: min-max
-Average Score: 0.9199
+Average Score: 0.9200
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: In 2006, publications by Geoff Hinton, Ruslan Salakhutdinov, Osindero and Teh deep belief networks were developed for generative modeling. They are trained by training one restricted Boltzmann machine...
+  Chunk: 2006 publications geoff hinton ruslan salakhutdinov osindero teh deep belief networks developed generative modeling trained training one restricted boltzmann machine freezing training another one top ...
 
-  Rank 2: Score: 0.9110
-  Chunk: Deep learning has been successfully applied to inverse problems such as denoising, super-resolution, inpainting, and film colorization. These applications include learning methods such as "Shrinkage F...
+  Rank 2: Score: 0.9111
+  Chunk: deep learning successfully applied inverse problems denoising inpainting film colorization applications include learning methods shrinkage fields effective image restoration trains image dataset deep ...
 
-  Rank 3: Score: 0.8487
-  Chunk: As of 2008, researchers at The University of Texas at Austin (UT) developed a machine learning framework called Training an Agent Manually via Evaluative Reinforcement, or TAMER, which proposed new me...
+  Rank 3: Score: 0.8489
+  Chunk: 2008 researchers university texas austin ut developed machine learning framework called training agent manually via evaluative reinforcement tamer proposed new methods robots computer programs learn p...
 
 ==================================================
 
 URL: https://en.wikipedia.org/wiki/Deep_learning
 Similarity Method: bm25, Normalization Method: soft
-Average Score: 0.9199
+Average Score: 0.9200
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: In 2006, publications by Geoff Hinton, Ruslan Salakhutdinov, Osindero and Teh deep belief networks were developed for generative modeling. They are trained by training one restricted Boltzmann machine...
+  Chunk: 2006 publications geoff hinton ruslan salakhutdinov osindero teh deep belief networks developed generative modeling trained training one restricted boltzmann machine freezing training another one top ...
 
-  Rank 2: Score: 0.9110
-  Chunk: Deep learning has been successfully applied to inverse problems such as denoising, super-resolution, inpainting, and film colorization. These applications include learning methods such as "Shrinkage F...
+  Rank 2: Score: 0.9111
+  Chunk: deep learning successfully applied inverse problems denoising inpainting film colorization applications include learning methods shrinkage fields effective image restoration trains image dataset deep ...
 
-  Rank 3: Score: 0.8487
-  Chunk: As of 2008, researchers at The University of Texas at Austin (UT) developed a machine learning framework called Training an Agent Manually via Evaluative Reinforcement, or TAMER, which proposed new me...
+  Rank 3: Score: 0.8489
+  Chunk: 2008 researchers university texas austin ut developed machine learning framework called training agent manually via evaluative reinforcement tamer proposed new methods robots computer programs learn p...
 
 ==================================================
 
@@ -303,13 +393,13 @@ Similarity Method: bm25, Normalization Method: log
 Average Score: 0.9592
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: In 2006, publications by Geoff Hinton, Ruslan Salakhutdinov, Osindero and Teh deep belief networks were developed for generative modeling. They are trained by training one restricted Boltzmann machine...
+  Chunk: 2006 publications geoff hinton ruslan salakhutdinov osindero teh deep belief networks developed generative modeling trained training one restricted boltzmann machine freezing training another one top ...
 
   Rank 2: Score: 0.9554
-  Chunk: Deep learning has been successfully applied to inverse problems such as denoising, super-resolution, inpainting, and film colorization. These applications include learning methods such as "Shrinkage F...
+  Chunk: deep learning successfully applied inverse problems denoising inpainting film colorization applications include learning methods shrinkage fields effective image restoration trains image dataset deep ...
 
-  Rank 3: Score: 0.9221
-  Chunk: As of 2008, researchers at The University of Texas at Austin (UT) developed a machine learning framework called Training an Agent Manually via Evaluative Reinforcement, or TAMER, which proposed new me...
+  Rank 3: Score: 0.9222
+  Chunk: 2008 researchers university texas austin ut developed machine learning framework called training agent manually via evaluative reinforcement tamer proposed new methods robots computer programs learn p...
 
 ==================================================
 
@@ -318,13 +408,13 @@ Similarity Method: tfidf, Normalization Method: min-max
 Average Score: 0.8621
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: In 2006, publications by Geoff Hinton, Ruslan Salakhutdinov, Osindero and Teh deep belief networks were developed for generative modeling. They are trained by training one restricted Boltzmann machine...
+  Chunk: 2006 publications geoff hinton ruslan salakhutdinov osindero teh deep belief networks developed generative modeling trained training one restricted boltzmann machine freezing training another one top ...
 
   Rank 2: Score: 0.8910
-  Chunk: In further reference to the idea that artistic sensitivity might be inherent in relatively low levels of the cognitive hierarchy, a published series of graphic representations of the internal states o...
+  Chunk: reference idea artistic sensitivity might inherent relatively low levels cognitive hierarchy published series graphic representations internal states deep layers neural networks attempting discern wit...
 
   Rank 3: Score: 0.6954
-  Chunk: Deep learning has been successfully applied to inverse problems such as denoising, super-resolution, inpainting, and film colorization. These applications include learning methods such as "Shrinkage F...
+  Chunk: deep learning successfully applied inverse problems denoising inpainting film colorization applications include learning methods shrinkage fields effective image restoration trains image dataset deep ...
 
 ==================================================
 
@@ -333,13 +423,13 @@ Similarity Method: tfidf, Normalization Method: soft
 Average Score: 0.8621
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: In 2006, publications by Geoff Hinton, Ruslan Salakhutdinov, Osindero and Teh deep belief networks were developed for generative modeling. They are trained by training one restricted Boltzmann machine...
+  Chunk: 2006 publications geoff hinton ruslan salakhutdinov osindero teh deep belief networks developed generative modeling trained training one restricted boltzmann machine freezing training another one top ...
 
   Rank 2: Score: 0.8910
-  Chunk: In further reference to the idea that artistic sensitivity might be inherent in relatively low levels of the cognitive hierarchy, a published series of graphic representations of the internal states o...
+  Chunk: reference idea artistic sensitivity might inherent relatively low levels cognitive hierarchy published series graphic representations internal states deep layers neural networks attempting discern wit...
 
   Rank 3: Score: 0.6954
-  Chunk: Deep learning has been successfully applied to inverse problems such as denoising, super-resolution, inpainting, and film colorization. These applications include learning methods such as "Shrinkage F...
+  Chunk: deep learning successfully applied inverse problems denoising inpainting film colorization applications include learning methods shrinkage fields effective image restoration trains image dataset deep ...
 
 ==================================================
 
@@ -348,13 +438,13 @@ Similarity Method: tfidf, Normalization Method: log
 Average Score: 0.8675
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: In 2006, publications by Geoff Hinton, Ruslan Salakhutdinov, Osindero and Teh deep belief networks were developed for generative modeling. They are trained by training one restricted Boltzmann machine...
+  Chunk: 2006 publications geoff hinton ruslan salakhutdinov osindero teh deep belief networks developed generative modeling trained training one restricted boltzmann machine freezing training another one top ...
 
   Rank 2: Score: 0.8960
-  Chunk: In further reference to the idea that artistic sensitivity might be inherent in relatively low levels of the cognitive hierarchy, a published series of graphic representations of the internal states o...
+  Chunk: reference idea artistic sensitivity might inherent relatively low levels cognitive hierarchy published series graphic representations internal states deep layers neural networks attempting discern wit...
 
   Rank 3: Score: 0.7066
-  Chunk: Deep learning has been successfully applied to inverse problems such as denoising, super-resolution, inpainting, and film colorization. These applications include learning methods such as "Shrinkage F...
+  Chunk: deep learning successfully applied inverse problems denoising inpainting film colorization applications include learning methods shrinkage fields effective image restoration trains image dataset deep ...
 
 ==================================================
 
@@ -363,13 +453,13 @@ Similarity Method: word, Normalization Method: min-max
 Average Score: 0.9958
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Most speech recognition researchers moved away from neural nets to pursue generative modeling. An exception was at SRI International in the late 1990s. Funded by the US government's NSA and DARPA, SRI...
+  Chunk: speech recognition researchers moved away neural nets pursue generative modeling exception sri international late 1990s funded us government nsa darpa sri researched speech speaker recognition speaker...
 
   Rank 2: Score: 0.9974
-  Chunk: A key advance for the deep learning revolution was hardware advances, especially GPU. Some early work dated back to 2004. In 2009, Raina, Madhavan, and Andrew Ng reported a 100M deep belief network tr...
+  Chunk: key advance deep learning revolution hardware advances especially gpu early work dated back 2004 2009 raina madhavan andrew ng reported 100m deep belief network trained 30 nvidia geforce gtx 280 gpus ...
 
   Rank 3: Score: 0.9900
-  Chunk: Recurrent neural networks (RNN) were further developed in the 1980s. Recurrence is used for sequence processing, and when a recurrent network is unrolled, it mathematically resembles a deep feedforwar...
+  Chunk: recurrent neural networks rnn developed 1980s recurrence used sequence processing recurrent network unrolled mathematically resembles deep feedforward layer consequently similar properties issues deve...
 
 ==================================================
 
@@ -378,13 +468,13 @@ Similarity Method: word, Normalization Method: soft
 Average Score: 0.9958
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Most speech recognition researchers moved away from neural nets to pursue generative modeling. An exception was at SRI International in the late 1990s. Funded by the US government's NSA and DARPA, SRI...
+  Chunk: speech recognition researchers moved away neural nets pursue generative modeling exception sri international late 1990s funded us government nsa darpa sri researched speech speaker recognition speaker...
 
   Rank 2: Score: 0.9974
-  Chunk: A key advance for the deep learning revolution was hardware advances, especially GPU. Some early work dated back to 2004. In 2009, Raina, Madhavan, and Andrew Ng reported a 100M deep belief network tr...
+  Chunk: key advance deep learning revolution hardware advances especially gpu early work dated back 2004 2009 raina madhavan andrew ng reported 100m deep belief network trained 30 nvidia geforce gtx 280 gpus ...
 
   Rank 3: Score: 0.9900
-  Chunk: Recurrent neural networks (RNN) were further developed in the 1980s. Recurrence is used for sequence processing, and when a recurrent network is unrolled, it mathematically resembles a deep feedforwar...
+  Chunk: recurrent neural networks rnn developed 1980s recurrence used sequence processing recurrent network unrolled mathematically resembles deep feedforward layer consequently similar properties issues deve...
 
 ==================================================
 
@@ -393,13 +483,58 @@ Similarity Method: word, Normalization Method: log
 Average Score: 0.9961
 Top Chunks:
   Rank 1: Score: 1.0000
-  Chunk: Most speech recognition researchers moved away from neural nets to pursue generative modeling. An exception was at SRI International in the late 1990s. Funded by the US government's NSA and DARPA, SRI...
+  Chunk: speech recognition researchers moved away neural nets pursue generative modeling exception sri international late 1990s funded us government nsa darpa sri researched speech speaker recognition speaker...
 
   Rank 2: Score: 0.9976
-  Chunk: A key advance for the deep learning revolution was hardware advances, especially GPU. Some early work dated back to 2004. In 2009, Raina, Madhavan, and Andrew Ng reported a 100M deep belief network tr...
+  Chunk: key advance deep learning revolution hardware advances especially gpu early work dated back 2004 2009 raina madhavan andrew ng reported 100m deep belief network trained 30 nvidia geforce gtx 280 gpus ...
 
   Rank 3: Score: 0.9906
-  Chunk: Recurrent neural networks (RNN) were further developed in the 1980s. Recurrence is used for sequence processing, and when a recurrent network is unrolled, it mathematically resembles a deep feedforwar...
+  Chunk: recurrent neural networks rnn developed 1980s recurrence used sequence processing recurrent network unrolled mathematically resembles deep feedforward layer consequently similar properties issues deve...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Deep_learning
+Similarity Method: dense, Normalization Method: min-max
+Average Score: 0.9958
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: speech recognition researchers moved away neural nets pursue generative modeling exception sri international late 1990s funded us government nsa darpa sri researched speech speaker recognition speaker...
+
+  Rank 2: Score: 0.9974
+  Chunk: key advance deep learning revolution hardware advances especially gpu early work dated back 2004 2009 raina madhavan andrew ng reported 100m deep belief network trained 30 nvidia geforce gtx 280 gpus ...
+
+  Rank 3: Score: 0.9900
+  Chunk: recurrent neural networks rnn developed 1980s recurrence used sequence processing recurrent network unrolled mathematically resembles deep feedforward layer consequently similar properties issues deve...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Deep_learning
+Similarity Method: dense, Normalization Method: soft
+Average Score: 0.9958
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: speech recognition researchers moved away neural nets pursue generative modeling exception sri international late 1990s funded us government nsa darpa sri researched speech speaker recognition speaker...
+
+  Rank 2: Score: 0.9974
+  Chunk: key advance deep learning revolution hardware advances especially gpu early work dated back 2004 2009 raina madhavan andrew ng reported 100m deep belief network trained 30 nvidia geforce gtx 280 gpus ...
+
+  Rank 3: Score: 0.9900
+  Chunk: recurrent neural networks rnn developed 1980s recurrence used sequence processing recurrent network unrolled mathematically resembles deep feedforward layer consequently similar properties issues deve...
+
+==================================================
+
+URL: https://en.wikipedia.org/wiki/Deep_learning
+Similarity Method: dense, Normalization Method: log
+Average Score: 0.9961
+Top Chunks:
+  Rank 1: Score: 1.0000
+  Chunk: speech recognition researchers moved away neural nets pursue generative modeling exception sri international late 1990s funded us government nsa darpa sri researched speech speaker recognition speaker...
+
+  Rank 2: Score: 0.9976
+  Chunk: key advance deep learning revolution hardware advances especially gpu early work dated back 2004 2009 raina madhavan andrew ng reported 100m deep belief network trained 30 nvidia geforce gtx 280 gpus ...
+
+  Rank 3: Score: 0.9906
+  Chunk: recurrent neural networks rnn developed 1980s recurrence used sequence processing recurrent network unrolled mathematically resembles deep feedforward layer consequently similar properties issues deve...
 
 ==================================================
 

@@ -13,6 +13,11 @@ from src.retrieval import TextRetriever
 from src.logger import Logger
 from src.cache_manager import CacheManager
 from src.text_processing import TextProcessor  # Import Async Text Processor
+from src.embedding import EmbeddingCreator  # Import EmbeddingCreator
+from src.text_similarity import cosine_similarity
+import numpy as np
+
+
 
 class CustomException(Exception):
     """Custom exception for pipeline errors."""
@@ -38,7 +43,7 @@ class PipelineManager:
         self.query = query
         self.max_words = max_words
         self.chunk_strategy = chunk_strategy
-        self.similarity_methods = similarity_methods or ["bm25", "tfidf", "word"]
+        self.similarity_methods = similarity_methods or ["bm25", "tfidf", "word", "dense"] # 
         self.normalization_methods = normalization_methods or ["min-max", "soft", "log"]
         
         self.all_results_summary = []   # For combined plotting across URLs
@@ -131,20 +136,39 @@ class PipelineManager:
         # 3) For each combination of (similarity_method, normalization_method), retrieve top chunks
         url_results_summary = []
         url_detailed_results = []
-
+        top_k = 3
         for sim_method in self.similarity_methods:
             for norm_method in self.normalization_methods:
-                retriever = TextRetriever(method=sim_method)
-                top_chunks = retriever.retrieve_top_chunks(
-                    query=self.query,
-                    chunks=filtered_chunks,
-                    top_k=3,
-                    normalization_method=norm_method
-                )
+                if sim_method in ["bm25", "tfidf", "word"]:
+                    # Existing retrieval using TextRetriever
+                    retriever = TextRetriever(method=sim_method)
+                    top_chunks = retriever.retrieve_top_chunks(self.query, filtered_chunks,
+                                                                top_k=3, normalization_method=norm_method)
+                elif sim_method == "dense":
+                    # NEW: Use EmbeddingCreator for dense retrieval
+                    try:
+                        embedder = EmbeddingCreator(method="glove", model_name="glove-wiki-gigaword-50")
+                        # Compute embeddings for each chunk (in parallel via multiprocessing)
+                        chunk_embeddings = embedder.create_embeddings(filtered_chunks)
+                        # Compute query embedding (a single vector)
+                        query_embedding = embedder.create_embeddings([self.query])[0]
+                        from concurrent.futures import ThreadPoolExecutor
+                        with ThreadPoolExecutor() as executor:
+                            raw_scores = list(executor.map(
+                                lambda emb: cosine_similarity(query_embedding, emb),
+                                chunk_embeddings
+                            ))
+                        retriever = TextRetriever(method=sim_method)
+                        normalized_scores = retriever.normalize_scores(raw_scores, method=norm_method)
+                        ranked_indices = np.argsort(normalized_scores)[::-1][:top_k]
+                        top_chunks = [(filtered_chunks[i], normalized_scores[i]) for i in ranked_indices]
+                    except Exception as e:
+                        self.logger.error(f"[{url}] Dense retrieval failed: {e}")
+                        top_chunks = []
                 if top_chunks:
                     avg_score = sum(score for _, score in top_chunks) / len(top_chunks)
                 else:
-                    avg_score = 0                
+                    avg_score = 0
                 
                 label = f"{sim_method} | {norm_method}"
                 
